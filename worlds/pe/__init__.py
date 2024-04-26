@@ -2,14 +2,14 @@ from BaseClasses import Region, Location, Item, ItemClassification, Tutorial
 from worlds.AutoWorld import World, WebWorld
 
 
-class HelloWeb(WebWorld):
+class PEWeb(WebWorld):
     setup_en = Tutorial(
-        "setup",
-        "description here",
-        "en",
-        "setup_en.md",
-        "setup/en",
-        ["your name here"]
+        "Multiworld Setup Guide",
+        "A guide to setting up the Parasite Eve Open-World Randomizer on your computer. This guide covers single-player and multiworld seeds.",
+        "English",
+        "pe_setup_en.md",
+        "pe_setup/en",
+        ["chrisaegrimm"]
     )
     tutorials = [setup_en]
 
