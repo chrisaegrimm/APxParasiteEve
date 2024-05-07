@@ -2,10 +2,6 @@ from BaseClasses import Item, ItemClassification
 import typing
 
 
-class ParasiteEveItemData(Item):
-    game: str = "Parasite Eve"
-
-
 class PEItemData(typing.NamedTuple):
     code: int
     category: str
