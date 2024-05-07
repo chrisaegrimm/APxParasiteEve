@@ -6,7 +6,7 @@ class ParasiteEveItemData(Item):
     game: str = "Parasite Eve"
 
 
-class ItemData(typing.NamedTuple):
+class PEItemData(typing.NamedTuple):
     code: int
     category: str
     classification: any
