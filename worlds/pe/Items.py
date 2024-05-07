@@ -9,11 +9,11 @@ class PEItemData(typing.NamedTuple):
 
 
 item_table: Dict[str, PEItemData] = {
-    "Ammo +6":        PEItemData(624001, "AutoDist",     ItemClassification.filler),
-    "Ammo +15":       PEItemData(624002, "AutoDist",     ItemClassification.useful),
-    "Ammo +30":       PEItemData(624003, "AutoDist",     ItemClassification.useful),
-    "DNA Bullets":    PEItemData(624004, "AutoDist",     ItemClassification.useful),
-    "Rocket":         PEItemData(624005, "AutoDist",     ItemClassification.useful),
+    "Ammo +6":        PEItemData(624001, "AutoDist",    ItemClassification.filler),
+    "Ammo +15":       PEItemData(624002, "AutoDist",    ItemClassification.useful),
+    "Ammo +30":       PEItemData(624003, "AutoDist",    ItemClassification.useful),
+    "DNA Bullets":    PEItemData(624004, "AutoDist",    ItemClassification.useful),
+    "Rocket":         PEItemData(624005, "AutoDist",    ItemClassification.useful),
     "Medicine 1":     PEItemData(624006, "Consumable",  ItemClassification.filler),
     "Medicine 2":     PEItemData(624007, "Consumable",  ItemClassification.useful),
     "Medicine 3":     PEItemData(624008, "Consumable",  ItemClassification.useful),
