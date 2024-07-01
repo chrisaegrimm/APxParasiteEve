@@ -61,164 +61,355 @@ item_table: Dict[str, PELoctData] = {
     "N.Y.P.D. #17 - D2 B1 Weapons Storage: Center Chest":              PELoctData(625051, "N.Y.P.D. #17: SK"),
     "N.Y.P.D. #17 - D2 B1 Weapons Storage: Right Chest":               PELoctData(625052, "N.Y.P.D. #17: SK"),
     "N.Y.P.D. #17 - D3 3F Kerberos: Boss Drop":                        PELoctData(625053, "N.Y.P.D. #17: Combat+SJ+Boss"),
-    "Central Park - Entrance: Car Chest":                              PELoctData(625054, "Central Park: NoReqs"),
-    "Central Park - Entrance: Snake Chest":                            PELoctData(625055, "Central Park: NoReqs"),
-    "Central Park - Front Gate: Left Chest":                           PELoctData(625056, "Central Park: Combat"),
-    "Central Park - Front Gate: Right Chest":                          PELoctData(625057, "Central Park: Combat"),
-    "Central Park - Courtyard: Left Gun Chest":                        PELoctData(625058, "Central Park: Combat"),
-    "Central Park - Courtyard: Right Tool Chest":                      PELoctData(625059, "Central Park: Combat"),
-    "Central Park - Office: Key Drawer":                               PELoctData(625060, "Central Park: Combat"),
-    "Central Park - Office: Cabinet":                                  PELoctData(625061, "Central Park: Combat"),
-    "Central Park - Office: Locked Cupboard":                          PELoctData(625062, "Central Park: Combat+ZK"),
-    "Central Park - Snake Exhibit: Upper Right Chest":                 PELoctData(625063, "Central Park: Combat+ZK"),
-    "Central Park - Snake Exhibit: Lower Left Chest":                  PELoctData(625064, "Central Park: Combat+ZK"),
-    "Central Park - Snake Exhibit: Lower Right Chest":                 PELoctData(625065, "Central Park: Combat+ZK"),
-    "Central Park - Back Courtyard: Ammo Chest":                       PELoctData(625066, "Central Park: Combat"),
-    "Central Park - Figure 8: Right Chest":                            PELoctData(625067, "Central Park: Combat"),
-    "Central Park - Figure 8: Left Chest":                             PELoctData(625068, "Central Park: Combat"),
-    "Central Park - Gazebo: Left Chest":                               PELoctData(625069, "Central Park: Combat+ZK"),
-    "Central Park - Gazebo: Right Chest":                              PELoctData(625070, "Central Park: Combat+ZK"),
-    "Central Park - Behind Gazebo (Save): Chest":                      PELoctData(625071, "Central Park: Combat+ZK"),
-    "Central Park - Forest Maze West: Mythical Tool Chest":            PELoctData(625072, "Central Park: Combat+ZK"),
-    "Central Park - Forest Maze Bridge: Chest":                        PELoctData(625073, "Central Park: Combat+ZK"),
-    "Central Park - Forest Maze Dock: Chest":                          PELoctData(625074, "Central Park: Combat+ZK"),
-    "Central Park - Forest Maze East: Backup Tool Chest":              PELoctData(625075, "Central Park: Combat+ZK"),
-    "Central Park - Under Bush Bridge: Left Stat Chest":               PELoctData(625076, "Central Park: Combat+ZK"),
-    "Central Park - Under Bush Bridge: Right YOLO Tool Chest":         PELoctData(625077, "Central Park: Combat+ZK"),
-    "Central Park - Flaming Carriage Eve 2: Boss Drop":                PELoctData(625078, "Central Park: Combat+ZK+Boss"),
-    "Soho - Apartment Interior: Chest":                                PELoctData(625079, "Soho: NoReqs"),
-    "Soho - Apartment Exterior: Trash Card":                           PELoctData(625080, "Soho: NoReqs"),
-    "Soho - Sam's Gun Shop: Upper Left Chest":                         PELoctData(625081, "Soho: WM"),
-    "Soho - Sam's Gun Shop: Upper Right Chest":                        PELoctData(625082, "Soho: WM"),
-    "Soho - Sam's Gun Shop: Behind Counter Chest":                     PELoctData(625083, "Soho: WM"),
-    "Soho - Sam's Gun Shop: Lower Right Chest":                        PELoctData(625084, "Soho: WM"),
-    "Soho - Sam's Gun Shop: Green Box":                                PELoctData(625085, "Soho: WM"),
-    "Soho - Sam's Gun Shop: Red Box":                                  PELoctData(625086, "Soho: WM"),
-    "Soho - Sam's Gun Shop: Shotgun Rack":                             PELoctData(625087, "Soho: WM"),
-    "Soho - Sam's Gun Shop: Rifle Rack":                               PELoctData(625088, "Soho: WM"),
-    "Soho - Pharmacy: Aisle 3 Medicine Chest":                         PELoctData(625089, "Soho: NoReqs"),
-    "Soho - Pharmacy: Aisle 5 Revive Chest":                           PELoctData(625090, "Soho: NoReqs"),
-    "Soho - Pharmacy: Backroom Left Chest":                            PELoctData(625091, "Soho: NoReqs"),
-    "Soho - Pharmacy: Backroom Right Chest":                           PELoctData(625092, "Soho: NoReqs"),
-    "Soho - Pharmacy: Aisle 1 Left Shelf":                             PELoctData(625093, "Soho: NoReqs"),
-    "Soho - Pharmacy: Aisle 3 Far Back Shelf":                         PELoctData(625094, "Soho: NoReqs"),
-    "Soho - Pharmacy: Behind Phone Counter":                           PELoctData(625095, "Soho: NoReqs"),
-    "Soho - Pharmacy: Aisle 4 Right Shelf":                            PELoctData(625096, "Soho: NoReqs"),
-    "Hospital - 1F Outside: Maeda's Mayoke":                           PELoctData(625097, "Hospital: NoReqs"),
-    "Hospital - 1F Lobby: Corner Ammo Chest":                          PELoctData(625098, "Hospital: NoReqs"),
-    "Hospital - 1F Lobby: Closet Chest":                               PELoctData(625099, "Hospital: NoReqs"),
-    "Hospital - B1 Storage: Upper Chest":                              PELoctData(625100, "Hospital: NoReqs"),
-    "Hospital - B1 Storage: Lower Chest":                              PELoctData(625101, "Hospital: NoReqs"),
-    "Hospital - B1 Storage: Shelf Fuse Sparkle":                       PELoctData(625102, "Hospital: NoReqs"),
-    "Hospital - B1 Save Office: Chest":                                PELoctData(625103, "Hospital: NoReqs"),
-    "Hospital - B1 Save Office: Key Drawer":                           PELoctData(625104, "Hospital: NoReqs"),
-    "Hospital - B1 Morgue: Chest":                                     PELoctData(625105, "Hospital: NoReqs"),
-    "Hospital - B1 Autopsy: Lower Chest":                              PELoctData(625106, "Hospital: Combat+AK"),
-    "Hospital - B1 Autopsy: Upper Chest":                              PELoctData(625107, "Hospital: Combat+AK"),
-    "Hospital - B1 Crematory: Corner Chest":                           PELoctData(625108, "Hospital: Combat+AK"),
-    "Hospital - B1 Crematory: Fuse Sparkle":                           PELoctData(625109, "Hospital: Combat+AK"),
-    "Hospital - B1 Crematory: Cardkey Corpse":                         PELoctData(625110, "Hospital: Combat+AK"),
-    "Hospital - B1 Blue Hallway: 50/50 Chest":                         PELoctData(625111, "Hospital: Combat+BC"),
-    "Hospital - B1 Collapsed Back Stairway: Sparkle":                  PELoctData(625112, "Hospital: Combat+BC"),
-    "Hospital - B1 Sterilization Room: Right Chest":                   PELoctData(625113, "Hospital: Combat+BC"),
-    "Hospital - B1 Sterilization Room: Left Chest":                    PELoctData(625114, "Hospital: Combat+BC"),
-    "Hospital - B1 Sterilization Room: Fuse Sparkle":                  PELoctData(625115, "Hospital: Combat+BC"),
-    "Hospital - 1F Emergency Room: Chest":                             PELoctData(625116, "Hospital: Combat"),
-    "Hospital - 1F Flashback Room: Chest":                             PELoctData(625117, "Hospital: Combat"),
-    "Hospital - 1F Flashback Room: Nurse":                             PELoctData(625118, "Hospital: Combat"),
-    "Hospital - 1F Green Hallway: Chest":                              PELoctData(625119, "Hospital: Combat+GC"),
-    "Hospital - 1F Nitrogen Storage: Chest":                           PELoctData(625120, "Hospital: Combat+GC"),
-    "Hospital - 1F Nitrogen Storage: King Bacterium Drop":             PELoctData(625121, "Hospital: Combat+GC"),
-    "Hospital - 13F Research Lab: Chest":                              PELoctData(625122, "Hospital: Combat+BC+Fuses"),
-    "Hospital - 13F Research Lab: Counter":                            PELoctData(625123, "Hospital: Combat+BC+Fuses"),
-    "Hospital - 13F Research Lab: Shelf":                              PELoctData(625124, "Hospital: Combat+BC+Fuses"),
-    "Hospital - 13F Kennel: Chest":                                    PELoctData(625125, "Hospital: Combat+BC+Fuses"),
-    "Hospital - 13F Roof Elevator Access: Lower Chest":                PELoctData(625126, "Hospital: Combat+BC+Fuses"),
-    "Hospital - 13F Roof Elevator Access: Upper Chest":                PELoctData(625127, "Hospital: Combat+BC+Fuses"),
-    "Hospital - 13F Roof Elevator Access: 1st Sparkle (Junk)":         PELoctData(625128, "Hospital: Combat+BC+Fuses"),
-    "Hospital - 13F Roof Elevator Access: 2nd Sparkle (Key)":          PELoctData(625129, "Hospital: Combat+BC+Fuses"),
-    "Hospital - Roof Spiderwoman: Boss Drop":                          PELoctData(625130, "Hospital: Combat+BC+Fuses+EK+Boss"),
-    "Chinatown - Near Entrance: Left Chest":                           PELoctData(625131, "Chinatown: NoReqs|Combat+GK"),
-    "Chinatown - Near Entrance: Right Chest":                          PELoctData(625132, "Chinatown: NoReqs|Combat+GK"),
-    "Chinatown - Antique Shop Exterior (Save): Lower Chest":           PELoctData(625133, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - Antique Shop Exterior (Save): Upper Chest":           PELoctData(625134, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - Antique Shop Interior: Chest":                        PELoctData(625135, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - Antique Shop Interior: Shelf":                        PELoctData(625136, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - End of the Street: Chest":                            PELoctData(625137, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - End of the Street: Maeda's Narita":                   PELoctData(625138, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - Sewers Labyrinth A-04: Super Tool Sparkle":           PELoctData(625139, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - Sewers Labyrinth B-01: Medicine 4 Chest":             PELoctData(625140, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - Sewers Labyrinth B-03: Cure-D Sparkle":               PELoctData(625141, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - Sewers Labyrinth B-06: Ammo Chest":                   PELoctData(625142, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - Sewers Labyrinth C-02: Cr Protector Chest":           PELoctData(625143, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - Sewers Labyrinth C-06: Range Sparkle":                PELoctData(625144, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - Sewers Labyrinth D-03: M203-3 Chest":                 PELoctData(625145, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - Sewers Labyrinth D-08: M870 Chest":                   PELoctData(625146, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - Sewers Labyrinth D-11: Off or Def Chest":             PELoctData(625147, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - Sewers Labyrinth E-04: Medicine 3 Chest":             PELoctData(625148, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - Sewers Labyrinth E-10: Tool Sparkle":                 PELoctData(625149, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - Sewers Labyrinth F-09: Offense Chest":                PELoctData(625150, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - Sewers Exit Catwalk: Club 3 Chest":                   PELoctData(625151, "Chinatown: Combat|Combat+GK"),
-    "Chinatown - Pump Station Exterior: Alligator Chest":              PELoctData(625152, "Chinatown: Combat+Boss|Combat+GK+Boss"),
-    "Chinatown - Pump Station Exterior: Catwalk Chest":                PELoctData(625153, "Chinatown: Combat|GK"),
-    "Chinatown - Pump Station Control Room: Chest":                    PELoctData(625154, "Chinatown: Combat|GK"),
-    "Subway - Platform (Save): Bench Chest":                           PELoctData(625155, "Subway: Combat+PK|GK"),
-    "Subway - Platform (Save): Phone Chest":                           PELoctData(625156, "Subway: Combat+PK|GK"),
-    "Subway - Exit Stairway: Chest":                                   PELoctData(625157, "Subway: Combat+PK|GK"),
-    "Subway - Left Mole Tunnel: Chest":                                PELoctData(625158, "Subway: Combat+PK|Combat+GK"),
-    "Subway - Centipede: Boss Drop":                                   PELoctData(625159, "Subway: Combat+PK+Boss|Combat+GK+Boss"),
-    "Subway - Parked Passenger Car: Right Chest":                      PELoctData(625160, "Subway: Combat+PK+Boss|Combat+GK+Boss"),
-    "Subway - Parked Passenger Car: Left Chest":                       PELoctData(625161, "Subway: Combat+PK+Boss|Combat+GK+Boss"),
-    "Subway - Parked Passenger Car: Lower Chest":                      PELoctData(625162, "Subway: Combat+PK+Boss|Combat+GK+Boss"),
-    "Subway - Bridge: Cop's Gate Key":                                 PELoctData(625163, "Subway: Combat+PK+Boss|Combat+GK+Boss"),
-    "Warehouse - Outside: Left Chest (Hidden)":                        PELoctData(625164, "Warehouse: NoReqs"),
-    "Warehouse - Outside: Right Chest":                                PELoctData(625165, "Warehouse: NoReqs"),
-    "Warehouse - Entrance: Forklift Chest":                            PELoctData(625166, "Warehouse: NoReqs"),
-    "Warehouse - Tom and Jerry: Chest":                                PELoctData(625167, "Warehouse: Combat"),
-    "Warehouse - Tom and Jerry: Key Sparkle":                          PELoctData(625168, "Warehouse: Combat"),
-    "Warehouse - Save Room: Ladder Chest":                             PELoctData(625169, "Warehouse: Combat"),
-    "Warehouse - Save Room: Upper Ground Chest":                       PELoctData(625170, "Warehouse: Combat"),
-    "Warehouse - Save Room: Lower Ground Chest":                       PELoctData(625171, "Warehouse: Combat"),
-    "Warehouse - Before Descent: Upper Left Chest":                    PELoctData(625172, "Warehouse: Combat+WK"),
-    "Warehouse - Before Descent: Upper Left Chest":                    PELoctData(625173, "Warehouse: Combat+WK"),
-    "Warehouse - Before Descent: Lower Left Chest":                    PELoctData(625174, "Warehouse: Combat+WK"),
-    "Warehouse - Giant Enemy Crab: Boss Drop":                         PELoctData(625175, "Warehouse: Combat+WK+Boss"),
-    "Warehouse - Giant Enemy Crab: Steamed Tool":                      PELoctData(625176, "Warehouse: Combat+WK+Boss"),
-    "Museum - 1F Klamp Pursuit East Exhibit: Chest":                   PELoctData(625177, "Museum: NoReqs"),
-    "Museum - 1F Klamp Pursuit West Exhibit: Chest":                   PELoctData(625178, "Museum: NoReqs"),
-    "Museum - 1F Klamp Pursuit Troodon Hall: Right Chest":             PELoctData(625179, "Museum: Combat"),
-    "Museum - 1F Klamp Pursuit Troodon Hall: Left Chest":              PELoctData(625180, "Museum: Combat"),
-    "Museum - 1F Rainforest Employee Hallway: Chest":                  PELoctData(625181, "Museum: NoReqs"),
-    "Museum - 1F Rainforest Storage Room: Lower Right Chest":          PELoctData(625182, "Museum: Combat"),
-    "Museum - 1F Rainforest Storage Room: Lower Center Chest":         PELoctData(625183, "Museum: Combat"),
-    "Museum - 1F Rainforest Storage Room: Upper Chest":                PELoctData(625184, "Museum: Combat"),
-    "Museum - 1F Rainforest Storage Room: Hidden Closet Right Chest":  PELoctData(625185, "Museum: Combat"),
-    "Museum - 1F Rainforest Storage Room: Hidden Closet Left Chest":   PELoctData(625186, "Museum: Combat"),
-    "Museum - 1F Tribal Staircase: Chest":                             PELoctData(625187, "Museum: Combat"),
-    "Museum - 1F Stone Head Room: Ladder Access Chest":                PELoctData(625188, "Museum: Combat"),
-    "Museum - 1F Fire Escape: Stat Chest":                             PELoctData(625189, "Museum: Combat"),
-    "Museum - 2F Gemstone Staircase: Right Chest":                     PELoctData(625190, "Museum: Combat"),
-    "Museum - 2F Gemstone Staircase: Left Chest":                      PELoctData(625191, "Museum: Combat"),
-    "Museum - 3F Fire Escape: Rocket Chest":                           PELoctData(625192, "Museum: Combat"),
-    "Museum - 2F Festive Lobby: Revive Chest":                         PELoctData(625193, "Museum: Combat"),
-    "Museum - 3F Pterodactyl Ambush Hall: Chest":                      PELoctData(625194, "Museum: Combat"),
-    "Museum - 3F Stegosaurus Room: Chest":                             PELoctData(625195, "Museum: Combat"),
-    "Museum - 2F Museum Shop Tents: Upper Chest":                      PELoctData(625196, "Museum: Combat"),
-    "Museum - 2F Museum Shop Tents: Lower Chest":                      PELoctData(625197, "Museum: Combat"),
-    "Museum - 2F Security Office: Chest":                              PELoctData(625198, "Museum: Combat"),
-    "Museum - 4F Security Storage: Lower Right Chest":                 PELoctData(625199, "Museum: Combat"),
-    "Museum - 4F Security Storage: Lower Left Chest":                  PELoctData(625200, "Museum: Combat"),
-    "Museum - 4F Security Storage: Upper Left Chest":                  PELoctData(625201, "Museum: Combat"),
-    "Museum - 4F Security Storage: Center Chest":                      PELoctData(625202, "Museum: Combat"),
-    "Museum - 2F Klamp's Office: Maeda's Gun":                         PELoctData(625203, "Museum: Combat"),
-    "Museum - 2F Klamp's Office: Klamp's Key":                         PELoctData(625204, "Museum: Combat"),
-    "Museum - 4F Forgotten Landing: Full Recover Chest":               PELoctData(625205, "Museum: Combat"),
-    "Museum - 2F Broken Display: Left Chest":                          PELoctData(625206, "Museum: Combat+KK"),
-    "Museum - 2F Broken Display: Right Chest":                         PELoctData(625207, "Museum: Combat+KK"),
-    "Museum - 3F Triceratops: Boss Drop":                              PELoctData(625208, "Museum: Combat+KK+Boss"),
-    "Museum - 1F T-Rex: Left Chest":                                   PELoctData(625209, "Museum: NoReqs"),
-    "Museum - 1F T-Rex: Right Chest":                                  PELoctData(625210, "Museum: NoReqs"),
-    "Museum - 1F T-Rex: Boss Drop":                                    PELoctData(625211, "Museum: Combat+KK+Boss"),
-    "Museum - 3F Final Approach: Right Chest Behind Glass":            PELoctData(625212, "Museum: Combat+KK+Boss"),
-    "Museum - 3F Final Approach: Left Chest Behind Glass":             PELoctData(625213, "Museum: Combat+KK+Boss"),
-    "Cruiser - Deck: Daniel's Sacrifice":                              PELoctData(625214, "Cruiser"),
+    "N.Y.P.D. #17 - D4 B1 Weapons Department: Tool Kit":               PELoctData(625054, "N.Y.P.D. #17: Combat+SJ+Boss+UnrChks+12RTC"),
+    "N.Y.P.D. #17 - D4 B1 Weapons Department: Super Tool Kit":         PELoctData(625055, "N.Y.P.D. #17: Combat+SJ+Boss+UnrChks+14RTC"),
+    "N.Y.P.D. #17 - D4 B1 Weapons Department: Leave It to Wayne":      PELoctData(625056, "N.Y.P.D. #17: Combat+SJ+Boss+UnrChks+JunkReq"),
+    "Central Park - Entrance: Car Chest":                              PELoctData(625057, "Central Park: NoReqs"),
+    "Central Park - Entrance: Snake Chest":                            PELoctData(625058, "Central Park: NoReqs"),
+    "Central Park - Front Gate: Left Chest":                           PELoctData(625059, "Central Park: Combat"),
+    "Central Park - Front Gate: Right Chest":                          PELoctData(625060, "Central Park: Combat"),
+    "Central Park - Courtyard: Left Gun Chest":                        PELoctData(625061, "Central Park: Combat"),
+    "Central Park - Courtyard: Right Tool Chest":                      PELoctData(625062, "Central Park: Combat"),
+    "Central Park - Office: Key Drawer":                               PELoctData(625063, "Central Park: Combat"),
+    "Central Park - Office: Cabinet":                                  PELoctData(625064, "Central Park: Combat"),
+    "Central Park - Office: Locked Cupboard":                          PELoctData(625065, "Central Park: Combat+ZK"),
+    "Central Park - Snake Exhibit: Upper Right Chest":                 PELoctData(625066, "Central Park: Combat+ZK"),
+    "Central Park - Snake Exhibit: Lower Left Chest":                  PELoctData(625067, "Central Park: Combat+ZK"),
+    "Central Park - Snake Exhibit: Lower Right Chest":                 PELoctData(625068, "Central Park: Combat+ZK"),
+    "Central Park - Back Courtyard: Ammo Chest":                       PELoctData(625069, "Central Park: Combat"),
+    "Central Park - Figure 8: Right Chest":                            PELoctData(625070, "Central Park: Combat"),
+    "Central Park - Figure 8: Left Chest":                             PELoctData(625071, "Central Park: Combat"),
+    "Central Park - Gazebo: Left Chest":                               PELoctData(625072, "Central Park: Combat+ZK"),
+    "Central Park - Gazebo: Right Chest":                              PELoctData(625073, "Central Park: Combat+ZK"),
+    "Central Park - Behind Gazebo (Save): Chest":                      PELoctData(625074, "Central Park: Combat+ZK"),
+    "Central Park - Forest Maze West: Mythical Tool Chest":            PELoctData(625075, "Central Park: Combat+ZK"),
+    "Central Park - Forest Maze Bridge: Chest":                        PELoctData(625076, "Central Park: Combat+ZK"),
+    "Central Park - Forest Maze Dock: Chest":                          PELoctData(625077, "Central Park: Combat+ZK"),
+    "Central Park - Forest Maze East: Backup Tool Chest":              PELoctData(625078, "Central Park: Combat+ZK"),
+    "Central Park - Under Bush Bridge: Left Stat Chest":               PELoctData(625079, "Central Park: Combat+ZK"),
+    "Central Park - Under Bush Bridge: Right YOLO Tool Chest":         PELoctData(625080, "Central Park: Combat+ZK"),
+    "Central Park - Flaming Carriage Eve 2: Boss Drop":                PELoctData(625081, "Central Park: Combat+ZK+Boss"),
+    "Soho - Apartment Interior: Chest":                                PELoctData(625082, "Soho: NoReqs"),
+    "Soho - Apartment Exterior: Trash Card":                           PELoctData(625083, "Soho: NoReqs"),
+    "Soho - Sam's Gun Shop: Upper Left Chest":                         PELoctData(625084, "Soho: WM"),
+    "Soho - Sam's Gun Shop: Upper Right Chest":                        PELoctData(625085, "Soho: WM"),
+    "Soho - Sam's Gun Shop: Behind Counter Chest":                     PELoctData(625086, "Soho: WM"),
+    "Soho - Sam's Gun Shop: Lower Right Chest":                        PELoctData(625087, "Soho: WM"),
+    "Soho - Sam's Gun Shop: Green Box":                                PELoctData(625088, "Soho: WM"),
+    "Soho - Sam's Gun Shop: Red Box":                                  PELoctData(625089, "Soho: WM"),
+    "Soho - Sam's Gun Shop: Shotgun Rack":                             PELoctData(625090, "Soho: WM"),
+    "Soho - Sam's Gun Shop: Rifle Rack":                               PELoctData(625091, "Soho: WM"),
+    "Soho - Pharmacy: Aisle 3 Medicine Chest":                         PELoctData(625092, "Soho: NoReqs"),
+    "Soho - Pharmacy: Aisle 5 Revive Chest":                           PELoctData(625093, "Soho: NoReqs"),
+    "Soho - Pharmacy: Backroom Left Chest":                            PELoctData(625094, "Soho: NoReqs"),
+    "Soho - Pharmacy: Backroom Right Chest":                           PELoctData(625095, "Soho: NoReqs"),
+    "Soho - Pharmacy: Aisle 1 Left Shelf":                             PELoctData(625096, "Soho: NoReqs"),
+    "Soho - Pharmacy: Aisle 3 Far Back Shelf":                         PELoctData(625097, "Soho: NoReqs"),
+    "Soho - Pharmacy: Behind Phone Counter":                           PELoctData(625098, "Soho: NoReqs"),
+    "Soho - Pharmacy: Aisle 4 Right Shelf":                            PELoctData(625099, "Soho: NoReqs"),
+    "Hospital - 1F Outside: Maeda's Mayoke":                           PELoctData(625100, "Hospital: NoReqs"),
+    "Hospital - 1F Lobby: Corner Ammo Chest":                          PELoctData(625101, "Hospital: NoReqs"),
+    "Hospital - 1F Lobby: Closet Chest":                               PELoctData(625102, "Hospital: NoReqs"),
+    "Hospital - B1 Storage: Upper Chest":                              PELoctData(625103, "Hospital: NoReqs"),
+    "Hospital - B1 Storage: Lower Chest":                              PELoctData(625104, "Hospital: NoReqs"),
+    "Hospital - B1 Storage: Shelf Fuse Sparkle":                       PELoctData(625105, "Hospital: NoReqs"),
+    "Hospital - B1 Save Office: Chest":                                PELoctData(625106, "Hospital: NoReqs"),
+    "Hospital - B1 Save Office: Key Drawer":                           PELoctData(625107, "Hospital: NoReqs"),
+    "Hospital - B1 Morgue: Chest":                                     PELoctData(625108, "Hospital: NoReqs"),
+    "Hospital - B1 Autopsy: Lower Chest":                              PELoctData(625109, "Hospital: Combat+AK"),
+    "Hospital - B1 Autopsy: Upper Chest":                              PELoctData(625110, "Hospital: Combat+AK"),
+    "Hospital - B1 Crematory: Corner Chest":                           PELoctData(625111, "Hospital: Combat+AK"),
+    "Hospital - B1 Crematory: Fuse Sparkle":                           PELoctData(625112, "Hospital: Combat+AK"),
+    "Hospital - B1 Crematory: Cardkey Corpse":                         PELoctData(625113, "Hospital: Combat+AK"),
+    "Hospital - B1 Blue Hallway: 50/50 Chest":                         PELoctData(625114, "Hospital: Combat+BC"),
+    "Hospital - B1 Collapsed Back Stairway: Sparkle":                  PELoctData(625115, "Hospital: Combat+BC"),
+    "Hospital - B1 Sterilization Room: Right Chest":                   PELoctData(625116, "Hospital: Combat+BC"),
+    "Hospital - B1 Sterilization Room: Left Chest":                    PELoctData(625117, "Hospital: Combat+BC"),
+    "Hospital - B1 Sterilization Room: Fuse Sparkle":                  PELoctData(625118, "Hospital: Combat+BC"),
+    "Hospital - 1F Emergency Room: Chest":                             PELoctData(625119, "Hospital: Combat"),
+    "Hospital - 1F Flashback Room: Chest":                             PELoctData(625120, "Hospital: Combat"),
+    "Hospital - 1F Flashback Room: Nurse":                             PELoctData(625121, "Hospital: Combat"),
+    "Hospital - 1F Green Hallway: Chest":                              PELoctData(625122, "Hospital: Combat+GC"),
+    "Hospital - 1F Nitrogen Storage: Chest":                           PELoctData(625123, "Hospital: Combat+GC"),
+    "Hospital - 1F Nitrogen Storage: King Bacterium Drop":             PELoctData(625124, "Hospital: Combat+GC"),
+    "Hospital - 13F Research Lab: Chest":                              PELoctData(625125, "Hospital: Combat+BC+Fuses"),
+    "Hospital - 13F Research Lab: Counter":                            PELoctData(625126, "Hospital: Combat+BC+Fuses"),
+    "Hospital - 13F Research Lab: Shelf":                              PELoctData(625127, "Hospital: Combat+BC+Fuses"),
+    "Hospital - 13F Kennel: Chest":                                    PELoctData(625128, "Hospital: Combat+BC+Fuses"),
+    "Hospital - 13F Roof Elevator Access: Lower Chest":                PELoctData(625129, "Hospital: Combat+BC+Fuses"),
+    "Hospital - 13F Roof Elevator Access: Upper Chest":                PELoctData(625130, "Hospital: Combat+BC+Fuses"),
+    "Hospital - 13F Roof Elevator Access: 1st Sparkle (Junk)":         PELoctData(625131, "Hospital: Combat+BC+Fuses"),
+    "Hospital - 13F Roof Elevator Access: 2nd Sparkle (Key)":          PELoctData(625132, "Hospital: Combat+BC+Fuses"),
+    "Hospital - Roof Spiderwoman: Boss Drop":                          PELoctData(625133, "Hospital: Combat+BC+Fuses+EK+Boss"),
+    "Chinatown - Near Entrance: Left Chest":                           PELoctData(625134, "Chinatown: NoReqs|Combat+GK"),
+    "Chinatown - Near Entrance: Right Chest":                          PELoctData(625135, "Chinatown: NoReqs|Combat+GK"),
+    "Chinatown - Antique Shop Exterior (Save): Lower Chest":           PELoctData(625136, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - Antique Shop Exterior (Save): Upper Chest":           PELoctData(625137, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - Antique Shop Interior: Chest":                        PELoctData(625138, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - Antique Shop Interior: Shelf":                        PELoctData(625139, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - End of the Street: Chest":                            PELoctData(625140, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - End of the Street: Maeda's Narita":                   PELoctData(625141, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - Sewers Labyrinth A-04: Super Tool Sparkle":           PELoctData(625142, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - Sewers Labyrinth B-01: Medicine 4 Chest":             PELoctData(625143, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - Sewers Labyrinth B-03: Cure-D Sparkle":               PELoctData(625144, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - Sewers Labyrinth B-06: Ammo Chest":                   PELoctData(625145, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - Sewers Labyrinth C-02: Cr Protector Chest":           PELoctData(625146, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - Sewers Labyrinth C-06: Range Sparkle":                PELoctData(625147, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - Sewers Labyrinth D-03: M203-3 Chest":                 PELoctData(625148, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - Sewers Labyrinth D-08: M870 Chest":                   PELoctData(625149, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - Sewers Labyrinth D-11: Off or Def Chest":             PELoctData(625150, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - Sewers Labyrinth E-04: Medicine 3 Chest":             PELoctData(625151, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - Sewers Labyrinth E-10: Tool Sparkle":                 PELoctData(625152, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - Sewers Labyrinth F-09: Offense Chest":                PELoctData(625153, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - Sewers Exit Catwalk: Club 3 Chest":                   PELoctData(625154, "Chinatown: Combat|Combat+GK"),
+    "Chinatown - Pump Station Exterior: Alligator Chest":              PELoctData(625155, "Chinatown: Combat+Boss|Combat+GK+Boss"),
+    "Chinatown - Pump Station Exterior: Catwalk Chest":                PELoctData(625156, "Chinatown: Combat|GK"),
+    "Chinatown - Pump Station Control Room: Chest":                    PELoctData(625157, "Chinatown: Combat|GK"),
+    "Subway - Platform (Save): Bench Chest":                           PELoctData(625158, "Subway: Combat+PK|GK"),
+    "Subway - Platform (Save): Phone Chest":                           PELoctData(625159, "Subway: Combat+PK|GK"),
+    "Subway - Exit Stairway: Chest":                                   PELoctData(625160, "Subway: Combat+PK|GK"),
+    "Subway - Left Mole Tunnel: Chest":                                PELoctData(625161, "Subway: Combat+PK|Combat+GK"),
+    "Subway - Centipede: Boss Drop":                                   PELoctData(625162, "Subway: Combat+PK+Boss|Combat+GK+Boss"),
+    "Subway - Parked Passenger Car: Right Chest":                      PELoctData(625163, "Subway: Combat+PK+Boss|Combat+GK+Boss"),
+    "Subway - Parked Passenger Car: Left Chest":                       PELoctData(625164, "Subway: Combat+PK+Boss|Combat+GK+Boss"),
+    "Subway - Parked Passenger Car: Lower Chest":                      PELoctData(625165, "Subway: Combat+PK+Boss|Combat+GK+Boss"),
+    "Subway - Bridge: Cop's Gate Key":                                 PELoctData(625166, "Subway: Combat+PK+Boss|Combat+GK+Boss"),
+    "Warehouse - Outside: Left Chest (Hidden)":                        PELoctData(625167, "Warehouse: NoReqs"),
+    "Warehouse - Outside: Right Chest":                                PELoctData(625168, "Warehouse: NoReqs"),
+    "Warehouse - Entrance: Forklift Chest":                            PELoctData(625169, "Warehouse: NoReqs"),
+    "Warehouse - Tom and Jerry: Chest":                                PELoctData(625170, "Warehouse: Combat"),
+    "Warehouse - Tom and Jerry: Key Sparkle":                          PELoctData(625171, "Warehouse: Combat"),
+    "Warehouse - Save Room: Ladder Chest":                             PELoctData(625172, "Warehouse: Combat"),
+    "Warehouse - Save Room: Upper Ground Chest":                       PELoctData(625173, "Warehouse: Combat"),
+    "Warehouse - Save Room: Lower Ground Chest":                       PELoctData(625174, "Warehouse: Combat"),
+    "Warehouse - Before Descent: Upper Left Chest":                    PELoctData(625175, "Warehouse: Combat+WK"),
+    "Warehouse - Before Descent: Upper Left Chest":                    PELoctData(625176, "Warehouse: Combat+WK"),
+    "Warehouse - Before Descent: Lower Left Chest":                    PELoctData(625177, "Warehouse: Combat+WK"),
+    "Warehouse - Giant Enemy Crab: Boss Drop":                         PELoctData(625178, "Warehouse: Combat+WK+Boss"),
+    "Warehouse - Giant Enemy Crab: Steamed Tool":                      PELoctData(625179, "Warehouse: Combat+WK+Boss"),
+    "Museum - 1F Klamp Pursuit East Exhibit: Chest":                   PELoctData(625180, "Museum: NoReqs"),
+    "Museum - 1F Klamp Pursuit West Exhibit: Chest":                   PELoctData(625181, "Museum: NoReqs"),
+    "Museum - 1F Klamp Pursuit Troodon Hall: Right Chest":             PELoctData(625182, "Museum: Combat"),
+    "Museum - 1F Klamp Pursuit Troodon Hall: Left Chest":              PELoctData(625183, "Museum: Combat"),
+    "Museum - 1F Rainforest Employee Hallway: Chest":                  PELoctData(625184, "Museum: NoReqs"),
+    "Museum - 1F Rainforest Storage Room: Lower Right Chest":          PELoctData(625185, "Museum: Combat"),
+    "Museum - 1F Rainforest Storage Room: Lower Center Chest":         PELoctData(625186, "Museum: Combat"),
+    "Museum - 1F Rainforest Storage Room: Upper Chest":                PELoctData(625187, "Museum: Combat"),
+    "Museum - 1F Rainforest Storage Room: Hidden Closet Right Chest":  PELoctData(625188, "Museum: Combat"),
+    "Museum - 1F Rainforest Storage Room: Hidden Closet Left Chest":   PELoctData(625189, "Museum: Combat"),
+    "Museum - 1F Tribal Staircase: Chest":                             PELoctData(625190, "Museum: Combat"),
+    "Museum - 1F Stone Head Room: Ladder Access Chest":                PELoctData(625191, "Museum: Combat"),
+    "Museum - 1F Fire Escape: Stat Chest":                             PELoctData(625192, "Museum: Combat"),
+    "Museum - 2F Gemstone Staircase: Right Chest":                     PELoctData(625193, "Museum: Combat"),
+    "Museum - 2F Gemstone Staircase: Left Chest":                      PELoctData(625194, "Museum: Combat"),
+    "Museum - 3F Fire Escape: Rocket Chest":                           PELoctData(625195, "Museum: Combat"),
+    "Museum - 2F Festive Lobby: Revive Chest":                         PELoctData(625196, "Museum: Combat"),
+    "Museum - 3F Pterodactyl Ambush Hall: Chest":                      PELoctData(625197, "Museum: Combat"),
+    "Museum - 3F Stegosaurus Room: Chest":                             PELoctData(625198, "Museum: Combat"),
+    "Museum - 2F Museum Shop Tents: Upper Chest":                      PELoctData(625199, "Museum: Combat"),
+    "Museum - 2F Museum Shop Tents: Lower Chest":                      PELoctData(625200, "Museum: Combat"),
+    "Museum - 2F Security Office: Chest":                              PELoctData(625201, "Museum: Combat"),
+    "Museum - 4F Security Storage: Lower Right Chest":                 PELoctData(625202, "Museum: Combat"),
+    "Museum - 4F Security Storage: Lower Left Chest":                  PELoctData(625203, "Museum: Combat"),
+    "Museum - 4F Security Storage: Upper Left Chest":                  PELoctData(625204, "Museum: Combat"),
+    "Museum - 4F Security Storage: Center Chest":                      PELoctData(625205, "Museum: Combat"),
+    "Museum - 2F Klamp's Office: Maeda's Gun":                         PELoctData(625206, "Museum: Combat"),
+    "Museum - 2F Klamp's Office: Klamp's Key":                         PELoctData(625207, "Museum: Combat"),
+    "Museum - 4F Forgotten Landing: Full Recover Chest":               PELoctData(625208, "Museum: Combat"),
+    "Museum - 2F Broken Display: Left Chest":                          PELoctData(625209, "Museum: Combat+KK"),
+    "Museum - 2F Broken Display: Right Chest":                         PELoctData(625210, "Museum: Combat+KK"),
+    "Museum - 3F Triceratops: Boss Drop":                              PELoctData(625211, "Museum: Combat+KK+Boss"),
+    "Museum - 1F T-Rex: Left Chest":                                   PELoctData(625212, "Museum: NoReqs"),
+    "Museum - 1F T-Rex: Right Chest":                                  PELoctData(625213, "Museum: NoReqs"),
+    "Museum - 1F T-Rex: Boss Drop":                                    PELoctData(625214, "Museum: Combat+KK+Boss"),
+    "Museum - 3F Final Approach: Right Chest Behind Glass":            PELoctData(625215, "Museum: Combat+KK+Boss"),
+    "Museum - 3F Final Approach: Left Chest Behind Glass":             PELoctData(625216, "Museum: Combat+KK+Boss"),
+    "Cruiser - Deck: Daniel's Sacrifice":                              PELoctData(625217, "Cruiser"),
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "Chrysler BLDG. - Treasurebox Set 
+    "PE - Heal 1: Awakening":                                          PELoctData(625218, "Carnegie Hall: NoReqs"),
+    "PE - Scan: Level 4":                                              PELoctData(625219, "PE"),
+    "PE - Slow: Level 7":                                              PELoctData(625219, "PE"),
+    "PE - Detox: Level 9":                                             PELoctData(625219, "PE"),
+    "PE - Heal 2: Level 11":                                           PELoctData(625219, "PE"),
+    "PE - Barrier: Level 13":                                          PELoctData(625219, "PE"),
+    "PE - Energy Shot: Level 15":                                      PELoctData(625219, "PE"),
+    "PE - Confuse: Level 17":                                          PELoctData(625219, "PE"),
+    "PE - Haste: Level 20":                                            PELoctData(625219, "PE"),
+    "PE - Heal 3: Level 22":                                           PELoctData(625219, "PE"),
+    "PE - Gene Heal: Level 25":                                        PELoctData(625219, "PE"),
+    "PE - Medic: Level 28":                                            PELoctData(625219, "PE"),
+    "PE - Preraise: Level 30":                                         PELoctData(625219, "PE"),
+    "PE - Full Recover: Level 32":                                     PELoctData(625219, "PE"),
+    "PE - Liberate: Level 33":                                         PELoctData(625219, "PE"),
