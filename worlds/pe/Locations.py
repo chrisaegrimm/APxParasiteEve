@@ -225,191 +225,191 @@ item_table: Dict[str, PELoctData] = {
     "Museum - 3F Final Approach: Right Chest Behind Glass":            PELoctData(625215, "Museum: Combat+KK+Boss"),
     "Museum - 3F Final Approach: Left Chest Behind Glass":             PELoctData(625216, "Museum: Combat+KK+Boss"),
     "Cruiser - Deck: Daniel's Sacrifice":                              PELoctData(625217, "Cruiser"),
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "Chrysler BLDG. - Treasurebox Set 
-    "PE - Heal 1: Awakening":                                          PELoctData(625218, "Carnegie Hall: NoReqs"),
-    "PE - Scan: Level 4":                                              PELoctData(625219, "PE"),
-    "PE - Slow: Level 7":                                              PELoctData(625219, "PE"),
-    "PE - Detox: Level 9":                                             PELoctData(625219, "PE"),
-    "PE - Heal 2: Level 11":                                           PELoctData(625219, "PE"),
-    "PE - Barrier: Level 13":                                          PELoctData(625219, "PE"),
-    "PE - Energy Shot: Level 15":                                      PELoctData(625219, "PE"),
-    "PE - Confuse: Level 17":                                          PELoctData(625219, "PE"),
-    "PE - Haste: Level 20":                                            PELoctData(625219, "PE"),
-    "PE - Heal 3: Level 22":                                           PELoctData(625219, "PE"),
-    "PE - Gene Heal: Level 25":                                        PELoctData(625219, "PE"),
-    "PE - Medic: Level 28":                                            PELoctData(625219, "PE"),
+    "Chrysler BLDG. - Treasurebox Set 1-01: Offense":                  PELoctData(625218, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-01: Cr Evade":                 PELoctData(625219, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-01: Tool":                     PELoctData(625220, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-01: USP-2":                    PELoctData(625221, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-02: Tool A":                   PELoctData(625222, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-02: M1911A4":                  PELoctData(625223, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-02: Tool B":                   PELoctData(625224, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-02: Sp Vest 2":                PELoctData(625225, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-03: M16A2":                    PELoctData(625226, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-03: Tool":                     PELoctData(625227, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-03: Cr Evade":                 PELoctData(625228, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-04: PE":                       PELoctData(625229, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-04: Kv Jacket":                PELoctData(625230, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-04: M79-4":                    PELoctData(625231, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-05: P38 T Card":               PELoctData(625232, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-05: P228":                     PELoctData(625233, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-05: PE":                       PELoctData(625234, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-05: Cr Evade":                 PELoctData(625235, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-06: Sv Jacket":                PELoctData(625236, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-06: Cr Evade":                 PELoctData(625237, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-07: PE":                       PELoctData(625238, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-07: P226":                     PELoctData(625239, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-07: Defense":                  PELoctData(625240, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-08: Range":                    PELoctData(625241, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-08: Bullet Cap":               PELoctData(625242, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-08: Rocket":                   PELoctData(625243, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-08: Tool":                     PELoctData(625244, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-09: Bullet Cap":               PELoctData(625245, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-09: Offense A":                PELoctData(625246, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 1-09: Offense B":                PELoctData(625247, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - 10F Spiderwoman EX: Boss Drop":                  PELoctData(625248, "Chrysler BLDG.: Key 1"),
+    "Chrysler BLDG. - Treasurebox Set 2-01: Cr Jacket":                PELoctData(625249, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-01: Defense":                  PELoctData(625250, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-02: Tool":                     PELoctData(625251, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-03: Tool A":                   PELoctData(625252, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-03: Tool B":                   PELoctData(625253, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-03: M203-5":                   PELoctData(625254, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-04: Tool":                     PELoctData(625255, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-04: M96":                      PELoctData(625256, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-04: Bullet Cap":               PELoctData(625257, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-05: Kasul T Card":             PELoctData(625258, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-05: Offense":                  PELoctData(625259, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-05: Rocket":                   PELoctData(625260, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-06: Super Tool":               PELoctData(625261, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-06: Club 4":                   PELoctData(625262, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-06: Defense":                  PELoctData(625263, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-07: AM44":                     PELoctData(625264, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-07: P229":                     PELoctData(625265, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-08: PE":                       PELoctData(625266, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-08: Sp Suit 1":                PELoctData(625267, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-09: Full UZ":                  PELoctData(625268, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-09: Range":                    PELoctData(625269, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-09: Bhawk T Card":             PELoctData(625270, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-10: Kv Suit 1":                PELoctData(625271, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 2-10: Tool":                     PELoctData(625272, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - 20F Alligators EX: Boss Drops":                  PELoctData(625273, "Chrysler BLDG.: Key 2"),
+    "Chrysler BLDG. - Treasurebox Set 3-01: Tool":                     PELoctData(625274, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-02: Tool A":                   PELoctData(625275, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-02: PPKS T Card":              PELoctData(625276, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-02: Tool B":                   PELoctData(625277, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-03: Bullet Cap":               PELoctData(625278, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-03: Tool":                     PELoctData(625279, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-03: Super Tool":               PELoctData(625280, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-04: Super Tool":               PELoctData(625281, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-04: Cr Evade":                 PELoctData(625282, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-04: Mark 23":                  PELoctData(625283, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-05: Offense":                  PELoctData(625284, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-05: Tool":                     PELoctData(625285, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-05: M870-2":                   PELoctData(625286, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-06: Type64":                   PELoctData(625287, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-06: Defense":                  PELoctData(625288, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-07: Cm Jacket":                PELoctData(625289, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-08: B Jacket 2":               PELoctData(625290, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-08: M1 T Card":                PELoctData(625291, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-08: Offense":                  PELoctData(625292, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-09: Range":                    PELoctData(625293, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-09: Cr Evade":                 PELoctData(625294, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-10: Tool":                     PELoctData(625295, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-10: Sv Suit 1":                PELoctData(625296, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 3-10: M79-5":                    PELoctData(625297, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - 30F Centipede EX: Boss Drop":                    PELoctData(625298, "Chrysler BLDG.: Key 3"),
+    "Chrysler BLDG. - Treasurebox Set 4-01: PSG-1":                    PELoctData(625299, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-01: Tool":                     PELoctData(625300, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-01: Full Cure":                PELoctData(625301, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-01: Bullet Cap":               PELoctData(625302, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-02: Cm Suit 1":                PELoctData(625303, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-02: Tool":                     PELoctData(625304, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-02: Full Recover":             PELoctData(625305, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-03: Tool":                     PELoctData(625306, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-03: Rocket":                   PELoctData(625307, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-03: Defense":                  PELoctData(625308, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-03: Sv Suit 2":                PELoctData(625309, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-04: MP5A5":                    PELoctData(625310, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-04: MK5 T Card":               PELoctData(625311, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-04: Sp Armor 1":               PELoctData(625312, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-04: BAR T Card":               PELoctData(625313, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-05: Tool":                     PELoctData(625314, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-06: MP44 T Card":              PELoctData(625315, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-07: MG42 T Card":              PELoctData(625316, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-07: Cr Evade":                 PELoctData(625317, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-07: M1911A5":                  PELoctData(625318, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-07: Defense":                  PELoctData(625319, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-08: Maverick":                 PELoctData(625320, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-08: Range":                    PELoctData(625321, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-09: Kv Armor 1":               PELoctData(625322, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 4-10: Tool":                     PELoctData(625323, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - 40F Triceratops EX: Boss Drop":                  PELoctData(625324, "Chrysler BLDG.: Key 4"),
+    "Chrysler BLDG. - Treasurebox Set 5-01: SAR":                      PELoctData(625325, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-01: Tool":                     PELoctData(625326, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-01: M29 T Card":               PELoctData(625327, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-02: M73 T Card":               PELoctData(625328, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-02: PE":                       PELoctData(625329, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-02: Super Tool":               PELoctData(625330, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-02: AT4-1":                    PELoctData(625331, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-03: Tool":                     PELoctData(625332, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-03: Bullet Cap":               PELoctData(625333, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-04: Cr Suit 1":                PELoctData(625334, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-05: USP-3":                    PELoctData(625335, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-06: Offense":                  PELoctData(625336, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-06: Rocket":                   PELoctData(625337, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-06: Cm Armor 1":               PELoctData(625338, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-06: Tool":                     PELoctData(625339, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-06: Range":                    PELoctData(625340, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-07: Tool":                     PELoctData(625341, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-08: B Suit 1":                 PELoctData(625342, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-09: G20":                      PELoctData(625343, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-09: Tool":                     PELoctData(625344, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-09: Offense":                  PELoctData(625345, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 5-09: Sv Armor 1":               PELoctData(625346, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - 50F Cockroach - Boss Drop":                      PELoctData(625347, "Chrysler BLDG.: Key 5"),
+    "Chrysler BLDG. - Treasurebox Set 6-01: Type38 T Card":            PELoctData(625348, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - Treasurebox Set 6-01: Cr Evade":                 PELoctData(625349, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - Treasurebox Set 6-01: Sp Armor 2":               PELoctData(625350, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - Treasurebox Set 6-02: Rocket":                   PELoctData(625351, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - Treasurebox Set 6-02: MP5SD6":                   PELoctData(625352, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - Treasurebox Set 6-03: B Suit 2":                 PELoctData(625353, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - Treasurebox Set 6-04: M712":                     PELoctData(625354, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - Treasurebox Set 6-05: S12":                      PELoctData(625355, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - Treasurebox Set 6-05: PE":                       PELoctData(625356, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - Treasurebox Set 6-05: Full Recover":             PELoctData(625357, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - Treasurebox Set 6-05: Cr Armor 1":               PELoctData(625358, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - Treasurebox Set 6-06: Full Cure":                PELoctData(625359, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - Treasurebox Set 6-07: FA-MAS":                   PELoctData(625360, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - Treasurebox Set 6-08: Range":                    PELoctData(625361, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - Treasurebox Set 6-09: Tool A":                   PELoctData(625362, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - Treasurebox Set 6-09: Tool B":                   PELoctData(625363, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - Treasurebox Set 6-09: Tool C":                   PELoctData(625364, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - 60F Giant Enemy Crab EX - Boss Drop":            PELoctData(625365, "Chrysler BLDG.: Key 6"),
+    "Chrysler BLDG. - Treasurebox Set 7-01: PE":                       PELoctData(625366, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-01: M500-2":                   PELoctData(625367, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-01: Full Recover":             PELoctData(625368, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-01: M500":                     PELoctData(625369, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-02: Defense":                  PELoctData(625370, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-03: XM177E2":                  PELoctData(625371, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-03: Tool":                     PELoctData(625372, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-03: Range":                    PELoctData(625373, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-03: Full Cure":                PELoctData(625374, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-04: Super Tool":               PELoctData(625375, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-04: Cm Armor 2":               PELoctData(625376, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-04: Bullet Cap":               PELoctData(625377, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-05: B Armor":                  PELoctData(625378, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-05: M96R":                     PELoctData(625379, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-05: Super Tool":               PELoctData(625380, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-05: Tool":                     PELoctData(625381, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-06: Type3 T Card":             PELoctData(625382, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-07: M203-6":                   PELoctData(625383, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-07: Offense":                  PELoctData(625384, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-07: Sv Armor 2":               PELoctData(625385, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-08: Eagle T Card":             PELoctData(625386, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-08: PE":                       PELoctData(625387, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-08: Club 5":                   PELoctData(625388, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - Treasurebox Set 7-08: Cr Armor 2":               PELoctData(625389, "Chrysler BLDG.: Key 7"),
+    "Chrysler BLDG. - 70F Queen Bee: Boss Drop":                       PELoctData(625390, "Chrysler BLDG.: Key 7"),
+    "PE - Heal 1: Awakening":                                          PELoctData(625391, "Carnegie Hall: NoReqs"),
+    "PE - Scan: Level 4":                                              PELoctData(625392, "PE"),
+    "PE - Slow: Level 7":                                              PELoctData(625393, "PE"),
+    "PE - Detox: Level 9":                                             PELoctData(625394, "PE"),
+    "PE - Heal 2: Level 11":                                           PELoctData(625395, "PE"),
+    "PE - Barrier: Level 13":                                          PELoctData(625396, "PE"),
+    "PE - Energy Shot: Level 15":                                      PELoctData(625397, "PE"),
+    "PE - Confuse: Level 17":                                          PELoctData(625398, "PE"),
+    "PE - Haste: Level 20":                                            PELoctData(625399, "PE"),
+    "PE - Heal 3: Level 22":                                           PELoctData(625400, "PE"),
+    "PE - Gene Heal: Level 25":                                        PELoctData(625401, "PE"),
+    "PE - Medic: Level 28":                                            PELoctData(625402, "PE"),
     "PE - Preraise: Level 30":                                         PELoctData(625219, "PE"),
     "PE - Full Recover: Level 32":                                     PELoctData(625219, "PE"),
     "PE - Liberate: Level 33":                                         PELoctData(625219, "PE"),
