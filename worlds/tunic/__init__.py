@@ -121,7 +121,7 @@ class TunicWorld(World):
                 cls.seed_groups[group] = SeedGroup(logic_rules=tunic.options.logic_rules.value,
                                                    laurels_at_10_fairies=tunic.options.laurels_location == 3,
                                                    fixed_shop=bool(tunic.options.fixed_shop),
-                                                   plando=multiworld.plando_connections[tunic.player])
+                                                   plando=tunic.options.plando_connections)
                 continue
                 
             # lower value is more restrictive
@@ -134,9 +134,9 @@ class TunicWorld(World):
             if tunic.options.fixed_shop:
                 cls.seed_groups[group]["fixed_shop"] = True
 
-            if multiworld.plando_connections[tunic.player]:
+            if tunic.options.plando_connections:
                 # loop through the connections in the player's yaml
-                for cxn in multiworld.plando_connections[tunic.player]:
+                for cxn in tunic.options.plando_connections:
                     new_cxn = True
                     for group_cxn in cls.seed_groups[group]["plando"]:
                         # if neither entrance nor exit match anything in the group, add to group
@@ -410,7 +410,9 @@ class TunicWorld(World):
         return slot_data
 
     # for the universal tracker, doesn't get called in standard gen
+    # docs: https://github.com/FarisTheAncient/Archipelago/blob/tracker/worlds/tracker/docs/re-gen-passthrough.md
     @staticmethod
     def interpret_slot_data(slot_data: Dict[str, Any]) -> Dict[str, Any]:
         # returning slot_data so it regens, giving it back in multiworld.re_gen_passthrough
+        # we are using re_gen_passthrough over modifying the world here due to complexities with ER
         return slot_data
