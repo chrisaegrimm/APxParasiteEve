@@ -151,6 +151,28 @@ class ArmorAttachments(Toggle)
     """
     display_name = "Armor Attachments"
 
+class PESanity(Choice)
+    """
+    Choose whether to randomize your learned PE spells and broaden their possible locations.
+
+    Note: You may be without reliable healing from PE until the proper spell is found.
+    """
+    display_name = "PESanity"
+    option_pevanilla = 0
+    option_pelevels = 1
+    option_pelocations = 2
+    default = 0
+
+class StatSanity(Toggle)
+    """
+    Shuffle every stat gained from levels, as well as make every stat normally gained a check.
+
+    Note: This greatly extends your amount of available locations at the cost of making combat a pain.
+    If 'Unreasonable Checks' are turned on as well, you may required to climb to Level 36 for progression.
+    """
+    display_name = "StatSanity"
+
+
 class HiddenPotential(Toggle)
     """
     This locks weapon and armor mods behind locked slots, starting every weapon and armor with minimum slots.
@@ -404,26 +426,6 @@ class EquipmentMaximumModSlots(Range)
     range_end = 10
     default = 10
 
-class PESanity(Choice)
-    """
-    Choose whether to randomize your learned PE spells and broaden their possible locations.
-
-    Note: You may be without reliable healing from PE until the proper spell is found.
-    """
-    display_name = "PESanity"
-    option_pevanilla = 0
-    option_pelevels = 1
-    option_pelocations = 2
-    default = 0
-
-class StatSanity(Toggle)
-    """
-    Shuffle every stat gained from levels, as well as make every stat normally gained a check.
-
-    Note: This greatly extends your amount of available locations at the cost of making combat a pain.
-    If 'Unreasonable Checks' are turned on as well, you may required to climb to Level 36 for progression.
-    """
-    display_name = "StatSanity"
 
 
 pe_option_groups = [
