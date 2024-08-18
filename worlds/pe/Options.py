@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from Options import Choice, Range, Toggle, DefaultOnToggle, DeathLink, OptionGroup, PerGameCommonOptions
 
 
-class Schmoovement(Choice)
+class Schmoovement(Choice):
     """
     Allows for quick movement outside of battle.
     """
@@ -13,14 +13,14 @@ class Schmoovement(Choice)
     option_on = 2
     default = 2
 
-class EventSkip(DefaultOnToggle)
+class EventSkip(DefaultOnToggle):
     """
     Allows in-game Event Skip feature while also allowing holding Square to skip past FMVs and dialogue when prompted.
     """
     display_name = "Event Skip"
 
 
-class RandomizerMode(Choice)
+class RandomizerMode(Choice):
     """
     Determine how you want the randomizer to be played.
 
@@ -32,7 +32,7 @@ class RandomizerMode(Choice)
     option_dungeoncrawler = 1
     default = 0
 
-class EndGoal(Choice)
+class EndGoal(Choice):
     """
     Choose what sends Victory within your game. Note: All slimy staircases require Maeda's 3 good luck charms.
 
@@ -48,13 +48,13 @@ class EndGoal(Choice)
     option_endallfinals = 3
     default = 1
 
-class StartWithPrecinct(DefaultOnToggle)
+class StartWithPrecinct(DefaultOnToggle):
     """
     In Open World, start with access to the Precinct for inventory management and starting checks.
     """
     display_name = "Start with Precinct"
 
-class StartingUnlockedAreas(Range)
+class StartingUnlockedAreas(Range):
     """
     In Open World, choose how many areas are unlocked from the start (chosen at random).
     Note: This does not include the 'Starting with Precinct' option, as well as the Chrysler Building.
@@ -64,7 +64,7 @@ class StartingUnlockedAreas(Range)
     range_end = 8
     default = 8
 
-class IncludeChryslerBuilding(Choice)
+class IncludeChryslerBuilding(Choice):
     """
     Choose how the Chrysler Building is arranged to match your preferences:
 
@@ -80,13 +80,13 @@ class IncludeChryslerBuilding(Choice)
     option_cbfull = 3
     default = 0
 
-class UnreasonableChecks(Toggle)
+class UnreasonableChecks(Toggle):
     """
     Toggle whether locations requiring rare trading cards, junk, or an absurd level of farming can have progression.
     """
     display_name = "Unreasonable Checks"
 
-class RequiredJunk(Range)
+class RequiredJunk(Range):
     """
     If 'Unreasonable Checks' are enabled, set how many Junk are required for the 'Leave It to Wayne' location.
 
@@ -99,7 +99,7 @@ class RequiredJunk(Range)
     default = 0
 
 
-class CombatDifficulty(Choice)
+class CombatDifficulty(Choice):
     """
     Choose how strict weapon/armor/PE/stat requirements can get for enemies and bosses.
 
@@ -112,7 +112,7 @@ class CombatDifficulty(Choice)
     option_masochistic = 3
     default = 0
 
-class ItemPoolDifficulty(Choice)
+class ItemPoolDifficulty(Choice):
     """
     Choose how generous the item pool can be for providing non-progression items to assist you.
 
@@ -129,14 +129,14 @@ class ItemPoolDifficulty(Choice)
     option_masochistic = 3
     default = 0
 
-class ForcePEStaleness
+class ForcePEStaleness(Toggle):
     """
     Regarded as a glitch and not a feature, this setting removes the ability to switch armors in combat,
     leaving access to PE limited as the fight goes on. Revives will still reset PE staleness.
     """
     display_name = "Force PE Staleness"
 
-class ScavengerMode(Toggle)
+class ScavengerMode(Toggle):
     """
     Removes the ability to receive items from common enemies.
 
@@ -144,14 +144,14 @@ class ScavengerMode(Toggle)
     """
     display_name = "Scavenger Mode"
 
-class ArmorAttachments(Toggle)
+class ArmorAttachments(Toggle):
     """
     Adds the mechanic from Parasite Eve 2 where item slots are limited in combat. The amount available are
     determined from armor type and are always the first slots of your inventory. SORTING IS IMPORTANT NOW!
     """
     display_name = "Armor Attachments"
 
-class PESanity(Choice)
+class PESanity(Choice):
     """
     Choose whether to randomize your learned PE spells and broaden their possible locations.
 
@@ -163,7 +163,7 @@ class PESanity(Choice)
     option_pelocations = 2
     default = 0
 
-class StatSanity(Toggle)
+class StatSanity(Toggle):
     """
     Shuffle every stat gained from levels, as well as make every stat normally gained a check.
 
@@ -173,7 +173,7 @@ class StatSanity(Toggle)
     display_name = "StatSanity"
 
 
-class HiddenPotential(Toggle)
+class HiddenPotential(Toggle):
     """
     This locks weapon and armor mods behind locked slots, starting every weapon and armor with minimum slots.
     As you upgrade with permits/tools, mods will be revealed as you expand the available slots.
@@ -183,7 +183,7 @@ class HiddenPotential(Toggle)
     """
     display_name = "Hidden Potential"
 
-class BuffNontraditionalWeaponry(Toggle)
+class BuffNontraditionalWeaponry(Toggle):
     """
     This setting applies the value in Equipment Maximum Base stat settings and applies a 1.5x multiplier for
     Clubs/DNA Handguns and a 2x multiplier for Rocket Launchers, granting more use for less modular weapons.
@@ -192,7 +192,7 @@ class BuffNontraditionalWeaponry(Toggle)
     """
     display_name = "Buff Nontraditional Weaponry"
 
-class EquipmentMinimumBaseOffense(Range)
+class EquipmentMinimumBaseOffense(Range):
     """
     Set the lowest possible base Offense stat on a weapon.
     """
@@ -201,7 +201,7 @@ class EquipmentMinimumBaseOffense(Range)
     range_end = 255
     default = 15
 
-class EquipmentMaximumBaseOffense(Range)
+class EquipmentMaximumBaseOffense(Range):
     """
     Set the highest possible base Offense stat on a weapon.
     """
@@ -210,7 +210,7 @@ class EquipmentMaximumBaseOffense(Range)
     range_end = 255
     default = 100
 
-class EquipmentMinimumBaseRange(Range)
+class EquipmentMinimumBaseRange(Range):
     """
     Set the lowest possible base Range stat on a weapon.
     """
@@ -219,7 +219,7 @@ class EquipmentMinimumBaseRange(Range)
     range_end = 255
     default = 15
 
-class EquipmentMaximumBaseRange(Range)
+class EquipmentMaximumBaseRange(Range):
     """
     Set the highest possible base Range stat on a weapon.
     """
@@ -228,7 +228,7 @@ class EquipmentMaximumBaseRange(Range)
     range_end = 255
     default = 100
 
-class EquipmentMinimumBaseBullets(Range)
+class EquipmentMinimumBaseBullets(Range):
     """
     Set the lowest possible base Bullets stat on a weapon.
     """
@@ -237,7 +237,7 @@ class EquipmentMinimumBaseBullets(Range)
     range_end = 255
     default = 15
 
-class EquipmentMaximumBaseBullets(Range)
+class EquipmentMaximumBaseBullets(Range):
     """
     Set the highest possible base Bullets stat on a weapon.
     """
@@ -246,7 +246,7 @@ class EquipmentMaximumBaseBullets(Range)
     range_end = 255
     default = 100
 
-class EquipmentMinimumBaseDefense(Range)
+class EquipmentMinimumBaseDefense(Range):
     """
     Set the lowest possible base Defense stat on an armor.
     """
@@ -255,7 +255,7 @@ class EquipmentMinimumBaseDefense(Range)
     range_end = 255
     default = 15
 
-class EquipmentMaximumBaseDefense(Range)
+class EquipmentMaximumBaseDefense(Range):
     """
     Set the highest possible base Defense stat on an armor.
     """
@@ -264,7 +264,7 @@ class EquipmentMaximumBaseDefense(Range)
     range_end = 255
     default = 100
 
-class EquipmentMinimumBasePEnergy(Range)
+class EquipmentMinimumBasePEnergy(Range):
     """
     Set the lowest possible base P.Energy stat on an armor.
     """
@@ -273,7 +273,7 @@ class EquipmentMinimumBasePEnergy(Range)
     range_end = 255
     default = 15
 
-class EquipmentMaximumBasePEnergy(Range)
+class EquipmentMaximumBasePEnergy(Range):
     """
     Set the highest possible base P.Energy stat on an armor.
     """
@@ -282,7 +282,7 @@ class EquipmentMaximumBasePEnergy(Range)
     range_end = 255
     default = 100
 
-class EquipmentMinimumBaseCrEvade(Range)
+class EquipmentMinimumBaseCrEvade(Range):
     """
     Set the lowest possible base CrEvade stat on an armor.
     """
@@ -291,7 +291,7 @@ class EquipmentMinimumBaseCrEvade(Range)
     range_end = 255
     default = 15
 
-class EquipmentMaximumBaseCrEvade(Range)
+class EquipmentMaximumBaseCrEvade(Range):
     """
     Set the highest possible base CrEvade stat on an armor.
     """
@@ -300,7 +300,7 @@ class EquipmentMaximumBaseCrEvade(Range)
     range_end = 255
     default = 100
 
-class EquipmentMinimumPlusOffense(Range)
+class EquipmentMinimumPlusOffense(Range):
     """
     Set the lowest possible plus Offense stat on a weapon.
     """
@@ -309,7 +309,7 @@ class EquipmentMinimumPlusOffense(Range)
     range_end = 255
     default = 0
 
-class EquipmentMaximumPlusOffense(Range)
+class EquipmentMaximumPlusOffense(Range):
     """
     Set the highest possible plus Offense stat on a weapon.
     """
@@ -318,7 +318,7 @@ class EquipmentMaximumPlusOffense(Range)
     range_end = 255
     default = 4
 
-class EquipmentMinimumPlusRange(Range)
+class EquipmentMinimumPlusRange(Range):
     """
     Set the lowest possible plus Range stat on a weapon.
     """
@@ -327,7 +327,7 @@ class EquipmentMinimumPlusRange(Range)
     range_end = 255
     default = 0
 
-class EquipmentMaximumPlusRange(Range)
+class EquipmentMaximumPlusRange(Range):
     """
     Set the highest possible plus Range stat on a weapon.
     """
@@ -336,7 +336,7 @@ class EquipmentMaximumPlusRange(Range)
     range_end = 255
     default = 4
 
-class EquipmentMinimumPlusBullets(Range)
+class EquipmentMinimumPlusBullets(Range):
     """
     Set the lowest possible plus Bullets stat on a weapon.
     """
@@ -345,7 +345,7 @@ class EquipmentMinimumPlusBullets(Range)
     range_end = 255
     default = 0
 
-class EquipmentMaximumPlusBullets(Range)
+class EquipmentMaximumPlusBullets(Range):
     """
     Set the highest possible plus Bullets stat on a weapon.
     """
@@ -354,7 +354,7 @@ class EquipmentMaximumPlusBullets(Range)
     range_end = 255
     default = 4
 
-class EquipmentMinimumPlusDefense(Range)
+class EquipmentMinimumPlusDefense(Range):
     """
     Set the lowest possible plus Defense stat on an armor.
     """
@@ -363,7 +363,7 @@ class EquipmentMinimumPlusDefense(Range)
     range_end = 255
     default = 0
 
-class EquipmentMaximumPlusDefense(Range)
+class EquipmentMaximumPlusDefense(Range):
     """
     Set the highest possible plus Defense stat on an armor.
     """
@@ -372,7 +372,7 @@ class EquipmentMaximumPlusDefense(Range)
     range_end = 255
     default = 4
 
-class EquipmentMinimumPlusPEnergy(Range)
+class EquipmentMinimumPlusPEnergy(Range):
     """
     Set the lowest possible plus P.Energy stat on an armor.
     """
@@ -381,7 +381,7 @@ class EquipmentMinimumPlusPEnergy(Range)
     range_end = 255
     default = 0
 
-class EquipmentMaximumPlusPEnergy(Range)
+class EquipmentMaximumPlusPEnergy(Range):
     """
     Set the highest possible plus P.Energy stat on an armor.
     """
@@ -390,7 +390,7 @@ class EquipmentMaximumPlusPEnergy(Range)
     range_end = 255
     default = 4
 
-class EquipmentMinimumPlusCrEvade(Range)
+class EquipmentMinimumPlusCrEvade(Range):
     """
     Set the lowest possible plus CrEvade stat on an armor.
     """
@@ -399,7 +399,7 @@ class EquipmentMinimumPlusCrEvade(Range)
     range_end = 255
     default = 0
 
-class EquipmentMaximumPlusCrEvade(Range)
+class EquipmentMaximumPlusCrEvade(Range):
     """
     Set the highest possible plus CrEvade stat on an armor.
     """
@@ -408,7 +408,7 @@ class EquipmentMaximumPlusCrEvade(Range)
     range_end = 255
     default = 4
 
-class EquipmentMinimumModSlots(Range)
+class EquipmentMinimumModSlots(Range):
     """
     Set the lowest possible mod slots any weapon or armor can start with.
     """
@@ -417,7 +417,7 @@ class EquipmentMinimumModSlots(Range)
     range_end = 10
     default = 1
 
-class EquipmentMaximumModSlots(Range)
+class EquipmentMaximumModSlots(Range):
     """
     Set the highest possible mod slots any weapon or armor can be upgraded to.
     """
@@ -425,7 +425,6 @@ class EquipmentMaximumModSlots(Range)
     range_start = 0
     range_end = 10
     default = 10
-
 
 
 pe_option_groups = [
