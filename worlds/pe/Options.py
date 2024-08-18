@@ -278,6 +278,132 @@ class EquipmentMaximumBaseCrEvade(Range)
     range_end = 255
     default = 100
 
+class EquipmentMinimumPlusOffense(Range)
+    """
+    Set the lowest possible plus Offense stat on a weapon.
+    """
+    display_name = "Equipment Minimum Plus Offense"
+    range_start = 0
+    range_end = 255
+    default = 0
+
+class EquipmentMaximumPlusOffense(Range)
+    """
+    Set the highest possible plus Offense stat on a weapon.
+    """
+    display_name = "Equipment Maximum Plus Offense"
+    range_start = 0
+    range_end = 255
+    default = 4
+
+class EquipmentMinimumPlusRange(Range)
+    """
+    Set the lowest possible plus Range stat on a weapon.
+    """
+    display_name = "Equipment Minimum Plus Range"
+    range_start = 0
+    range_end = 255
+    default = 0
+
+class EquipmentMaximumPlusRange(Range)
+    """
+    Set the highest possible plus Range stat on a weapon.
+    """
+    display_name = "Equipment Maximum Plus Range"
+    range_start = 0
+    range_end = 255
+    default = 4
+
+class EquipmentMinimumPlusBullets(Range)
+    """
+    Set the lowest possible plus Bullets stat on a weapon.
+    """
+    display_name = "Equipment Minimum Plus Bullets"
+    range_start = 0
+    range_end = 255
+    default = 0
+
+class EquipmentMaximumPlusBullets(Range)
+    """
+    Set the highest possible plus Bullets stat on a weapon.
+    """
+    display_name = "Equipment Maximum Plus Bullets"
+    range_start = 0
+    range_end = 255
+    default = 4
+
+class EquipmentMinimumPlusDefense(Range)
+    """
+    Set the lowest possible plus Defense stat on an armor.
+    """
+    display_name = "Equipment Minimum Plus Defense"
+    range_start = 0
+    range_end = 255
+    default = 0
+
+class EquipmentMaximumPlusDefense(Range)
+    """
+    Set the highest possible plus Defense stat on an armor.
+    """
+    display_name = "Equipment Maximum Plus Defense"
+    range_start = 0
+    range_end = 255
+    default = 4
+
+class EquipmentMinimumPlusPEnergy(Range)
+    """
+    Set the lowest possible plus P.Energy stat on an armor.
+    """
+    display_name = "Equipment Minimum Plus P.Energy"
+    range_start = 0
+    range_end = 255
+    default = 0
+
+class EquipmentMaximumPlusPEnergy(Range)
+    """
+    Set the highest possible plus P.Energy stat on an armor.
+    """
+    display_name = "Equipment Maximum Plus P.Energy"
+    range_start = 0
+    range_end = 255
+    default = 4
+
+class EquipmentMinimumPlusCrEvade(Range)
+    """
+    Set the lowest possible plus CrEvade stat on an armor.
+    """
+    display_name = "Equipment Minimum Plus CrEvade"
+    range_start = 0
+    range_end = 255
+    default = 0
+
+class EquipmentMaximumPlusCrEvade(Range)
+    """
+    Set the highest possible plus CrEvade stat on an armor.
+    """
+    display_name = "Equipment Maximum Plus CrEvade"
+    range_start = 0
+    range_end = 255
+    default = 4
+
+class EquipmentMinimumModSlots(Range)
+    """
+    Set the lowest possible mod slots any weapon or armor can start with.
+    """
+    display_name = "Equipment Minimum Mod Slots"
+    range_start = 0
+    range_end = 10
+    default = 1
+
+class EquipmentMaximumModSlots(Range)
+    """
+    Set the highest possible mod slots any weapon or armor can be upgraded to.
+    """
+    display_name = "Equipment Maximum Mod Slots"
+    range_start = 0
+    range_end = 10
+    default = 10
+
 class PESanity(Choice)
     """
     Choose whether to randomize your learned PE spells and broaden their possible locations.
