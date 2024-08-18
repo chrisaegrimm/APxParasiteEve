@@ -425,29 +425,54 @@ class StatSanity(Toggle)
     """
     display_name = "StatSanity"
 
-Game Options
-    Progression Balancing
-    Accessibility
-    DeathLink
-    Schmoovement
-    Event Skip
 
-World Options
-    Game Mode (Open World, Dungeon Crawler)
-    End Goal
-    Start With Precinct
-    Starting Worlds Unlocked
-    Include Chrysler Building (None, Quick, Bosses-Only, Full)
-    Unreasonable Checks
-    Starting Junk
-
-Item Options
-    Combat Difficulty
-    Attachments
-    Equipment Stat Pool
-    Equipment Mod Slot Pool
-    Scavenger Mode
-    Hidden Potential
-    Engineer Mode
-    PE Shuffle
-    StatSanity
+pe_option_groups = [
+    OptionGroup("World Options", [
+        RandomizerMode,
+        EndGoal,
+        StartWithPrecinct,
+        StartingUnlockedAreas,
+        IncludeChryslerBuilding,
+        UnreasonableChecks,
+        RequiredJunk,
+    ]),
+    OptionGroup("Item Options", [
+        CombatDifficulty,
+        ItemPoolDifficulty,
+        ForcePEStaleness,
+        ScavengerMode,
+        ArmorAttachments,
+        PESanity,
+        StatSanity,
+    ]),
+    OptionGroup("Stat Options", [
+        HiddenPotential,
+        BuffNontraditionalWeaponry,
+        EquipmentMinimumBaseOffense,
+        EquipmentMaximumBaseOffense,
+        EquipmentMinimumBaseRange,
+        EquipmentMaximumBaseRange,
+        EquipmentMinimumBaseBullets,
+        EquipmentMaximumBaseBullets,
+        EquipmentMinimumBaseDefense,
+        EquipmentMaximumBaseDefense,
+        EquipmentMinimumBasePEnergy,
+        EquipmentMaximumBasePEnergy,
+        EquipmentMinimumBaseCrEvade,
+        EquipmentMaximumBaseCrEvade,
+        EquipmentMinimumPlusOffense,
+        EquipmentMaximumPlusOffense,
+        EquipmentMinimumPlusRange,
+        EquipmentMaximumPlusRange,
+        EquipmentMinimumPlusBullets,
+        EquipmentMaximumPlusBullets,
+        EquipmentMinimumPlusDefense,
+        EquipmentMaximumPlusDefense,
+        EquipmentMinimumPlusPEnergy,
+        EquipmentMaximumPlusPEnergy,
+        EquipmentMinimumPlusCrEvade,
+        EquipmentMaximumPlusCrEvade,
+        EquipmentMinimumModSlots,
+        EquipmentMaximumModSlots,
+    ]),
+]
