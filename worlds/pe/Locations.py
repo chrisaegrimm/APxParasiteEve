@@ -7,7 +7,7 @@ class PELoctData(typing.NamedTuple):
     region: str
 
 
-item_table: Dict[str, PELoctData] = {
+location_table: Dict[str, PELoctData] = {
     "Carnegie Hall - F1 Backstage: Chest":                             PELoctData(625001, "Carnegie Hall: NoReqs"),
     "Carnegie Hall - B1 Save Room: Chest":                             PELoctData(625002, "Carnegie Hall: Combat"),
     "Carnegie Hall - B1 Save Room: Theater Corpse":                    PELoctData(625003, "Carnegie Hall: Combat"),
