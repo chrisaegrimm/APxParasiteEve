@@ -14,9 +14,13 @@ class PEWeb(WebWorld):
     tutorials = [setup_en]
 
 
-class HelloWorld(World):
-    game = "template"
-    web = HelloWeb()
+class PEWorld(World):
+    """
+    One of them is a police officer. The other is possessed by an ancient evil threatening all life on Earth. The horrifying bond between them will continue until one of them dies.
+    Join NYPD rookie Aya Brea as she tracks down the biological entity known as Eve. Upgrade your weapons and hidden mitochondrial powers to save the city.
+    """
+    game = "Parasite Eve"
+    web = PEWeb()
     location_id_to_name = {}
     item_id_to_name = {}
 
