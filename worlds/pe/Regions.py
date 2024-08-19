@@ -35,4 +35,26 @@ pe_regions: Dict[str, str] = {
 
     "Soho: NoReqs": "Soho: WM",
 
-    
+    "Hospital: NoReqs": "Hospital: Combat",
+    "Hospital: Combat": "Hospital: Combat+AK",
+    "Hospital: Combat": "Hospital: Combat+GC",
+    "Hospital: Combat": "Hospital: Combat+BC",
+    "Hospital: Combat+BC": "Hospital: Combat+BC+Fuses",
+    "Hospital: Combat+BC+Fuses": "Hospital: Combat+BC+Fuses+EK+Boss",
+
+    "Chinatown: NoReqs|Combat+GK": "Chinatown: Combat|Combat+GK",
+    "Chinatown: Combat|Combat+GK": "Chinatown: Combat+Boss|Combat+GK+Boss",
+    "Chinatown: Combat|Combat+GK": "Chinatown: Combat|GK",
+    "Chinatown: Combat|GK": "Subway: Combat+PK|GK",
+
+    "Subway: Combat+PK|GK": "Subway: Combat+PK|Combat+GK",
+    "Subway: Combat+PK|Combat+GK": "Subway: Combat+PK+Boss|Combat+GK+Boss",
+
+    "Warehouse: NoReqs": "Warehouse: Combat",
+    "Warehouse: Combat": "Warehouse: Combat+WK",
+    "Warehouse: Combat+WK": "Warehouse: Combat+WK+Boss",
+
+    "Museum: NoReqs": "Museum: Combat",
+    "Museum: Combat": "Museum: Combat+KK",
+    "Museum: Combat+KK": "Museum: Combat+KK+Boss",
+    "Museum: Combat+KK+Boss": "Cruiser",
