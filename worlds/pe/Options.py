@@ -475,5 +475,5 @@ pe_option_groups = [
         EquipmentMaximumPlusCrEvade,
         EquipmentMinimumModSlots,
         EquipmentMaximumModSlots,
-    ]),
+    ])
 ]
