@@ -64,7 +64,7 @@ class StartingUnlockedAreas(Range):
     range_end = 8
     default = 8
 
-class IncludeChryslerBuilding(Choice):
+class IncludeChryslerBLDG(Choice):
     """
     Choose how the Chrysler Building is arranged to match your preferences:
 
@@ -73,7 +73,7 @@ class IncludeChryslerBuilding(Choice):
     Quick: Includes two random floors and a boss floor per floor set. (18, 19, 20, 28, 29, 30, etc.)
     Full: All 77 floors of the Chrysler Building are present and contain checks that may be required.
     """
-    display_name = "Include Chrysler Building"
+    display_name = "Include Chrysler BLDG"
     option_cbnone = 0
     option_cbboss = 1
     option_cbquick = 2
@@ -425,6 +425,57 @@ class EquipmentMaximumModSlots(Range):
     range_start = 0
     range_end = 10
     default = 10
+
+
+@dataclass
+class PEOptions(PerGameCommonOptions):
+    schmoovement:                  Schmoovement
+    event_skip:                    EventSkip
+    randomizer_mode:               RandomizerMode
+    end_goal:                      EndGoal
+    start_with_precinct:           StartWithPrecinct
+    starting_unlocked_areas:       StartingUnlockedAreas
+    include_chrysler_building:     IncludeChryslerBuilding
+    unreasonable_checks:           UnreasonableChecks
+    required_junk:                 RequiredJunk
+    combat_difficulty:             CombatDifficulty
+    item_pool_difficulty:          ItemPoolDifficulty
+    force_pe_staleness:            ForcePEStaleness
+    scavenger_mode:                ScavengerMode
+    armor_attachments:             ArmorAttachments
+    pesanity:                      PESanity
+    statsanity:                    StatSanity
+    hidden_potential:              HiddenPotential
+    buff_nontraditional_weaponry:  BuffNontraditionalWeaponry
+    equip_min_base_off:            EquipmentMinimumBaseOffense
+    equip_max_base_off:            EquipmentMaximumBaseOffense
+    equip_min_base_rng:            EquipmentMinimumBaseRange
+    equip_max_base_rng:            EquipmentMaximumBaseRange
+    equip_min_base_blt:            EquipmentMinimumBaseBullets
+    equip_max_base_blt:            EquipmentMaximumBaseBullets
+    equip_min_base_def:            EquipmentMinimumBaseDefense
+    equip_max_base_def:            EquipmentMaximumBaseDefense
+    equip_min_base_pen:            EquipmentMinimumBasePEnergy
+    equip_max_base_pen:            EquipmentMaximumBasePEnergy
+    equip_min_base_crt:            EquipmentMinimumBaseCrEvade
+    equip_max_base_crt:            EquipmentMaximumBaseCrEvade
+    equip_min_plus_off:            EquipmentMinimumPlusOffense
+    equip_max_plus_off:            EquipmentMaximumPlusOffense
+    equip_min_plus_rng:            EquipmentMinimumPlusRange
+    equip_max_plus_rng:            EquipmentMaximumPlusRange
+    equip_min_plus_blt:            EquipmentMinimumPlusBullets
+    equip_max_plus_blt:            EquipmentMaximumPlusBullets
+    equip_min_plus_def:            EquipmentMinimumPlusDefense
+    equip_max_plus_def:            EquipmentMaximumPlusDefense
+    equip_min_plus_pen:            EquipmentMinimumPlusPEnergy
+    equip_max_plus_pen:            EquipmentMaximumPlusPEnergy
+    equip_min_plus_crt:            EquipmentMinimumPlusCrEvade
+    equip_max_plus_crt:            EquipmentMaximumPlusCrEvade
+    equip_min_mod_slots:           EquipmentMinimumModSlots
+    equip_max_mod_slots:           EquipmentMaximumModSlots
+    
+    
+    
 
 
 pe_option_groups = [
