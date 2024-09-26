@@ -6,6 +6,7 @@ from .Options import PEOptions
 
 
 class PEWeb(WebWorld):
+    theme = "ice"
     setup_en = Tutorial(
         "Multiworld Setup Guide",
         "A guide to setting up the Parasite Eve Open-World Randomizer on your computer. This guide covers single-player and multiworld seeds.",
@@ -24,8 +25,10 @@ class PEWorld(World):
     """
     game = "Parasite Eve"
     web = PEWeb()
-    location_id_to_name = {}
-    item_id_to_name = {}
+    options_dataclass = PEOptions
+    options: PEOptions
+    location_id_to_name = PELoctData
+    item_id_to_name = PEItemData
 
     def create_regions(self) -> None:
         self.multiworld.regions.append(Region("Menu", self.player, self.multiworld))
