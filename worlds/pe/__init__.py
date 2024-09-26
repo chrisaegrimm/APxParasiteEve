@@ -1,5 +1,8 @@
 from BaseClasses import Region, Location, Item, ItemClassification, Tutorial
 from worlds.AutoWorld import World, WebWorld
+from .Items import PEItemData
+from .Locations import PELoctData
+from .Options import PEOptions
 
 
 class PEWeb(WebWorld):
