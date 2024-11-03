@@ -25,8 +25,8 @@ class PEWorld(World):
     """
     game = "Parasite Eve"
     web = PEWeb()
-    options_dataclass = PEOptions
     options: PEOptions
+    options_dataclass = PEOptions
     location_id_to_name = PELoctData
     item_id_to_name = PEItemData
 
