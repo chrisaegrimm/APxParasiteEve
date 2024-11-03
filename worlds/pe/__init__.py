@@ -30,10 +30,10 @@ class PEWorld(World):
     location_id_to_name = PELoctData
     item_id_to_name = PEItemData
 
-    def create_regions(self) -> None:
-        self.multiworld.regions.append(Region("Menu", self.player, self.multiworld))
+    def create_regions(self) -> PELoctData:
+        pass
 
-    def create_items(self) -> None:
+    def create_items(self) -> PEItemData:
         pass
 
     def create_item(self, name: str) -> "Item":
