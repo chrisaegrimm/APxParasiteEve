@@ -433,7 +433,7 @@ pe_option_groups = [
         EndGoal,
         StartWithPrecinct,
         StartingUnlockedAreas,
-        IncludeChryslerBuilding,
+        IncludeChryslerBLDG,
         UnreasonableChecks,
         RequiredJunk,
     ]),
@@ -487,7 +487,7 @@ class PEOptions(PerGameCommonOptions):
     end_goal:                      EndGoal
     start_with_precinct:           StartWithPrecinct
     starting_unlocked_areas:       StartingUnlockedAreas
-    include_chrysler_building:     IncludeChryslerBuilding
+    include_chrysler_bldg:         IncludeChryslerBLDG
     unreasonable_checks:           UnreasonableChecks
     required_junk:                 RequiredJunk
     combat_difficulty:             CombatDifficulty
