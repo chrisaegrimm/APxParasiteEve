@@ -1,6 +1,6 @@
 from typing import Dict
 
-pe_regions: Dict[str, str] = {
+PERegions: Dict[str, str] = {
 
     "Title Screen":                               "World Map",
 
