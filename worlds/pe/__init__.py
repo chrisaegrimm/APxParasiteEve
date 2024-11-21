@@ -34,12 +34,11 @@ class PEWorld(World):
     item_id_to_name = PEItemData
 
     def create_items(self, name: str) -> PEItemData:
-        return PEItemData(name, item_data_table[name].type, item_data_table[name].code, self.player)
+        return PEItemData(item_data_table[name].code, item_data_table[name].category, item_data_table[name].classification, self.player)
 
     def create_item(self) -> None:
         item_pool: List[PEItemData] = []
-        if item.code and item.can_create(self):
-            item_pool.append(self.create_item(name))
+        item_pool.append(self.create_item(name))
 
         self.multiworld.itempool += item_pool
 
