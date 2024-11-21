@@ -2,6 +2,7 @@ from BaseClasses import Region, Location, Item, ItemClassification, Tutorial
 from worlds.AutoWorld import World, WebWorld
 from .Items import PEItemData
 from .Locations import PELoctData
+from .Regions import PERegions
 from .Options import PEOptions
 
 
@@ -30,23 +31,25 @@ class PEWorld(World):
     location_id_to_name = PELoctData
     item_id_to_name = PEItemData
 
-    def create_regions(self) -> PELoctData:
-        pass
+    def create_items(self, name: str) -> PEItemData:
+        return PEItemData(name, item_data_table[name].type, item_data_table[name].code, self.player)
 
-    def create_items(self) -> PEItemData:
-        pass
+    def create_item(self) -> None:
+        item_pool: List[PEItemData] = []
+            if item.code and item.can_create(self):
+                item_pool.append(self.create_item(name))
 
-    def create_item(self, name: str) -> "Item":
-        item_class = self.get_item_classification(name)
-        return TemplateItem(name, item_class, self.item_id_to_name.get(name, None), self.player)
+        self.multiworld.itempool += item_pool
 
-    def get_item_classification(self, name: str) -> ItemClassification:
-        return ItemClassification.progression
+    def create_regions(self) -> None:
+        for region_name in PERegions.keys():
+            region = Region(region_name, self.player, self.multiworld)
+            self.multiworld.regions.append(region)
 
-
-class TemplateItem(Item):
-    game = "template"
-
-
-class TemplateLocation(Location):
-    game = "template"
+        for region_name, region_data in PERegions.items():
+            region = self.get_region(region_name)
+            region.add_locations({
+                location_name: location_data.address for location_name, location_data in location_data_table.items()
+                if location_data.region == region_name and location_data.can_create(self)
+            }, PELoctData)
+            region.add_exits(PERegions[region_name].connecting_regions)
