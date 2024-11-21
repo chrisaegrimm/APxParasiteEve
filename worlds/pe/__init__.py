@@ -38,8 +38,8 @@ class PEWorld(World):
 
     def create_item(self) -> None:
         item_pool: List[PEItemData] = []
-            if item.code and item.can_create(self):
-                item_pool.append(self.create_item(name))
+        if item.code and item.can_create(self):
+            item_pool.append(self.create_item(name))
 
         self.multiworld.itempool += item_pool
 
