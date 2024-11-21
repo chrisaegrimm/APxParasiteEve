@@ -525,3 +525,4 @@ class PEOptions(PerGameCommonOptions):
     equip_max_plus_crt:            EquipmentMaximumPlusCrEvade
     equip_min_mod_slots:           EquipmentMinimumModSlots
     equip_max_mod_slots:           EquipmentMaximumModSlots
+    death_link:                    DeathLink
