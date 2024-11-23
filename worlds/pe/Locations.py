@@ -2,12 +2,15 @@ import typing
 from BaseClasses import Location
 
 
+class PELoct(Location):
+    game = "Parasite Eve"
+
 class PELoctData(typing.NamedTuple):
     code: int
     region: str
 
 
-location_table = {
+location_table: Dict[str, PELoctData] = {
     "Carnegie Hall - F1 Backstage: Chest":                             PELoctData(625001, "Carnegie Hall: NoReqs"),
     "Carnegie Hall - B1 Save Room: Chest":                             PELoctData(625002, "Carnegie Hall: Combat"),
     "Carnegie Hall - B1 Save Room: Theater Corpse":                    PELoctData(625003, "Carnegie Hall: Combat"),
