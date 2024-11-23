@@ -1,4 +1,3 @@
-import typing
 from typing import NamedTuple, Dict
 from BaseClasses import Location
 
@@ -6,7 +5,7 @@ from BaseClasses import Location
 class PELoct(Location):
     game = "Parasite Eve"
 
-class PELoctData(typing.NamedTuple):
+class PELoctData(NamedTuple):
     code: int
     region: str
 
