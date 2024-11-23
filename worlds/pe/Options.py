@@ -1,5 +1,4 @@
 from dataclasses import dataclass
-
 from Options import Choice, Range, Toggle, DefaultOnToggle, DeathLink, OptionGroup, PerGameCommonOptions
 
 
@@ -18,7 +17,6 @@ class EventSkip(DefaultOnToggle):
     Allows in-game Event Skip feature while also allowing holding Square to skip past FMVs and dialogue when prompted.
     """
     display_name = "Event Skip"
-
 
 class RandomizerMode(Choice):
     """
@@ -428,6 +426,7 @@ class EquipmentMaximumModSlots(Range):
 
 
 pe_option_groups = [
+
     OptionGroup("World Options", [
         RandomizerMode,
         EndGoal,
@@ -437,6 +436,7 @@ pe_option_groups = [
         UnreasonableChecks,
         RequiredJunk,
     ]),
+
     OptionGroup("Item Options", [
         CombatDifficulty,
         ItemPoolDifficulty,
@@ -446,6 +446,7 @@ pe_option_groups = [
         PESanity,
         StatSanity,
     ]),
+
     OptionGroup("Stat Options", [
         HiddenPotential,
         BuffNontraditionalWeaponry,
@@ -481,6 +482,7 @@ pe_option_groups = [
 
 @dataclass
 class PEOptions(PerGameCommonOptions):
+
     schmoovement:                  Schmoovement
     event_skip:                    EventSkip
     randomizer_mode:               RandomizerMode
