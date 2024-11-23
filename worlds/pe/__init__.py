@@ -135,6 +135,6 @@ class PEWorld(World):
             final_boss = "Defeated The Purebred"
         elif self.options.end_goal.option_endallfinals:
             final_boss = "Cleared Both Final Sequences"
-        else final boss = "Final Boss String Failed On self.options.end_goal.option???"
+        else final_boss = "Final Boss String Failed On self.options.end_goal.option???"
 
         self.multiworld.completion_condition[self.player] = lambda state: state.has(final_boss, self.player)
