@@ -2,7 +2,7 @@ from typing import List, Dict, Any
 
 from BaseClasses import Region, Location, Item, ItemClassification, Tutorial
 from worlds.AutoWorld import World, WebWorld
-from .Items import PEItem, PEItemData, item_data_table, item_table
+from .Items import PEItem, PEItemData, item_table
 from .Locations import PELoctData, location_data_table, location_table
 from .Regions import PERegions
 from .Options import PEOptions, pe_option_groups
@@ -31,29 +31,7 @@ class PEWorld(World):
     options: PEOptions
     options_dataclass = PEOptions
     location_id_to_name = PELoctData
-    item_id_to_name = PEItem
-
-    def create_items(self, name: str) -> PEItemData:
-        return PEItemData(name, item_data_table[name].code, item_data_table[name].category, item_data_table[name].classification, self.player)
-
-    def create_item(self) -> None:
-        item_pool: List[PEItemData] = []
-        item_pool.append(self.create_item(name))
-
-        self.multiworld.itempool += item_pool
-
-    def create_regions(self) -> None:
-        for region_name in PERegions.keys():
-            region = Region(region_name, self.player, self.multiworld)
-            self.multiworld.regions.append(region)
-
-        for region_name, region_data in PERegions.items():
-            region = self.get_region(region_name)
-            region.add_locations({
-                location_name: location_data.address for location_name, location_data in location_data_table.items()
-                if location_data.region == region_name and location_data.can_create(self)
-            }, PELoctData)
-            region.add_exits(PERegions[region_name].connecting_regions)
+    item_id_to_name = PEItemData
 
 
     def fill_slot_data(self) -> Dict[str, Any]:
@@ -104,3 +82,26 @@ class PEWorld(World):
             "equip_max_mod_slots":          self.options.equip_max_mod_slots.value,
             "death_link":                   self.options.death_link.value,
         }
+
+
+    def create_regions(self) -> None:
+        for region_name in PERegions.keys():
+            region = Region(region_name, self.player, self.multiworld)
+            self.multiworld.regions.append(region)
+
+        for region_name, region_data in PERegions.items():
+            region = self.get_region(region_name)
+            region.add_locations({
+                location_name: location_data.address for location_name, location_data in location_data_table.items()
+                if location_data.region == region_name and location_data.can_create(self)
+            }, PELoctData)
+            region.add_exits(PERegions[region_name].connecting_regions)
+
+
+    def create_items(self):
+        itempool = []
+
+    def create_item(self, name: str) -> Item:
+        item_data = item_table[name]
+        item = PEItem(name, item_data.classification, item_data.code, self.player)
+        return item
