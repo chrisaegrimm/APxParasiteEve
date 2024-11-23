@@ -115,7 +115,7 @@ class PEWorld(World):
         return item
 
     def get_filler_item_name(self) -> str:
-        return self.random.choice(filler_items)
+        return "Ammo +0"
 
 
     def set_rules(self) -> None:
