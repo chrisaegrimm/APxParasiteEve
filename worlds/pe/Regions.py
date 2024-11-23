@@ -2,18 +2,18 @@ from typing import Dict
 
 PERegions: Dict[str, str] = {
 
-    "Title Screen":                               "World Map",
+    "Title Screen":                               "New York City",
 
-    "World Map":                                  "Carnegie Hall: NoReqs",
-    "World Map":                                  "N.Y.P.D. #17: NoReqs",
-    "World Map":                                  "Central Park: NoReqs",
-    "World Map":                                  "Soho: NoReqs",
-    "World Map":                                  "Hospital: NoReqs",
-    "World Map":                                  "Chinatown: NoReqs|Combat+GK",
-    "World Map":                                  "Subway: Combat+PK|GK",
-    "World Map":                                  "Warehouse: NoReqs",
-    "World Map":                                  "Museum: NoReqs",
-    "World Map":                                  "Chrysler BLDG.: Key 1",
+    "New York City":                              "Carnegie Hall: NoReqs",
+    "New York City":                              "N.Y.P.D. #17: NoReqs",
+    "New York City":                              "Central Park: NoReqs",
+    "New York City":                              "Soho: NoReqs",
+    "New York City":                              "Hospital: NoReqs",
+    "New York City":                              "Chinatown: NoReqs|Combat+GK",
+    "New York City":                              "Subway: Combat+PK|GK",
+    "New York City":                              "Warehouse: NoReqs",
+    "New York City":                              "Museum: NoReqs",
+    "New York City":                              "Chrysler BLDG.: Key 1",
 
     "Carnegie Hall: NoReqs":                      "Carnegie Hall: Combat",
     "Carnegie Hall: Combat":                      "Carnegie Hall: Combat+TK",
