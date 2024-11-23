@@ -3,7 +3,7 @@ from BaseClasses import Item, ItemClassification
 
 
 class PEItem(Item):
-    game: str = "Parasite Eve"
+    game = "Parasite Eve"
 
 class PEItemData(typing.NamedTuple):
     code: int
