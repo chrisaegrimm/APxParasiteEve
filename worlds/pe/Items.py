@@ -1,4 +1,3 @@
-import typing
 from typing import NamedTuple, Dict
 from BaseClasses import Item, ItemClassification
 
@@ -6,7 +5,7 @@ from BaseClasses import Item, ItemClassification
 class PEItem(Item):
     game = "Parasite Eve"
 
-class PEItemData(typing.NamedTuple):
+class PEItemData(NamedTuple):
     code: int
     category: str
     classification: any
