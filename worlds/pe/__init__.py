@@ -38,8 +38,8 @@ class PEWorld(World):
     item_id_to_name = PEItemData
 
 
-    def fill_slot_data(self) -> Dict[str, Any]:
-        slot_data: Dict[str, Any] = {
+    def fill_slot_data(self):
+        return {
             "schmoovement":                 self.options.schmoovement.value,
             "event_skip":                   self.options.event_skip.value,
             "randomizer_mode":              self.options.randomizer_mode.value,
