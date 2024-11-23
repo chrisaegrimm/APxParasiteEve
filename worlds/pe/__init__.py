@@ -3,9 +3,9 @@ from Typing import NamedTuple, List, Dict
 from BaseClasses import Location, Region, Item, ItemClassification, Tutorial
 from worlds.AutoWorld import WebWorld, World
 from .Options import PEOptions, pe_option_groups
-from .Locations import PELoct, location_table
-from .Regions import region_table
-from .Items import PEItem, item_table
+from .Locations import PELoct, location_data_table, location_table
+from .Regions import region_data_table
+from .Items import PEItem, data_item_table, item_table
 
 
 class PEWeb(WebWorld):
@@ -89,7 +89,7 @@ class PEWorld(World):
 
 
     def create_item(self, name: str) -> PEItem:
-        return PEItem(name, item_table[name].classification, item_table[name].code, self.player)
+        return PEItem(name, item_data_table[name].classification, item_data_table[name].code, self.player)
 
     def create_items(self) -> None:
         item_pool: List[PEItem] = []
@@ -97,7 +97,7 @@ class PEWorld(World):
         location_count: int = 615
 
     item_pool += [self.create_item(name)
-                  for name in item_table.keys()
+                  for name in item_data_table.keys()
                   if name not in self.options.start_inventory]
 
     filler_item_count: int = location_count - len(item_pool)
@@ -107,18 +107,18 @@ class PEWorld(World):
 
 
     def create_regions(self) -> None:
-        from .Regions import region_table
-        for region_name in region_table.keys():
+        from .Regions import region_data_table
+        for region_name in region_data_table.keys():
             region = Region(region_name, self.player, self.multiworld)
             self.multiworld.regions.append(region)
 
-        for region_name, region_data in region_table.items():
+        for region_name, region_data in region_data_table.items():
             region = self.multiworld.get_region(region_name, self.player)
             region.add_locations({
                 location_name: location_data.address for location_name, location_data in location_table.items()
                 if location_data.region == region_name
             }, PELoct)
-        region.add_exits(region_table[region_name].connecting_regions)
+        region.add_exits(region_data_table[region_name].connecting_regions)
 
 
     def get_filler_item_name(self) -> str:
@@ -135,5 +135,6 @@ class PEWorld(World):
             final_boss = "Defeated The Purebred"
         elif self.options.end_goal.option_endallfinals:
             final_boss = "Cleared Both Final Sequences"
+        else final boss = "Final Boss String Failed On self.options.end_goal.option???"
 
         self.multiworld.completion_condition[self.player] = lambda state: state.has(final_boss, self.player)
