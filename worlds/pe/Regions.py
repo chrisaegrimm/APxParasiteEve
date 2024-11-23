@@ -5,7 +5,7 @@ class PERegions(NamedTuple):
     connecting_regions: List[str] = []
 
 
-region_table: Dict[str, PERegions] = {
+region_data_table: Dict[str, PERegions] = {
 
     "Title Screen":                               PERegions(["New York City"]),
 
