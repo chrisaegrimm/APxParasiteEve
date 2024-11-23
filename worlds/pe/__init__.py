@@ -10,15 +10,19 @@ from .Options import PEOptions, pe_option_groups
 
 class PEWeb(WebWorld):
     theme = "ice"
-    setup_en = Tutorial(
-        "Multiworld Setup Guide",
-        "A guide to setting up the Parasite Eve Open-World Randomizer on your computer. This guide covers single-player and multiworld seeds.",
-        "English",
-        "pe_setup_en.md",
-        "pe_setup/en",
-        ["chrisaegrimm"]
-    )
-    tutorials = [setup_en]
+    game = "Parasite Eve"
+    option_groups = pe_option_groups
+
+    tutorials = [
+        Tutorial(
+            tutorial_name="Multiworld Setup Guide",
+            description="A guide to setting up the Parasite Eve Open-World Randomizer on your computer. This guide covers single-player and AP multiworld seeds.",
+            language="English",
+            file_name="pe_setup_en.md",
+            link="pe_setup/en",
+            authors=["chrisaegrimm"]
+        )
+    ]
 
 
 class PEWorld(World):
