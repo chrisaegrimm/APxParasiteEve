@@ -11,9 +11,6 @@ class PEItemData(typing.NamedTuple):
     classification: any
 
 
-
-
-
 item_table: Dict[str, PEItemData] = {
     
     "Ammo +6":          PEItemData(624001, "AutoDist",    ItemClassification.filler),
