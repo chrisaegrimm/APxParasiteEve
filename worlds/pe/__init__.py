@@ -110,6 +110,9 @@ class PEWorld(World):
         item = PEItem(name, item_data.classification, item_data.code, self.player)
         return item
 
+    def get_filler_item_name(self) -> str:
+        return self.random.choice(filler_items)
+
 
     def set_rules(self) -> None:
         final_boss: str
