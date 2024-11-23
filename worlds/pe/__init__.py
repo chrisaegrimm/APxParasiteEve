@@ -1,11 +1,11 @@
 import typing
 
-from BaseClasses import Region, Location, Item, ItemClassification, Tutorial
-from worlds.AutoWorld import World, WebWorld
-from .Items import PEItem, PEItemData, item_table
-from .Locations import PELoctData, location_data_table, location_table
-from .Regions import PERegions
+from BaseClasses import Location, Region, Item, ItemClassification, Tutorial
+from worlds.AutoWorld import WebWorld, World
 from .Options import PEOptions, pe_option_groups
+from .Locations import PELoct, location_table
+from .Regions import PERegions
+from .Items import PEItem, item_table
 
 
 class PEWeb(WebWorld):
