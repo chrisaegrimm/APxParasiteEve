@@ -4,7 +4,7 @@ from BaseClasses import Location, Region, Item, ItemClassification, Tutorial
 from worlds.AutoWorld import WebWorld, World
 from .Options import PEOptions, pe_option_groups
 from .Locations import PELoct, location_table
-from .Regions import PERegions
+from .Regions import region_table
 from .Items import PEItem, item_table
 
 
@@ -106,9 +106,25 @@ class PEWorld(World):
     self.multiworld.itempool += item_pool
 
 
-    # REGIONS TO-DO
+    def create_regions(self) -> None:
+        from .Regions import region_table
+        for region_name in region_table.keys():
+            region = Region(region_name, self.player, self.multiworld)
+            self.multiworld.regions.append(region)
+
+        for region_name, region_data in region_table.items():
+            region = self.multiworld.get_region(region_name, self.player)
+            region.add_locations({
+                location_name: location_data.address for location_name, location_data in location_table.items()
+                if location_data.region == region_name
+            }, PELoct)
+        region.add_exits(region_table[region_name].connecting_regions)
 
 
+    def get_filler_item_name(self) -> str:
+        return "Junk"
+
+    
     def set_rules(self) -> None:
         final_boss: str
         if self.options.end_goal.option_endeve4:
