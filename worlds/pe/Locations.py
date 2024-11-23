@@ -1,5 +1,5 @@
 import typing
-from typing import Dict
+from typing import NamedTuple, Dict
 from BaseClasses import Location
 
 
