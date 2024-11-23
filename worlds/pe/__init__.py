@@ -103,7 +103,11 @@ class PEWorld(World):
 
 
     def create_items(self):
-        itempool = []
+        itempool = [PEItemData]
+        while len(itempool) < len(self.multiworld.get_unfilled_locations(self.player)):
+            itempool.append(self.create_filler())
+
+        self.multiworld.itempool += itempool
 
     def create_item(self, name: str) -> Item:
         item_data = item_table[name]
