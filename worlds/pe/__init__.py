@@ -31,7 +31,7 @@ class PEWorld(World):
     options: PEOptions
     options_dataclass = PEOptions
     location_id_to_name = PELoctData
-    item_id_to_name = PEItemData
+    item_id_to_name = PEItem
 
     def create_items(self, name: str) -> PEItemData:
         return PEItemData(name, item_data_table[name].code, item_data_table[name].category, item_data_table[name].classification, self.player)
