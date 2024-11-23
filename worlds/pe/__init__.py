@@ -2,7 +2,7 @@ from typing import List, Dict, Any
 
 from BaseClasses import Region, Location, Item, ItemClassification, Tutorial
 from worlds.AutoWorld import World, WebWorld
-from .Items import PEItemData, item_data_table, item_table
+from .Items import PEItem, PEItemData, item_data_table, item_table
 from .Locations import PELoctData, location_data_table, location_table
 from .Regions import PERegions
 from .Options import PEOptions, pe_option_groups
