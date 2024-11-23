@@ -11,7 +11,7 @@ class PEItemData(NamedTuple):
     classification: any
 
 
-item_table: Dict[str, PEItemData] = {
+item_data_table: Dict[str, PEItemData] = {
     
     "Ammo +6":          PEItemData(624001, "AutoDist",    ItemClassification.filler),
     "Ammo +15":         PEItemData(624002, "AutoDist",    ItemClassification.useful),
@@ -294,3 +294,5 @@ item_table: Dict[str, PEItemData] = {
     "Silence Trap":     PEItemData(624274, "Trap",        ItemClassification.trap),
     "Impact Trap":      PEItemData(624275, "Trap",        ItemClassification.trap),
 }
+
+item_table = {name: data.code for name, data in item_data_table.items() if data.code is not None}
