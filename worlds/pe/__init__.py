@@ -1,4 +1,4 @@
-import typing
+from Typing import NamedTuple, List, Dict
 
 from BaseClasses import Location, Region, Item, ItemClassification, Tutorial
 from worlds.AutoWorld import WebWorld, World
