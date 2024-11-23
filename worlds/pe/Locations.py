@@ -622,5 +622,5 @@ location_table: Dict[str, PELoctData] = {
     "Level Stat - P.Energy: 36":                                       PELoctData(625612, "LevelStat+UnrChks"),
     "Level Stat - StatusRcvr: 36":                                     PELoctData(625613, "LevelStat+UnrChks"),
     "Level Stat - ActiveTime: 36":                                     PELoctData(625614, "LevelStat+UnrChks"),
-    "Level Stat - ItemCapcty: 36":                                     PELoctData(625615, "LevelStat+UnrChks")
+    "Level Stat - ItemCapcty: 36":                                     PELoctData(625615, "LevelStat+UnrChks"),
 }
