@@ -6,11 +6,12 @@ class PELoct(Location):
     game = "Parasite Eve"
 
 class PELoctData(NamedTuple):
-    code: int
+    address: int
     region: str
 
 
-location_table: Dict[str, PELoctData] = {
+location_data_table: Dict[str, PELoctData] = {
+
     "Carnegie Hall - F1 Backstage: Chest":                             PELoctData(625001, "Carnegie Hall: NoReqs"),
     "Carnegie Hall - B1 Save Room: Chest":                             PELoctData(625002, "Carnegie Hall: Combat"),
     "Carnegie Hall - B1 Save Room: Theater Corpse":                    PELoctData(625003, "Carnegie Hall: Combat"),
@@ -228,6 +229,7 @@ location_table: Dict[str, PELoctData] = {
     "Museum - 3F Final Approach: Right Chest Behind Glass":            PELoctData(625215, "Museum: Combat+KK+Boss"),
     "Museum - 3F Final Approach: Left Chest Behind Glass":             PELoctData(625216, "Museum: Combat+KK+Boss"),
     "Cruiser - Deck: Daniel's Sacrifice":                              PELoctData(625217, "Cruiser"),
+
     "Chrysler BLDG. - Treasurebox Set 1-01: Offense":                  PELoctData(625218, "Chrysler BLDG.: Key 1"),
     "Chrysler BLDG. - Treasurebox Set 1-01: Cr Evade":                 PELoctData(625219, "Chrysler BLDG.: Key 1"),
     "Chrysler BLDG. - Treasurebox Set 1-01: Tool":                     PELoctData(625220, "Chrysler BLDG.: Key 1"),
@@ -401,6 +403,7 @@ location_table: Dict[str, PELoctData] = {
     "Chrysler BLDG. - Treasurebox Set 7-08: Club 5":                   PELoctData(625388, "Chrysler BLDG.: Key 7"),
     "Chrysler BLDG. - Treasurebox Set 7-08: Cr Armor 2":               PELoctData(625389, "Chrysler BLDG.: Key 7"),
     "Chrysler BLDG. - 70F Queen Bee: Boss Drop":                       PELoctData(625390, "Chrysler BLDG.: Key 7"),
+
     "PE - Heal 1: Awakening":                                          PELoctData(625391, "Carnegie Hall: NoReqs"),
     "PE - Scan: Level 4":                                              PELoctData(625392, "PE"),
     "PE - Slow: Level 7":                                              PELoctData(625393, "PE"),
@@ -416,6 +419,7 @@ location_table: Dict[str, PELoctData] = {
     "PE - Preraise: Level 30":                                         PELoctData(625403, "PE"),
     "PE - Full Recover: Level 32":                                     PELoctData(625404, "PE"),
     "PE - Liberate: Level 33":                                         PELoctData(625405, "PE"),
+
     "Level Stat - Offense: 2":                                         PELoctData(625406, "LevelStat"),
     "Level Stat - Defense: 2":                                         PELoctData(625407, "LevelStat"),
     "Level Stat - P.Energy: 2":                                        PELoctData(625408, "LevelStat"),
@@ -627,3 +631,5 @@ location_table: Dict[str, PELoctData] = {
     "Level Stat - ActiveTime: 36":                                     PELoctData(625614, "LevelStat+UnrChks"),
     "Level Stat - ItemCapcty: 36":                                     PELoctData(625615, "LevelStat+UnrChks"),
 }
+
+location_table = {name: data.address for name, data in location_data_table.items() if data.address is not None}
