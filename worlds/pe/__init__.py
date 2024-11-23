@@ -34,8 +34,8 @@ class PEWorld(World):
     web = PEWeb()
     options: PEOptions
     options_dataclass = PEOptions
-    location_id_to_name = PELoctData
-    item_id_to_name = PEItemData
+    location_name_to_id = PELoctData
+    item_name_to_id = PEItemData
 
 
     def fill_slot_data(self):
