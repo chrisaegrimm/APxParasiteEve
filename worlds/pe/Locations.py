@@ -1,5 +1,5 @@
+from typing import Dict, NamedTuple
 from BaseClasses import Location
-import typing
 
 
 class PELoctData(typing.NamedTuple):
