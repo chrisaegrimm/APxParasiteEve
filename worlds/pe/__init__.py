@@ -109,3 +109,17 @@ class PEWorld(World):
         item_data = item_table[name]
         item = PEItem(name, item_data.classification, item_data.code, self.player)
         return item
+
+
+    def set_rules(self) -> None:
+        final_boss: str
+        if self.options.end_goal.option_endeve4:
+            final_boss = "Defeated Eve 4"
+        elif self.options.end_goal.option_endubescape:
+            final_boss = "Survived U.B."
+        elif self.options.end_goal.option_endpurebred:
+            final_boss = "Defeated The Purebred"
+        elif self.options.end_goal.option_endallfinals:
+            final_boss = "Cleared Both Final Sequences"
+
+        self.multiworld.completion_condition[self.player] = lambda state: state.has(final_boss, self.player)
