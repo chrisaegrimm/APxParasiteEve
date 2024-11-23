@@ -34,8 +34,8 @@ class PEWorld(World):
     web = PEWeb()
     options: PEOptions
     options_dataclass = PEOptions
-    location_name_to_id = PELoctData
-    item_name_to_id = PEItemData
+    location_name_to_id = location_data
+    item_name_to_id = item_data
 
 
     def fill_slot_data(self):
@@ -88,34 +88,25 @@ class PEWorld(World):
         }
 
 
-    def create_regions(self) -> None:
-        for region_name in PERegions.keys():
-            region = Region(region_name, self.player, self.multiworld)
-            self.multiworld.regions.append(region)
+    def create_item(self, name: str) -> PEItem:
+        return PEItem(name, item_table[name].classification, item_table[name].code, self.player)
 
-        for region_name, region_data in PERegions.items():
-            region = self.get_region(region_name)
-            region.add_locations({
-                location_name: location_data.address for location_name, location_data in location_data_table.items()
-                if location_data.region == region_name and location_data.can_create(self)
-            }, PELoctData)
-            region.add_exits(PERegions[region_name].connecting_regions)
+    def create_items(self) -> None:
+        item_pool: List[PEItem] = []
+
+        location_count: int = 615
+
+    item_pool += [self.create_item(name)
+                  for name in item_table.keys()
+                  if name not in self.options.start_inventory]
+
+    filler_item_count: int = location_count - len(item_pool)
+    item_pool += [self.create_item("Junk") for _ in range(filler_item_count)]
+
+    self.multiworld.itempool += item_pool
 
 
-    def create_items(self):
-        itempool = [PEItemData]
-        while len(itempool) < len(self.multiworld.get_unfilled_locations(self.player)):
-            itempool.append(self.create_filler())
-
-        self.multiworld.itempool += itempool
-
-    def create_item(self, name: str) -> Item:
-        item_data = item_table[name]
-        item = PEItem(name, item_data.classification, item_data.code, self.player)
-        return item
-
-    def get_filler_item_name(self) -> str:
-        return "Ammo +0"
+    # REGIONS TO-DO
 
 
     def set_rules(self) -> None:
