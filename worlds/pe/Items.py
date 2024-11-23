@@ -2,17 +2,20 @@ import typing
 from BaseClasses import Item, ItemClassification
 
 
+class PEItem(Item):
+    game: str = "Parasite Eve"
+
 class PEItemData(typing.NamedTuple):
     code: int
     category: str
     classification: any
 
 
-class PEItem(Item):
-    game: str = "Parasite Eve"
 
 
-item_table = {
+
+item_table: Dict[str, PEItemData] = {
+    
     "Ammo +6":          PEItemData(624001, "AutoDist",    ItemClassification.filler),
     "Ammo +15":         PEItemData(624002, "AutoDist",    ItemClassification.useful),
     "Ammo +30":         PEItemData(624003, "AutoDist",    ItemClassification.useful),
@@ -75,6 +78,7 @@ item_table = {
     #Chrysler Key 5":   PEItemData(624060, "Chrysler Building not yet implemented."),
     #Chrysler Key 6":   PEItemData(624061, "Chrysler Building not yet implemented."),
     #Chrysler Key 7":   PEItemData(624062, "Chrysler Building not yet implemented."),
+
     "Club 1":           PEItemData(624063, "Weapon",      ItemClassification.useful),
     "Club 2":           PEItemData(624064, "Weapon",      ItemClassification.useful),
     "Club 3":           PEItemData(624065, "Weapon",      ItemClassification.useful),
@@ -212,6 +216,7 @@ item_table = {
     "Cm Armor 1":       PEItemData(624197, "Armor",       ItemClassification.useful),
     "Cm Armor 2":       PEItemData(624198, "Armor",       ItemClassification.progression),
     #Cm Suit 2":        PEItemData(624199, "Armor-equivalent of Debug SMG, excluded."),
+
     "Theater Key":      PEItemData(624200, "KeyItem",     ItemClassification.progression),
     "Rehearse Key":     PEItemData(624201, "KeyItem",     ItemClassification.progression),
     "Zoo Key":          PEItemData(624202, "KeyItem",     ItemClassification.progression),
@@ -248,6 +253,7 @@ item_table = {
     "Type38 T Card":    PEItemData(624233, "KeyItem",     ItemClassification.progression),
     "Type3 T Card":     PEItemData(624234, "KeyItem",     ItemClassification.progression),
     "Eagle T Card":     PEItemData(624235, "KeyItem",     ItemClassification.progression),
+
     "Heal 1":           PEItemData(624236, "PEnergy",     ItemClassification.progression),
     "Heal 2":           PEItemData(624237, "PEnergy",     ItemClassification.progression),
     "Heal 3":           PEItemData(624238, "PEnergy",     ItemClassification.progression),
@@ -268,6 +274,7 @@ item_table = {
     #mito18":           PEItemData(624253, "Unused PE, has an animation, but no cost or effect.")
     "Full Recover":     PEItemData(624254, "PEnergy",     ItemClassification.progression),
     "Liberate":         PEItemData(624255, "PEnergy",     ItemClassification.progression),
+
     "Carnegie Hall":    PEItemData(624256, "VisitUnlock", ItemClassification.progression),
     "N.Y.P.D. #17":     PEItemData(624257, "VisitUnlock", ItemClassification.progression),
     "Central Park":     PEItemData(624258, "VisitUnlock", ItemClassification.progression),
@@ -278,6 +285,7 @@ item_table = {
     "Warehouse":        PEItemData(624263, "VisitUnlock", ItemClassification.progression),
     "Museum":           PEItemData(624264, "VisitUnlock", ItemClassification.progression),
     #Chrysler BLDG.":   PEItemData(624265, "Chrysler Building is currently unused."),
+
     "Offense Level":    PEItemData(624266, "LevelStat",   ItemClassification.progression),
     "Defense Level":    PEItemData(624267, "LevelStat",   ItemClassification.progression),
     "P.Energy Level":   PEItemData(624268, "LevelStat",   ItemClassification.progression),
