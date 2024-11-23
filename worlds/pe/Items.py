@@ -8,7 +8,11 @@ class PEItemData(typing.NamedTuple):
     classification: any
 
 
-item_table: Dict[str, PEItemData] = {
+class PEItem(Item):
+    game: str = "Parasite Eve"
+
+
+item_table = {
     "Ammo +6":          PEItemData(624001, "AutoDist",    ItemClassification.filler),
     "Ammo +15":         PEItemData(624002, "AutoDist",    ItemClassification.useful),
     "Ammo +30":         PEItemData(624003, "AutoDist",    ItemClassification.useful),
@@ -283,5 +287,5 @@ item_table: Dict[str, PEItemData] = {
     "Confusion Trap":   PEItemData(624272, "Trap",        ItemClassification.trap),
     "Darkness Trap":    PEItemData(624273, "Trap",        ItemClassification.trap),
     "Silence Trap":     PEItemData(624274, "Trap",        ItemClassification.trap),
-    "Impact Trap":      PEItemData(624275, "Trap",        ItemClassification.trap)
+    "Impact Trap":      PEItemData(624275, "Trap",        ItemClassification.trap),
 }
