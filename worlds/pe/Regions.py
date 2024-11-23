@@ -64,6 +64,5 @@ PERegions: Dict[str, str] = {
     "Chrysler BLDG.: Key 3":                      "Chrysler BLDG.: Key 4",
     "Chrysler BLDG.: Key 4":                      "Chrysler BLDG.: Key 5",
     "Chrysler BLDG.: Key 5":                      "Chrysler BLDG.: Key 6",
-    "Chrysler BLDG.: Key 6":                      "Chrysler BLDG.: Key 7"
-
+    "Chrysler BLDG.: Key 6":                      "Chrysler BLDG.: Key 7",
 }
