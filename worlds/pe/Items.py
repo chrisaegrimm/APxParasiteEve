@@ -295,4 +295,4 @@ item_data_table: Dict[str, PEItemData] = {
     "Impact Trap":      PEItemData(624275, "Trap",        ItemClassification.trap),
 }
 
-item_table = {name: data.code for name, data in item_table.items()}
+item_table = {name: data.code for name, data in item_data_table.items()}
