@@ -96,14 +96,14 @@ class PEWorld(World):
 
         location_count: int = 615
 
-    item_pool += [self.create_item(name)
-                  for name in item_data_table.keys()
-                  if name not in self.options.start_inventory]
+        item_pool += [self.create_item(name)
+                      for name in item_data_table.keys()
+                      if name not in self.options.start_inventory]
 
-    filler_item_count: int = location_count - len(item_pool)
-    item_pool += [self.create_item("Junk") for _ in range(filler_item_count)]
+        filler_item_count: int = location_count - len(item_pool)
+        item_pool += [self.create_item("Junk") for _ in range(filler_item_count)]
 
-    self.multiworld.itempool += item_pool
+        self.multiworld.itempool += item_pool
 
 
     def create_regions(self) -> None:
