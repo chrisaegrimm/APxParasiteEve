@@ -5,7 +5,7 @@ from worlds.AutoWorld import WebWorld, World
 from .Options import PEOptions, pe_option_groups
 from .Locations import PELoct, location_data_table, location_table
 from .Regions import region_data_table
-from .Items import PEItem, data_item_table, item_table
+from .Items import PEItem, item_data_table, item_table
 
 
 class PEWeb(WebWorld):
