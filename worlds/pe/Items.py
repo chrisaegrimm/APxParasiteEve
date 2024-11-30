@@ -1,4 +1,4 @@
-from typing import NamedTuple, Dict, Optional
+from typing import NamedTuple, Dict
 from BaseClasses import Item, ItemClassification
 
 
@@ -6,7 +6,7 @@ class PEItem(Item):
     game = "Parasite Eve"
 
 class PEItemData(NamedTuple):
-    code: typing.Optional[int]
+    code: int
     category: str
     classification: any
 
@@ -295,4 +295,4 @@ item_data_table: Dict[str, PEItemData] = {
     "Impact Trap":      PEItemData(624275, "Trap",        ItemClassification.trap),
 }
 
-item_table = {name: data.code for name, data in item_data_table.items() if data.code is not None}
+item_table = {name: data.code for name, data in item_data_table.items()}
