@@ -127,6 +127,20 @@ class ItemPoolDifficulty(Choice):
     option_masochistic = 3
     default = 0
 
+class IncludeTraps(Toggle):
+    """
+    Adds traps to the item pool based on your choice in Item Pool Difficulty. Traps aren't included in logic and can include
+    traps like Darkness Trap and Confusion Trap, affecting you outside of combat as well.
+    """
+    display_name = "Include Traps"
+
+class IncludeBoosts(Toggle):
+    """
+    Adds boosts to the item pool based on your choice in Item Pool Difficulty. Boosts aren't included in logic and can include
+    boons like increasing your bonus points and replenishing your current HP / PE.
+    """
+    display_name = "Include Boosts"
+
 class ForcePEStaleness(Toggle):
     """
     Regarded as a glitch and not a feature, this setting removes the ability to switch armors in combat,
@@ -161,14 +175,14 @@ class PESanity(Choice):
     option_pelocations = 2
     default = 0
 
-class StatSanity(Toggle):
+class LevelStatSanity(Toggle):
     """
     Shuffle every stat gained from levels, as well as make every stat normally gained a check.
 
     Note: This greatly extends your amount of available locations at the cost of making combat a pain.
     If 'Unreasonable Checks' are turned on as well, you may required to climb to Level 36 for progression.
     """
-    display_name = "StatSanity"
+    display_name = "LevelStatSanity"
 
 
 class HiddenPotential(Toggle):
@@ -180,6 +194,25 @@ class HiddenPotential(Toggle):
     slots to the chosen setting for 'Equipment Maximum Mod Slot Pool'.
     """
     display_name = "Hidden Potential"
+
+class ShuffleEquipmentTypes(Toggle):
+    """
+    Allows weapon and armor types of weapons and armor to be shuffled.
+    Rifles may become clubs and shotguns may become rocket launchers.
+    """
+    display_name = "Shuffle Equipment Types"
+
+class AccurateEquipmentTypeIcon(Choice):
+    """
+    An extension of Shuffle Equipment Types, this settings changes the icons of the equipment affected by type shuffle
+    to however you decide here: Accurate to the new type, shuffled and unmatched, or simply hidden entirely.
+    This setting has no effect without Shuffle Equipment Types active.
+    """
+    display_name = "Accurate Equipment Type Icon"
+    option_accurate = 0
+    option_shuffled = 1
+    option_hidden = 2
+    default = 0
 
 class BuffNontraditionalWeaponry(Toggle):
     """
@@ -440,15 +473,20 @@ pe_option_groups = [
     OptionGroup("Item Options", [
         CombatDifficulty,
         ItemPoolDifficulty,
+        IncludeTraps,
+        IncludeBoosts,
         ForcePEStaleness,
         ScavengerMode,
         ArmorAttachments,
         PESanity,
-        StatSanity,
+        LevelStatSanity,
     ]),
 
     OptionGroup("Stat Options", [
         HiddenPotential,
+        ShuffleEquipmentTypes,
+        AccurateEquipmentTypeIcon,
+        ShuffleEquipmentStats,
         BuffNontraditionalWeaponry,
         EquipmentMinimumBaseOffense,
         EquipmentMaximumBaseOffense,
@@ -494,12 +532,16 @@ class PEOptions(PerGameCommonOptions):
     required_junk:                 RequiredJunk
     combat_difficulty:             CombatDifficulty
     item_pool_difficulty:          ItemPoolDifficulty
+    include_traps:                 IncludeTraps
+    include_boosts:                IncludeBoosts
     force_pe_staleness:            ForcePEStaleness
     scavenger_mode:                ScavengerMode
     armor_attachments:             ArmorAttachments
     pesanity:                      PESanity
-    statsanity:                    StatSanity
+    levelstatsanity:               LevelStatSanity
     hidden_potential:              HiddenPotential
+    shuffle_equipment_types:       ShuffleEquipmentTypes
+    accurate_equipment_type_icon:  AccurateEquipmentTypeIcon
     buff_nontraditional_weaponry:  BuffNontraditionalWeaponry
     equip_min_base_off:            EquipmentMinimumBaseOffense
     equip_max_base_off:            EquipmentMaximumBaseOffense
