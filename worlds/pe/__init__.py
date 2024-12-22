@@ -10,7 +10,6 @@ from .Items import PEItem, item_data_table, item_table
 
 class PEWeb(WebWorld):
     theme = "ice"
-    game = "Parasite Eve"
     option_groups = pe_option_groups
 
     tutorials = [
