@@ -214,6 +214,13 @@ class AccurateEquipmentTypeIcon(Choice):
     option_hidden = 2
     default = 0
 
+class ShuffleEquipmentStats(Toggle):
+    """
+    Allows shuffling of base and plus stats, as well as minimum and maximum mod slots, for all equipment based on the parameters you choose
+    within this category. Setting this to false will keep vanilla stats and slots, ignoring all set stat ranges in this yaml.
+    """
+    display_name = "Shuffle Equipment Types"
+
 class BuffNontraditionalWeaponry(Toggle):
     """
     This setting applies the value in Equipment Maximum Base stat settings and applies a 1.5x multiplier for
