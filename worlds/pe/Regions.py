@@ -7,18 +7,16 @@ class PERegions(NamedTuple):
 
 region_data_table: Dict[str, PERegions] = {
 
-    "Title Screen":                                  PERegions(["New York City"]),
-
-    "New York City":                                 PERegions(["Carnegie Hall: NoReqs"]),
-    "New York City":                                 PERegions(["N.Y.P.D. #17: NoReqs"]),
-    "New York City":                                 PERegions(["Central Park: NoReqs"]),
-    "New York City":                                 PERegions(["Soho: NoReqs"]),
-    "New York City":                                 PERegions(["Hospital: NoReqs"]),
-    "New York City":                                 PERegions(["Chinatown: NoReqs|Combat+GK"]),
-    "New York City":                                 PERegions(["Subway: Combat+PK|GK"]),
-    "New York City":                                 PERegions(["Warehouse: NoReqs"]),
-    "New York City":                                 PERegions(["Museum: NoReqs"]),
-    "New York City":                                 PERegions(["Chrysler BLDG.: Key 1"]),
+    "Menu":                                          PERegions(["Carnegie Hall: NoReqs"]),
+    "Menu":                                          PERegions(["N.Y.P.D. #17: NoReqs"]),
+    "Menu":                                          PERegions(["Central Park: NoReqs"]),
+    "Menu":                                          PERegions(["Soho: NoReqs"]),
+    "Menu":                                          PERegions(["Hospital: NoReqs"]),
+    "Menu":                                          PERegions(["Chinatown: NoReqs|Combat+GK"]),
+    "Menu":                                          PERegions(["Subway: Combat+PK|GK"]),
+    "Menu":                                          PERegions(["Warehouse: NoReqs"]),
+    "Menu":                                          PERegions(["Museum: NoReqs"]),
+    "Menu":                                          PERegions(["Chrysler BLDG.: Key 1"]),
 
     "Carnegie Hall: NoReqs":                         PERegions(["Carnegie Hall: Combat"]),
     "Carnegie Hall: Combat":                         PERegions(["Carnegie Hall: Combat+TK"]),
