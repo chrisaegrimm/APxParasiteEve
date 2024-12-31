@@ -74,6 +74,11 @@ region_data_table: Dict[str, PERegions] = {
     "Museum: NoReqs":                                PERegions(["Museum: Combat"]),
     "Museum: Combat":                                PERegions(["Museum: Combat+KK"]),
     "Museum: Combat+KK":                             PERegions(["Museum: Combat+KK+Boss"]),
+    "Museum: Combat+KK+Boss":                        PERegions(["PE"]),
+    "PE":                                            PERegions(),
+    "Museum: Combat+KK+Boss":                        PERegions(["LevelStat"]),
+    "LevelStat":                                     PERegions(["LevelStat+UnrChks"]),
+    "LevelStat+UnrChks":                             PERegions(),
     "Museum: Combat+KK+Boss":                        PERegions(["Cruiser"]),
     "Cruiser":                                       PERegions(),
 
