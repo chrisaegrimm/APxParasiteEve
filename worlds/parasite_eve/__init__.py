@@ -75,7 +75,7 @@ class PEWorld(World):
 
     def set_rules(self) -> None:
         set_rule(self.multiworld.get_location("Chrysler BLDG. - 70F Queen Bee: Boss Drop", self.player),
-                 lambda state: logic.mygame_has_key(state, self.player))
+                 lambda state: Logic.mygame_has_key(state, self.player))
 #       self.multiworld.completion_condition[self.player] = lambda state: state.has("Chrysler Key 7", self.player)
 
     def fill_slot_data(self):
