@@ -74,7 +74,7 @@ class PEWorld(World):
 
 
     def set_rules(self) -> None:
-        self.multiworld.completion_condition[self.player] = lambda state: state.has("Cruiser - Deck: Daniel's Sacrifice", self.player)
+        self.multiworld.completion_condition[self.player] = lambda state: state.has("Chrysler Key 7", self.player)
 
     def fill_slot_data(self):
         return {
