@@ -52,6 +52,7 @@ class PEWorld(World):
         self.multiworld.itempool += item_pool
 
 
+    def create_regions(self) -> None:
         for region_name in region_data_table.keys():
             region = Region(region_name, self.player, self.multiworld)
             self.multiworld.regions.append(region)
