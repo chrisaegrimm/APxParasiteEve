@@ -78,7 +78,8 @@ class PEWorld(World):
         def goal_rule(state: CollectionState, world: PEWorld) -> bool:
             if not state.has("Klamp Key", world.player, world.kkey_required):
                 return False
-            else return True
+            if state.has("Klamp Key", world.player, world.kkey_required):
+                return True
         set_rules(self)
 
     def fill_slot_data(self):
