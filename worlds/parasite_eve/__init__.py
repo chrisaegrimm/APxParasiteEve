@@ -1,8 +1,9 @@
 from copy import deepcopy
 from typing import Dict, List
 
-from BaseClasses import ItemClassification, Location, Region, Tutorial
+from BaseClasses import ItemClassification, Location, Region, Tutorial, CollectionState
 from worlds.AutoWorld import WebWorld, World
+from worlds.generic.Rules import set_rule
 from .Items import PEItem, item_data_table, item_table
 from .Locations import PELoct, location_data_table, location_table
 from .Options import PEOptions, pe_option_groups
@@ -46,7 +47,7 @@ class PEWorld(World):
         location_count: int = 405
 
         item_pool += [self.create_item(name)
-                      for name in unlockable_item_data_table.keys()
+                      for name in item_data_table.keys()
                       if name not in self.options.start_inventory]
 
         self.multiworld.itempool += item_pool
