@@ -77,7 +77,7 @@ class PEWorld(World):
     def set_rules(self) -> None:
         def set_rules(world: PEWorld):
             for location in world.multiworld.get_locations(world.player):
-                set_rule(location, lambda state, location=location: location_rule(state, world, location.name))
+                set_rule(location, lambda state)
             world.multiworld.completion_condition[world.player] = lambda state: goal_rule(state, world)
         def goal_rule(state: CollectionState, world: PEWorld) -> bool:
             if not state.has("Klamp Key", world.player, world.kkey_required):
