@@ -3,9 +3,11 @@ from typing import Dict, List
 
 from BaseClasses import ItemClassification, Location, Region, Tutorial, CollectionState
 from worlds.AutoWorld import WebWorld, World
+from worlds.generic.Rules import set_rule
 from .Items import PEItem, item_data_table, item_table
 from .Locations import PELoct, location_data_table, location_table
 from .Options import PEOptions, pe_option_groups
+from . import Logic
 
 
 class PEWebWorld(WebWorld):
@@ -34,8 +36,6 @@ class PEWorld(World):
     options: PEOptions
     location_name_to_id = location_table
     item_name_to_id = item_table
-
-    kkey_required: int
 
     def create_item(self, name: str) -> PEItem:
         return PEItem(name, item_data_table[name].type, item_data_table[name].code, self.player)
@@ -74,7 +74,9 @@ class PEWorld(World):
 
 
     def set_rules(self) -> None:
-        self.multiworld.completion_condition[self.player] = lambda state: state.has("Chrysler Key 7", self.player)
+        set_rule(self.multiworld.get_location("Chrysler BLDG. - 70F Queen Bee: Boss Drop", self.player),
+                 lambda state: logic.mygame_has_key(state, self.player))
+#       self.multiworld.completion_condition[self.player] = lambda state: state.has("Chrysler Key 7", self.player)
 
     def fill_slot_data(self):
         return {
