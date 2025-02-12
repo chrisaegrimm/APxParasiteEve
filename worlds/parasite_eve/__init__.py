@@ -53,6 +53,8 @@ class PEWorld(World):
 
 
     def create_regions(self) -> None:
+        from .Regions import region_data_table
+
         for region_name in region_data_table.keys():
             region = Region(region_name, self.player, self.multiworld)
             self.multiworld.regions.append(region)
