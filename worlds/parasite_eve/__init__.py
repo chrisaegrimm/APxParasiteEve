@@ -3,7 +3,6 @@ from typing import Dict, List
 
 from BaseClasses import ItemClassification, Location, Region, Tutorial, CollectionState
 from worlds.AutoWorld import WebWorld, World
-from worlds.generic.Rules import set_rule
 from .Items import PEItem, item_data_table, item_table
 from .Locations import PELoct, location_data_table, location_table
 from .Options import PEOptions, pe_option_groups
@@ -75,16 +74,7 @@ class PEWorld(World):
 
 
     def set_rules(self) -> None:
-        def set_rules(world: PEWorld):
-            for location in world.multiworld.get_locations(world.player):
-                set_rule(location, lambda state)
-            world.multiworld.completion_condition[world.player] = lambda state: goal_rule(state, world)
-        def goal_rule(state: CollectionState, world: PEWorld) -> bool:
-            if not state.has("Klamp Key", world.player, world.kkey_required):
-                return False
-            if state.has("Klamp Key", world.player, world.kkey_required):
-                return True
-        set_rules(self)
+        self.multiworld.completion_condition[self.player] = lambda state: state.has("Cruiser - Deck: Daniel's Sacrifice", self.player)
 
     def fill_slot_data(self):
         return {
