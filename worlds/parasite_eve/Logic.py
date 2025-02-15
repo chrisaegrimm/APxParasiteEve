@@ -1,5 +1,6 @@
+from typing import Callable, TYPE_CHECKING
+
 from BaseClasses import CollectionState
 
-
-def mygame_has_key(self, state: CollectionState, player: int) -> bool:
-    return state.has("Chrysler Key 6", player)
+if TYPE_CHECKING:
+    from . import PEWorld
