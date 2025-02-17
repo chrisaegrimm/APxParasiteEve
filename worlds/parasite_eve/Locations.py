@@ -11,7 +11,7 @@ class PELoctData(NamedTuple):
     region: str
 
 
-base_location_data_table: Dict[str, PELoctData] = {
+location_data_table: Dict[str, PELoctData] = {
 
     "Carnegie Hall - F1 Backstage: Chest":                             PELoctData(625001, "Carnegie Hall: NoReqs"),
     "Carnegie Hall - B1 Save Room: Chest":                             PELoctData(625002, "Carnegie Hall: Combat"),
@@ -230,9 +230,7 @@ base_location_data_table: Dict[str, PELoctData] = {
     "Museum - 3F Final Approach: Right Chest Behind Glass":            PELoctData(625215, "Museum: Combat+KK+Boss"),
     "Museum - 3F Final Approach: Left Chest Behind Glass":             PELoctData(625216, "Museum: Combat+KK+Boss"),
     "Cruiser - Deck: Daniel's Sacrifice":                              PELoctData(625217, "Cruiser"),
-}
 
-ex_location_data_table: Dict[str, PELoctData] = {
     "Chrysler BLDG. - Treasurebox Set 1-01: Offense":                  PELoctData(625218, "Chrysler BLDG.: Key 1"),
     "Chrysler BLDG. - Treasurebox Set 1-01: Cr Evade":                 PELoctData(625219, "Chrysler BLDG.: Key 1"),
     "Chrysler BLDG. - Treasurebox Set 1-01: Tool":                     PELoctData(625220, "Chrysler BLDG.: Key 1"),
@@ -406,9 +404,7 @@ ex_location_data_table: Dict[str, PELoctData] = {
     "Chrysler BLDG. - Treasurebox Set 7-08: Club 5":                   PELoctData(625388, "Chrysler BLDG.: Key 7"),
     "Chrysler BLDG. - Treasurebox Set 7-08: Cr Armor 2":               PELoctData(625389, "Chrysler BLDG.: Key 7"),
     "Chrysler BLDG. - 70F Queen Bee: Boss Drop":                       PELoctData(625390, "Chrysler BLDG.: Key 7"),
-}
 
-stat_location_data_table: Dict[str, PELoctData] = {
     "PE - Heal 1: Awakening":                                          PELoctData(625391, "Carnegie Hall: NoReqs"),
     "PE - Scan: Level 4":                                              PELoctData(625392, "PE"),
     "PE - Slow: Level 7":                                              PELoctData(625393, "PE"),
@@ -425,9 +421,5 @@ stat_location_data_table: Dict[str, PELoctData] = {
     "PE - Full Recover: Level 32":                                     PELoctData(625404, "PE"),
     "PE - Liberate: Level 33":                                         PELoctData(625405, "PE"),
 }
-
-location_data_table: Dict[str, PELoctData] = {**base_location_data_table,
-                                              **ex_location_data_table,
-                                              **stat_location_data_table}
 
 location_table = {name: data.address for name, data in location_data_table.items() if data.address is not None}
