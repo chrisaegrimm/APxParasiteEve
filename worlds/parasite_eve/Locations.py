@@ -11,7 +11,7 @@ class PELoctData(NamedTuple):
     region: str
 
 
-location_data_table: Dict[str, PELoctData] = {
+location_table: Dict[str, PELoctData] = {
 
     "Carnegie Hall - F1 Backstage: Chest":                             PELoctData(625001, "Carnegie Hall: NoReqs"),
     "Carnegie Hall - B1 Save Room: Chest":                             PELoctData(625002, "Carnegie Hall: Combat"),
@@ -421,5 +421,3 @@ location_data_table: Dict[str, PELoctData] = {
     "PE - Full Recover: Level 32":                                     PELoctData(625404, "PE"),
     "PE - Liberate: Level 33":                                         PELoctData(625405, "PE"),
 }
-
-location_table = {name: data.address for name, data in location_data_table.items() if data.address is not None}
