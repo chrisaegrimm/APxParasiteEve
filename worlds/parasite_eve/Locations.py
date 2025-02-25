@@ -7,8 +7,8 @@ class PELoct(Location):
     game = "Parasite Eve"
 
 class PELoctData(NamedTuple):
-    address: Optional[int] = None
     region: str
+    address: Optional[int] = None
 
 
 location_data_table: Dict[str, PELoctData] = {
