@@ -11,7 +11,7 @@ class PELoctData(NamedTuple):
     address: Optional[int] = None
 
 
-location_data_table: Dict[str, PELoctData] = {
+d1_location_data_table: Dict[str, PELoctData] = {
 
     "Carnegie Hall - F1 Backstage: Chest":                              PELoctData("Carnegie Hall: NoReqs",                     6001),
     "Carnegie Hall - B1 Save Room: Chest":                              PELoctData("Carnegie Hall: Combat",                     6002),
@@ -34,6 +34,11 @@ location_data_table: Dict[str, PELoctData] = {
     "Carnegie Hall - Sewers Hidden Chest Room: Right Chest":            PELoctData("Carnegie Hall: Combat+RK",                  6019),
     "Carnegie Hall - Sewers Hidden Chest Room: Valve Chest":            PELoctData("Carnegie Hall: Combat+RK",                  6020),
     "Carnegie Hall - Sewers Alligator: Boss Drop":                      PELoctData("Carnegie Hall: Combat+RK+Boss",             6021),
+
+}
+
+d2_location_data_table: Dict[str, PELoctData] = {
+
     "N.Y.P.D. #17 - D2 1F Baker's Office: Baker Permit 1":              PELoctData("N.Y.P.D. #17: NoReqs",                      6022),
     "N.Y.P.D. #17 - D2 1F Locker Room: Right Locker":                   PELoctData("N.Y.P.D. #17: NoReqs",                      6023),
     "N.Y.P.D. #17 - D2 1F Locker Room: Center Locker":                  PELoctData("N.Y.P.D. #17: NoReqs",                      6024),
@@ -93,6 +98,11 @@ location_data_table: Dict[str, PELoctData] = {
     "Central Park - Forest Maze East: Backup Tool Chest":               PELoctData("Central Park: Combat+ZK",                   6078),
     "Central Park - Under Bush Bridge: Left Stat Chest":                PELoctData("Central Park: Combat+ZK",                   6079),
     "Central Park - Under Bush Bridge: Right YOLO Tool Chest":          PELoctData("Central Park: Combat+ZK",                   6080),
+
+}
+
+d3_location_data_table: Dict[str, PELoctData] = {
+    
     "Soho - Apartment Interior: Chest":                                 PELoctData("Soho: NoReqs",                              6081),
     "Soho - Apartment Exterior: Trash Card":                            PELoctData("Soho: NoReqs",                              6082),
     "Soho - Pharmacy: Aisle 3 Medicine Chest":                          PELoctData("Soho: NoReqs",                              6083),
@@ -145,6 +155,11 @@ location_data_table: Dict[str, PELoctData] = {
     "Hospital - 13F Roof Elevator Access: 1st Sparkle (Junk)":          PELoctData("Hospital: Combat+BC+Fuses",                 6130),
     "Hospital - 13F Roof Elevator Access: 2nd Sparkle (Key)":           PELoctData("Hospital: Combat+BC+Fuses",                 6131),
     "Hospital - Roof Spiderwoman: Boss Drop":                           PELoctData("Hospital: Combat+BC+Fuses+EK+Boss",         6132),
+
+}
+
+d5_location_data_table: Dict[str, PELoctData] = {
+
     "Chinatown - Near Entrance: Left Chest":                            PELoctData("Chinatown: NoReqs|Combat+GK",               6133),
     "Chinatown - Near Entrance: Right Chest":                           PELoctData("Chinatown: NoReqs|Combat+GK",               6134),
     "Chinatown - Antique Shop Exterior (Save): Lower Chest":            PELoctData("Chinatown: Combat|Combat+GK",               6135),
@@ -230,5 +245,10 @@ location_data_table: Dict[str, PELoctData] = {
     "Museum - 3F Final Approach: Left Chest Behind Glass":              PELoctData("Museum: Combat+KK+Boss",                    6215),
     "Cruiser - Deck: Daniel's Sacrifice":                               PELoctData("Cruiser",                                   6216),
 }
+
+location_data_table: Dict[str, PELoctData] = {**d1_location_data_table,
+                                                         **d2_location_data_table,
+                                                         **d3_location_data_table,
+                                                         **d5_location_data_table}
 
 location_table = {name: data.address for name, data in location_data_table.items() if data.address is not None}
