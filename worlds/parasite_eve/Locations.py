@@ -222,7 +222,7 @@ location_data_table: Dict[str, PELoctData] = {
     "Museum - 4F Forgotten Landing: Full Recover Chest":                PELoctData("Museum: Combat",                            6207),
     "Museum - 2F Broken Display: Left Chest":                           PELoctData("Museum: Combat+KK",                         6208),
     "Museum - 2F Broken Display: Right Chest":                          PELoctData("Museum: Combat+KK",                         6209),
-    "Museum - 3F Triceratops: Boss Drop":                               PELoctData("Museum: Combat+KK+Boss"                     6210),
+    "Museum - 3F Triceratops: Boss Drop":                               PELoctData("Museum: Combat+KK+Boss",                    6210),
     "Museum - 1F T-Rex: Left Chest":                                    PELoctData("Museum: NoReqs",                            6211),
     "Museum - 1F T-Rex: Right Chest":                                   PELoctData("Museum: NoReqs",                            6212),
     "Museum - 1F T-Rex: Boss Drop":                                     PELoctData("Museum: Combat+KK+Boss",                    6213),
