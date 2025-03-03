@@ -5,7 +5,7 @@ from BaseClasses import ItemClassification, Location, Region, Tutorial, Collecti
 from worlds.AutoWorld import WebWorld, World
 from worlds.generic.Rules import set_rule
 from .Items import PEItem, item_data_table, item_table
-from .Locations import PELoct, location_data_table, location_table
+from .Locations import PELocation, location_data_table, location_table
 from .Options import PEOptions, pe_option_groups
 from . import Logic
 
@@ -64,7 +64,7 @@ class PEWorld(World):
             region.add_locations({
                 location_name: location_data.address for location_name, location_data in location_data_table.items()
                 if location_data.region == region_name
-            }, PELoct)
+            }, PELocation)
 
             region.add_exits(region_data_table[region_name].connecting_regions)
 
