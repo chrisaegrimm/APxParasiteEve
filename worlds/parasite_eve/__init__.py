@@ -1,7 +1,7 @@
 from copy import deepcopy
 from typing import Dict, List, Any
 
-from BaseClasses import ItemClassification, Location, Region, Tutorial, CollectionState
+from BaseClasses import ItemClassification, Location, Region, Tutorial
 from worlds.AutoWorld import WebWorld, World
 from worlds.generic.Rules import set_rule
 from .Items import PEItem, item_data_table, item_table
@@ -43,11 +43,14 @@ class PEWorld(World):
     def create_items(self) -> None:
         item_pool: List[PEItem] = []
 
-        location_count: int = 405
+        location_count: int = 389
 
         item_pool += [self.create_item(name)
                       for name in item_data_table.keys()
                       if name not in self.options.start_inventory]
+
+        filler_item_count: int = location_count - len(item_pool)
+        item_pool += [self.create_item("Junk") for _ in range(filler_item_count)]
 
         self.multiworld.itempool += item_pool
 

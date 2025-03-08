@@ -1,5 +1,4 @@
 from typing import Dict, NamedTuple, Optional
-
 from BaseClasses import Item, ItemClassification
 
 
@@ -10,7 +9,6 @@ class PEItem(Item):
 class PEItemData(NamedTuple):
     code: Optional[int] = None
     type: ItemClassification = ItemClassification.filler
-
 
 item_data_table: Dict[str, PEItemData] = {
     "Ammo +6":          PEItemData(6240001, ItemClassification.filler),
