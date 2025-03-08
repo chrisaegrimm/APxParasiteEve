@@ -5,6 +5,7 @@ from BaseClasses import ItemClassification, Location, Region, Tutorial, Collecti
 from worlds.AutoWorld import WebWorld, World
 from worlds.generic.Rules import set_rule
 from .Items import PEItem, item_data_table, item_table
+from .Regions import PERegions
 from .Locations import PELocation, location_data_table, location_table
 from .Options import PEOptions, pe_option_groups
 
