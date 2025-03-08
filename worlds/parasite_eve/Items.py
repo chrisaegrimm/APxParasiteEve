@@ -283,10 +283,10 @@ item_data_table: Dict[str, PEItemData] = {
     "Museum":           PEItemData(624264, ItemClassification.progression),
     "Chrysler BLDG.":   PEItemData(624265, ItemClassification.progression),
 
-    "Confusion Trap":   PEItemData(624266, "Trap",        ItemClassification.trap),
-    "Darkness Trap":    PEItemData(624267, "Trap",        ItemClassification.trap),
-    "Silence Trap":     PEItemData(624268, "Trap",        ItemClassification.trap),
-    "Impact Trap":      PEItemData(624269, "Trap",        ItemClassification.trap),
+    "Confusion Trap":   PEItemData(624266, ItemClassification.trap),
+    "Darkness Trap":    PEItemData(624267, ItemClassification.trap),
+    "Silence Trap":     PEItemData(624268, ItemClassification.trap),
+    "Impact Trap":      PEItemData(624269, ItemClassification.trap),
 }
 
 
