@@ -26,9 +26,9 @@ region_data_table: Dict[str, PERegnData] = {
     "N.Y.P.D. #17: Combat+SJ":                       PERegnData(["N.Y.P.D. #17: Combat+SJ+Boss"]),
     "N.Y.P.D. #17: Combat+SJ+Boss":                  PERegnData(["N.Y.P.D. #17: Combat+SJ+Boss+UC+JunkReq",
                                                                  "N.Y.P.D. #17: Combat+SJ+Boss+UC+12RTC"]),
-    "N.Y.P.D. #17: Combat+SJ+Boss+UC+JunkReq":  PERegnData(),
-    "N.Y.P.D. #17: Combat+SJ+Boss+UC+12RTC":    PERegnData(["N.Y.P.D. #17: Combat+SJ+Boss+UC+14RTC"]),
-    "N.Y.P.D. #17: Combat+SJ+Boss+UC+14RTC":    PERegnData(),
+    "N.Y.P.D. #17: Combat+SJ+Boss+UC+JunkReq":       PERegnData(),
+    "N.Y.P.D. #17: Combat+SJ+Boss+UC+12RTC":         PERegnData(["N.Y.P.D. #17: Combat+SJ+Boss+UC+14RTC"]),
+    "N.Y.P.D. #17: Combat+SJ+Boss+UC+14RTC":         PERegnData(),
 
     "Central Park: NoReqs":                          PERegnData(["Central Park: Combat"]),
     "Central Park: Combat":                          PERegnData(["Central Park: Combat+ZK"]),

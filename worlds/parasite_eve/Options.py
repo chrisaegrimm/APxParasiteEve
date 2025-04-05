@@ -46,21 +46,15 @@ class EndGoal(Choice):
     option_endallfinals = 3
     default = 1
 
-class StartWithPrecinct(DefaultOnToggle):
-    """
-    In Open World, start with access to the Precinct for inventory management and starting checks.
-    """
-    display_name = "Start with Precinct"
-
 class StartingUnlockedAreas(Range):
     """
-    In Open World, choose how many areas are unlocked from the start (chosen at random).
-    Note: This does not include the 'Starting with Precinct' option, as well as the Chrysler Building.
+    In Open World, choose how many areas , aside from the Precinct, are unlocked from the start (chosen at random).
+    Note: This does not include the "Include Chrysler BLDG" option.
     """
     display_name = "Starting Unlocked Areas"
     range_start = 0
-    range_end = 8
-    default = 8
+    range_end = 7
+    default = 7
 
 class IncludeChryslerBLDG(Choice):
     """
@@ -126,6 +120,16 @@ class ItemPoolDifficulty(Choice):
     option_strict = 2
     option_masochistic = 3
     default = 0
+
+class IncludeToolKits(Choice)
+    """
+    Adds in Tool Kit and Super Tool Kit into the main item pool. These can be removed if you're seeking more of a challenge.
+    """
+    display_name = "Include Tool Kits"
+    option_excludekits = 0
+    option_include1kit = 1
+    option_include2kit = 2
+    default = 2
 
 class IncludeTraps(Toggle):
     """
@@ -470,7 +474,6 @@ pe_option_groups = [
     OptionGroup("World Options", [
         RandomizerMode,
         EndGoal,
-        StartWithPrecinct,
         StartingUnlockedAreas,
         IncludeChryslerBLDG,
         UnreasonableChecks,
@@ -480,6 +483,7 @@ pe_option_groups = [
     OptionGroup("Item Options", [
         CombatDifficulty,
         ItemPoolDifficulty,
+        IncludeToolKits,
         IncludeTraps,
         IncludeBoosts,
         ForcePEStaleness,
@@ -532,13 +536,13 @@ class PEOptions(PerGameCommonOptions):
     event_skip:                    EventSkip
     randomizer_mode:               RandomizerMode
     end_goal:                      EndGoal
-    start_with_precinct:           StartWithPrecinct
     starting_unlocked_areas:       StartingUnlockedAreas
     include_chrysler_bldg:         IncludeChryslerBLDG
     unreasonable_checks:           UnreasonableChecks
     required_junk:                 RequiredJunk
     combat_difficulty:             CombatDifficulty
     item_pool_difficulty:          ItemPoolDifficulty
+    include_tool_kits:             IncludeToolKits
     include_traps:                 IncludeTraps
     include_boosts:                IncludeBoosts
     force_pe_staleness:            ForcePEStaleness

@@ -6,7 +6,7 @@ from worlds.AutoWorld import WebWorld, World
 from worlds.generic.Rules import set_rule
 from .Items import PEItem, item_data_table, item_table
 from .Regions import PERegnData
-from .Locations import PELocation, location_data_table, location_table
+from .Locations import PELoct, location_data_table, location_table
 from .Options import PEOptions, pe_option_groups
 
 
@@ -67,7 +67,7 @@ class PEWorld(World):
             region.add_locations({
                 location_name: location_data.address for location_name, location_data in location_data_table.items()
                 if location_data.region == region_name
-            }, PELocation)
+            }, PELoct)
 
             region.add_exits(region_data_table[region_name].connecting_regions)
 
@@ -88,7 +88,6 @@ class PEWorld(World):
 
             "randomizer_mode":               self.options.randomizer_mode.value,
             "end_goal":                      self.options.end_goal.value,
-            "start_with_precinct":           self.options.start_with_precinct.value,
             "starting_unlocked_areas":       self.options.starting_unlocked_areas.value,
             "include_chrysler_bldg":         self.options.include_chrysler_bldg.value,
             "unreasonable_checks":           self.options.unreasonable_checks.value,
@@ -96,6 +95,7 @@ class PEWorld(World):
 
             "combat_difficulty":             self.options.combat_difficulty.value,
             "item_pool_difficulty":          self.options.item_pool_difficulty.value,
+            "include_took_kits":             self.options.include_tool_kits.value,
             "include_traps":                 self.options.include_traps.value,
             "include_boosts":                self.options.include_boosts.value,
             "force_pe_staleness":            self.options.force_pe_staleness.value,
