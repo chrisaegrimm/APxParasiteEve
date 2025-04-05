@@ -121,7 +121,7 @@ class ItemPoolDifficulty(Choice):
     option_masochistic = 3
     default = 0
 
-class IncludeToolKits(Choice)
+class IncludeToolKits(Choice):
     """
     Adds in Tool Kit and Super Tool Kit into the main item pool. These can be removed if you're seeking more of a challenge.
     """
