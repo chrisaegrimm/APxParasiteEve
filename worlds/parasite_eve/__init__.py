@@ -1,14 +1,12 @@
-from copy import deepcopy
-from typing import Dict, List, Any
+from typing import List
 
-from BaseClasses import ItemClassification, Location, Region, Tutorial
+from BaseClasses import Region, Tutorial
 from worlds.AutoWorld import WebWorld, World
-from worlds.generic.Rules import set_rule
 from .Items import PEItem, item_data_table, item_table
 from .Regions import PERegnData
 from .Locations import PELoct, location_data_table, location_table
-from .Options import PEOptions, pe_option_groups
-
+from .Options import PEOptions, pe_option_groups, EndGoal
+from .Rules import PERules
 
 class PEWebWorld(WebWorld):
     theme = "ice"

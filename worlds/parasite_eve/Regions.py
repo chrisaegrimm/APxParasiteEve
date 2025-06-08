@@ -39,9 +39,9 @@ region_data_table: Dict[str, PERegnData] = {
     "Soho: WM":                                      PERegnData(),
 
     "Hospital: NoReqs":                              PERegnData(["Hospital: Combat"]),
-    "Hospital: Combat":                              PERegnData(["Hospital: Combat+AK", "Hospital: Combat+GC", "Hospital: Combat+BC"]),
-    "Hospital: Combat+AK":                           PERegnData(),
+    "Hospital: Combat":                              PERegnData(["Hospital: Combat+GC", "Hospital: Combat+AK", "Hospital: Combat+BC"]),
     "Hospital: Combat+GC":                           PERegnData(),
+    "Hospital: Combat+AK":                           PERegnData(),
     "Hospital: Combat+BC":                           PERegnData(["Hospital: Combat+BC+Fuses"]),
     "Hospital: Combat+BC+Fuses":                     PERegnData(["Hospital: Combat+BC+Fuses+EK+Boss"]),
     "Hospital: Combat+BC+Fuses+EK+Boss":             PERegnData(),
@@ -72,5 +72,6 @@ region_data_table: Dict[str, PERegnData] = {
     "Chrysler BLDG.: Key 4":                         PERegnData(["Chrysler BLDG.: Key 5"]),
     "Chrysler BLDG.: Key 5":                         PERegnData(["Chrysler BLDG.: Key 6"]),
     "Chrysler BLDG.: Key 6":                         PERegnData(["Chrysler BLDG.: Key 7"]),
-    "Chrysler BLDG.: Key 7":                         PERegnData(),
+    "Chrysler BLDG.: Key 7":                         PERegnData(["Chrysler BLDG.: Spire"]),
+    "Chrysler BLDG.: Spire":                         PERegnData(),
 }

@@ -271,7 +271,7 @@ item_data_table: Dict[str, PEItemData] = {
     "Liberate":         PEItemData(6240255, ItemClassification.progression),
 
     "Carnegie Hall":    PEItemData(6241001, ItemClassification.progression),
-    #N.Y.P.D. #17":     PEItemData(6241002, "Forced Precinct start at the moment."),
+    "N.Y.P.D. #17":     PEItemData(6241002, ItemClassification.progression),
     "Central Park":     PEItemData(6241003, ItemClassification.progression),
     "Soho":             PEItemData(6241004, ItemClassification.progression),
     "Hospital":         PEItemData(6241005, ItemClassification.progression),
