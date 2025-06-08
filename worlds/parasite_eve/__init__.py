@@ -28,7 +28,8 @@ class PEWebWorld(WebWorld):
 
 
 class PEWorld(World):
-    """It gud game."""
+    """One of them is a police officer. The other is possessed by an ancient evil threatening all life on Earth. The horrifying bond between them will continue until one of them dies.
+    Join NYPD rookie Aya Brea as she tracks down the biological entity known as Eve. Upgrade your weapons and hidden mitochondrial powers to save the city."""
 
     game = "Parasite Eve"
     web = PEWebWorld()
@@ -100,6 +101,7 @@ class PEWorld(World):
             "include_boosts":                self.options.include_boosts.value,
             "force_pe_staleness":            self.options.force_pe_staleness.value,
             "scavenger_mode":                self.options.scavenger_mode.value,
+            "starting_inventory_slots":      self.options.starting_inventory_slots.value,
             "armor_attachments":             self.options.armor_attachments.value,
             "pesanity":                      self.options.pesanity.value,
             "levelstatsanity":               self.options.levelstatsanity.value,

@@ -160,6 +160,17 @@ class ScavengerMode(Toggle):
     """
     display_name = "Scavenger Mode"
 
+class StartingInventorySlots(Range):
+    """
+    Sets your inventory slots available from the start. Vanilla starts you with 10 slots and, by default, the rando starts you
+    with 14 slots, anticipating key items you can't discard. This option changes Aya's Item Capacity STAT rather than max slots,
+    so lower starting items will increase faster as Aya levels early on.
+    """
+    display_name = "Starting Inventory Slots"
+    range_start = 10
+    range_end = 46
+    default = 14
+
 class ArmorAttachments(Toggle):
     """
     Adds the mechanic from Parasite Eve 2 where item slots are limited in combat. The amount available are
@@ -184,7 +195,7 @@ class LevelStatSanity(Toggle):
     Shuffle every stat gained from levels, as well as make every stat normally gained a check.
 
     Note: This greatly extends your amount of available locations at the cost of making combat a pain.
-    If 'Unreasonable Checks' are turned on as well, you may required to climb to Level 36 for progression.
+    If 'Unreasonable Checks' are turned on as well, you may be required to climb to Level 36 for progression.
     """
     display_name = "LevelStatSanity"
 
@@ -488,6 +499,7 @@ pe_option_groups = [
         IncludeBoosts,
         ForcePEStaleness,
         ScavengerMode,
+        StartingInventorySlots,
         ArmorAttachments,
         PESanity,
         LevelStatSanity,
@@ -547,6 +559,7 @@ class PEOptions(PerGameCommonOptions):
     include_boosts:                IncludeBoosts
     force_pe_staleness:            ForcePEStaleness
     scavenger_mode:                ScavengerMode
+    starting_inventory_slots:      StartingInventorySlots
     armor_attachments:             ArmorAttachments
     pesanity:                      PESanity
     levelstatsanity:               LevelStatSanity
