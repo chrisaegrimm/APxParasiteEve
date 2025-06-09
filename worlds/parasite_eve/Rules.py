@@ -3,19 +3,20 @@ from BaseClasses import CollectionState
 
 if TYPE_CHECKING:
     from . import PEWorld
+else:
+    PEWorld = object
 
 
 class PERules:
     player: int
-    world: "PEWorld"
+    world: PEWorld
     location_rules: Dict[str, Callable[[CollectionState], bool]]
     region_rules: Dict[str, Callable[[CollectionState], bool]]
     end_goal: int
 
-    def __init__(self, world: "PEWorld") -> None:
+    def __init__(self, world: PEWorld) -> None:
         self.player = world.player
         self.world = world
-        self.end_goal = world.options.end_goal.value
 
         self.region_rules = {
 
@@ -78,7 +79,7 @@ class PERules:
         "Chrysler BLDG.: Key 5":                         self.has_c5,
         "Chrysler BLDG.: Key 6":                         self.has_c6,
         "Chrysler BLDG.: Key 7":                         self.has_c7,
-        "Chrysler BLDG.: Spire":                         self.has_3c,
+        "Chrysler BLDG.: Spire":                         self.has_3c
         }
 
 
@@ -189,3 +190,9 @@ class PERules:
 
     #def pe_end(self, state: CollectionState) -> bool:
         #return state.has("Resolution", self.player)
+
+
+
+
+    def set_pe_rules(self) -> None:
+        self.world.multiworld.completion_condition[self.player] = lambda state: state.can_reach("Chrysler BLDG.: Spire", "Region", self.player)

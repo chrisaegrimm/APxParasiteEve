@@ -77,7 +77,7 @@ class PEWorld(World):
 
     def set_rules(self) -> None:
 
-        self.multiworld.completion_condition[self.player] = lambda state: state.has("Chrysler Key 7", self.player)
+        Rules.PERules(self).set_pe_rules()
 
 
     def fill_slot_data(self):
