@@ -164,7 +164,7 @@ class PERules:
         return state.has("Klamp Key", self.player)
 
     def has_c1(self, state: CollectionState) -> bool:
-        return state.has("Chrysler Key 1", self.player)
+        return state.has_all(("Chrysler BLDG.", "Chrysler Key 1"), self.player)
 
     def has_c2(self, state: CollectionState) -> bool:
         return state.has("Chrysler Key 2", self.player)
