@@ -196,4 +196,9 @@ class PERules:
 
     def set_pe_rules(self) -> None:
         multiworld = self.world.multiworld
+        for region in multiworld.get_regions(self.player):
+            if region.name in self.region_rules:
+                for entrance in region.entrances:
+                    entrance.access_rule = self.region_rules[region.name]
+
         self.world.multiworld.completion_condition[self.player] = lambda state: state.can_reach("Chrysler BLDG.: Spire", "Region", self.player)
