@@ -36,6 +36,10 @@ class PEWorld(World):
     location_name_to_id = location_table
     item_name_to_id = item_table
 
+
+    def get_filler_item_name(self) -> str:
+        return "Junk"
+
     def create_item(self, name: str) -> PEItem:
         return PEItem(name, item_data_table[name].type, item_data_table[name].code, self.player)
 
@@ -49,7 +53,7 @@ class PEWorld(World):
                       if name not in self.options.start_inventory]
 
         filler_item_count: int = location_count - len(item_pool)
-        item_pool += [self.create_item("Junk") for _ in range(filler_item_count) -1]
+        item_pool += [self.create_item("Junk") for _ in range(filler_item_count)]
 
         self.multiworld.itempool += item_pool
 
@@ -69,10 +73,6 @@ class PEWorld(World):
             }, PELoct)
 
             region.add_exits(region_data_table[region_name].connecting_regions)
-
-
-    def get_filler_item_name(self) -> str:
-        return self.random.choice(filler_items)["name"]
 
 
     def set_rules(self) -> None:
