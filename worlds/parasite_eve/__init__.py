@@ -42,14 +42,14 @@ class PEWorld(World):
     def create_items(self) -> None:
         item_pool: List[PEItem] = []
 
-        location_count: int = 388
+        location_count: int = 389
 
         item_pool += [self.create_item(name)
                       for name in item_data_table.keys()
                       if name not in self.options.start_inventory]
 
         filler_item_count: int = location_count - len(item_pool)
-        item_pool += [self.create_item("Junk") for _ in range(filler_item_count)]
+        item_pool += [self.create_item("Junk") for _ in range(filler_item_count) -1]
 
         self.multiworld.itempool += item_pool
 
@@ -72,7 +72,7 @@ class PEWorld(World):
 
 
     def get_filler_item_name(self) -> str:
-        return "Junk"
+        return self.random.choice(filler_items)["name"]
 
 
     def set_rules(self) -> None:
