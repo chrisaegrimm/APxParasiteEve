@@ -37,8 +37,7 @@ class PEWorld(World):
     item_name_to_id = item_table
 
 
-    def get_filler_item_name(self) -> str:
-        return "Junk"
+
 
     def create_item(self, name: str) -> PEItem:
         return PEItem(name, item_data_table[name].type, item_data_table[name].code, self.player)
@@ -56,6 +55,9 @@ class PEWorld(World):
         item_pool += [self.create_item("Junk") for _ in range(filler_item_count)]
 
         self.multiworld.itempool += item_pool
+
+#   def get_filler_item_name(self) -> str:
+#       return "Junk"
 
 
     def create_regions(self) -> None:
