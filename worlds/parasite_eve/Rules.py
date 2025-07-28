@@ -195,4 +195,5 @@ class PERules:
 
 
     def set_pe_rules(self) -> None:
+        multiworld = self.world.multiworld
         self.world.multiworld.completion_condition[self.player] = lambda state: state.can_reach("Chrysler BLDG.: Spire", "Region", self.player)
