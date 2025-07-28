@@ -56,8 +56,8 @@ class PEWorld(World):
 
         self.multiworld.itempool += item_pool
 
-#   def get_filler_item_name(self) -> str:
-#       return "Junk"
+    def get_filler_item_name(self) -> str:
+       return "Junk"
 
 
     def create_regions(self) -> None:
