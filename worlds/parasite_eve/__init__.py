@@ -42,7 +42,7 @@ class PEWorld(World):
     def create_items(self) -> None:
         item_pool: List[PEItem] = []
 
-        location_count: int = 389
+        location_count: int = 388
 
         item_pool += [self.create_item(name)
                       for name in item_data_table.keys()
