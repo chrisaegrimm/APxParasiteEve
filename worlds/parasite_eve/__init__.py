@@ -51,7 +51,7 @@ class PEWorld(World):
                       for name in item_data_table.keys()
                       if name not in self.options.start_inventory]
 
-        filler_item_count: int = location_count - len(item_pool) -1
+        filler_item_count: int = location_count - len(item_pool)
         item_pool += [self.create_item("Junk") for _ in range(filler_item_count)]
 
         self.multiworld.itempool += item_pool
