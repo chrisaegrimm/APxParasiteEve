@@ -1,6 +1,6 @@
 from typing import List
 
-from BaseClasses import Region, Tutorial
+from BaseClasses import Region, Tutorial, ItemClassification
 from worlds.AutoWorld import WebWorld, World
 from .Items import PEItem, item_data_table, item_table
 from .Regions import PERegnData
@@ -57,7 +57,9 @@ class PEWorld(World):
         self.multiworld.itempool += item_pool
 
     def get_filler_item_name(self) -> str:
-       return "Junk"
+        if self.filler_items is None:
+            self.filler_items = [item for item in item_table if item_table[item].classification == ItemClassification.filler]
+        return self.random.choice(self.filler_items)
 
 
     def create_regions(self) -> None:
