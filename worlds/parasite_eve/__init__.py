@@ -79,7 +79,7 @@ class PEWorld(World):
 
     def set_rules(self) -> None:
 
-        Rules.PERules(self).set_pe_rules()
+        PERules(self).set_pe_rules()
 
 
     def fill_slot_data(self):
