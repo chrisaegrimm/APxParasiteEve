@@ -1,0 +1,1 @@
+from .world import PE1World as PE1World
