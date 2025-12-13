@@ -55,17 +55,17 @@ LOCATION_NAME_TO_ID = {
     "N.Y.P.D. #17 - D3 2F Save Office: Floor Chest": 43,
     "N.Y.P.D. #17 - D3 3F Ambush Hall: Cop's Locker Key": 44,
     "N.Y.P.D. #17 - D4 3F Medical Office: Daniel's Ammo": 45,
-    "N.Y.P.D. #17 - D3 3F Big Bad Wolf: Chest": 46,
-    "N.Y.P.D. #17 - D3 3F Big Bad Wolf: Boss Drop": 47,
+    "N.Y.P.D. #17 - D3 3F Big Bad Wolf: Boss Drop": 46,
+    "N.Y.P.D. #17 - D3 3F Big Bad Wolf: Chest": 47,
     "N.Y.P.D. #17 - D3 3F Big Bad Wolf: Cop's Ammo": 48,
     "N.Y.P.D. #17 - D3 3F Big Bad Wolf's Backroom: Chest": 49,
     "N.Y.P.D. #17 - D2 B1 Weapons Storage: Left Chest": 50,
     "N.Y.P.D. #17 - D2 B1 Weapons Storage: Center Chest": 51,
     "N.Y.P.D. #17 - D2 B1 Weapons Storage: Right Chest": 52,
     "N.Y.P.D. #17 - D3 3F Kerberos: Boss Drop": 53,
-    "N.Y.P.D. #17 - D4 B1 Weapons Department: Tool Kit": 54,
-    "N.Y.P.D. #17 - D4 B1 Weapons Department: Super Tool Kit": 55,
-    "N.Y.P.D. #17 - D4 B1 Weapons Department: Leave It to Wayne": 56,
+    "N.Y.P.D. #17 - D4 B1 Weapons Department: Leave It to Wayne": 54,
+    "N.Y.P.D. #17 - D4 B1 Weapons Department: Tool Kit": 55,
+    "N.Y.P.D. #17 - D4 B1 Weapons Department: Super Tool Kit": 56,
 
     "Central Park - Entrance: Car Chest": 57,
     "Central Park - Entrance: Snake Chest": 58,
@@ -91,156 +91,157 @@ LOCATION_NAME_TO_ID = {
     "Central Park - Forest Maze East: Backup Tool Chest": 78,
     "Central Park - Under Bush Bridge: Left Stat Chest": 79,
     "Central Park - Under Bush Bridge: Right YOLO Tool Chest": 80,
+    "Central Park - Carriage Eve: Boss Drop": 81,
 
-    "Soho - Apartment Interior: Chest": 81,
-    "Soho - Apartment Exterior: Trash Card": 82,
-    "Soho - Pharmacy: Aisle 3 Medicine Chest": 83,
-    "Soho - Pharmacy: Aisle 5 Revive Chest": 84,
-    "Soho - Pharmacy: Backroom Left Chest": 85,
-    "Soho - Pharmacy: Backroom Right Chest": 86,
-    "Soho - Pharmacy: Aisle 1 Left Shelf": 87,
-    "Soho - Pharmacy: Aisle 3 Far Back Shelf": 88,
-    "Soho - Pharmacy: Behind Phone Counter": 89,
-    "Soho - Pharmacy: Aisle 4 Right Shelf": 90,
-    "Soho - Sam's Gun Shop: Upper Left Chest": 91,
-    "Soho - Sam's Gun Shop: Upper Right Chest": 92,
-    "Soho - Sam's Gun Shop: Behind Counter Chest": 93,
-    "Soho - Sam's Gun Shop: Lower Right Chest": 94,
-    "Soho - Sam's Gun Shop: Green Box": 95,
-    "Soho - Sam's Gun Shop: Red Box": 96,
-    "Soho - Sam's Gun Shop: Shotgun Rack": 97,
-    "Soho - Sam's Gun Shop: Rifle Rack": 98,
+    "Soho - Apartment Interior: Chest": 82,
+    "Soho - Apartment Exterior: Trash Card": 83,
+    "Soho - Pharmacy: Aisle 3 Medicine Chest": 84,
+    "Soho - Pharmacy: Aisle 5 Revive Chest": 85,
+    "Soho - Pharmacy: Backroom Left Chest": 86,
+    "Soho - Pharmacy: Backroom Right Chest": 87,
+    "Soho - Pharmacy: Aisle 1 Left Shelf": 88,
+    "Soho - Pharmacy: Aisle 3 Far Back Shelf": 89,
+    "Soho - Pharmacy: Behind Phone Counter": 90,
+    "Soho - Pharmacy: Aisle 4 Right Shelf": 91,
+    "Soho - Sam's Gun Shop: Upper Left Chest": 92,
+    "Soho - Sam's Gun Shop: Upper Right Chest": 93,
+    "Soho - Sam's Gun Shop: Behind Counter Chest": 94,
+    "Soho - Sam's Gun Shop: Lower Right Chest": 95,
+    "Soho - Sam's Gun Shop: Green Box": 96,
+    "Soho - Sam's Gun Shop: Red Box": 97,
+    "Soho - Sam's Gun Shop: Shotgun Rack": 98,
+    "Soho - Sam's Gun Shop: Rifle Rack": 99,
 
-    "Hospital - 1F Outside: Maeda's Mayoke": 99,
-    "Hospital - 1F Lobby: Corner Ammo Chest": 100,
-    "Hospital - 1F Lobby: Closet Chest": 101,
-    "Hospital - 1F Emergency Room: Chest": 102,
-    "Hospital - 1F Flashback Room: Chest": 103,
-    "Hospital - 1F Flashback Room: Nurse": 104,
-    "Hospital - 1F Green Hallway: Chest": 105,
-    "Hospital - 1F Nitrogen Storage: Chest": 106,
+    "Hospital - 1F Outside: Maeda's Mayoke": 100,
+    "Hospital - 1F Lobby: Corner Ammo Chest": 101,
+    "Hospital - 1F Lobby: Closet Chest": 102,
+    "Hospital - 1F Emergency Room: Chest": 103,
+    "Hospital - 1F Flashback Room: Chest": 104,
+    "Hospital - 1F Flashback Room: Nurse": 105,
+    "Hospital - 1F Green Hallway: Chest": 106,
     "Hospital - 1F Nitrogen Storage: King Bacterium Drop": 107,
-    "Hospital - B1 Storage: Upper Chest": 108,
-    "Hospital - B1 Storage: Lower Chest": 109,
-    "Hospital - B1 Storage: Shelf Fuse Sparkle": 110,
-    "Hospital - B1 Save Office: Chest": 111,
-    "Hospital - B1 Save Office: Key Drawer": 112,
-    "Hospital - B1 Morgue: Chest": 113,
-    "Hospital - B1 Autopsy: Lower Chest": 114,
-    "Hospital - B1 Autopsy: Upper Chest": 115,
-    "Hospital - B1 Crematory: Corner Chest": 116,
-    "Hospital - B1 Crematory: Fuse Sparkle": 117,
-    "Hospital - B1 Crematory: Cardkey Corpse": 118,
-    "Hospital - B1 Blue Hallway: 50/50 Chest": 119,
-    "Hospital - B1 Collapsed Back Stairway: Sparkle": 120,
-    "Hospital - B1 Sterilization Room: Right Chest": 121,
+    "Hospital - 1F Nitrogen Storage: Chest": 108,
+    "Hospital - B1 Storage: Upper Chest": 109,
+    "Hospital - B1 Storage: Lower Chest": 110,
+    "Hospital - B1 Storage: Shelf Fuse Sparkle": 111,
+    "Hospital - B1 Save Office: Chest": 112,
+    "Hospital - B1 Save Office: Key Drawer": 113,
+    "Hospital - B1 Morgue: Chest": 114,
+    "Hospital - B1 Autopsy: Lower Chest": 115,
+    "Hospital - B1 Autopsy: Upper Chest": 116,
+    "Hospital - B1 Crematory: Corner Chest": 117,
+    "Hospital - B1 Crematory: Fuse Sparkle": 118,
+    "Hospital - B1 Crematory: Cardkey Corpse": 119,
+    "Hospital - B1 Blue Hallway: 50/50 Chest": 120,
+    "Hospital - B1 Collapsed Back Stairway: Sparkle": 121,
     "Hospital - B1 Sterilization Room: Left Chest": 122,
-    "Hospital - B1 Sterilization Room: Fuse Sparkle": 123,
-    "Hospital - 13F Research Lab: Chest": 124,
-    "Hospital - 13F Research Lab: Counter": 125,
-    "Hospital - 13F Research Lab: Shelf": 126,
-    "Hospital - 13F Kennel: Chest": 127,
-    "Hospital - 13F Roof Elevator Access: Lower Chest": 128,
-    "Hospital - 13F Roof Elevator Access: Upper Chest": 129,
-    "Hospital - 13F Roof Elevator Access: 1st Sparkle (Junk)": 130,
-    "Hospital - 13F Roof Elevator Access: 2nd Sparkle (Key)": 131,
-    "Hospital - Roof Spiderwoman: Boss Drop": 132,
+    "Hospital - B1 Sterilization Room: Right Chest": 123,
+    "Hospital - B1 Sterilization Room: Fuse Sparkle": 124,
+    "Hospital - 13F Research Lab: Chest": 125,
+    "Hospital - 13F Research Lab: Counter": 126,
+    "Hospital - 13F Research Lab: Shelf": 127,
+    "Hospital - 13F Kennel: Chest": 128,
+    "Hospital - 13F Roof Elevator Access: Lower Chest": 129,
+    "Hospital - 13F Roof Elevator Access: Upper Chest": 130,
+    "Hospital - 13F Roof Elevator Access: Upper Sparkle": 131,
+    "Hospital - 13F Roof Elevator Access: Lower Sparkle": 132,
+    "Hospital - Roof Spiderwoman: Boss Drop": 133,
 
-    "Chinatown - Near Entrance: Left Chest": 133,
-    "Chinatown - Near Entrance: Right Chest": 134,
-    "Chinatown - Antique Shop Exterior (Save): Lower Chest": 135,
-    "Chinatown - Antique Shop Exterior (Save): Upper Chest": 136,
-    "Chinatown - Antique Shop Interior: Chest": 137,
-    "Chinatown - Antique Shop Interior: Shelf": 138,
-    "Chinatown - End of the Street: Chest": 139,
+    "Chinatown - Near Entrance: Left Chest": 134,
+    "Chinatown - Near Entrance: Right Chest": 135,
+    "Chinatown - Antique Shop Exterior (Save): Lower Chest": 136,
+    "Chinatown - Antique Shop Exterior (Save): Upper Chest": 137,
+    "Chinatown - Antique Shop Interior: Chest": 138,
+    "Chinatown - Antique Shop Interior: Shelf": 139,
     "Chinatown - End of the Street: Maeda's Narita": 140,
-    "Chinatown - Sewers Labyrinth A-04: Super Tool Sparkle": 141,
-    "Chinatown - Sewers Labyrinth B-01: Medicine 4 Chest": 142,
-    "Chinatown - Sewers Labyrinth B-03: Cure-D Sparkle": 143,
-    "Chinatown - Sewers Labyrinth B-06: Ammo Chest": 144,
-    "Chinatown - Sewers Labyrinth C-02: Cr Protector Chest": 145,
-    "Chinatown - Sewers Labyrinth C-06: Range Sparkle": 146,
-    "Chinatown - Sewers Labyrinth D-03: M203-3 Chest": 147,
-    "Chinatown - Sewers Labyrinth D-08: M870 Chest": 148,
-    "Chinatown - Sewers Labyrinth D-11: Off or Def Chest": 149,
-    "Chinatown - Sewers Labyrinth E-04: Medicine 3 Chest": 150,
-    "Chinatown - Sewers Labyrinth E-10: Tool Sparkle": 151,
-    "Chinatown - Sewers Labyrinth F-09: Offense Chest": 152,
-    "Chinatown - Sewers Exit Catwalk: Club 3 Chest": 153,
-    "Chinatown - Pump Station Exterior: Alligator Chest": 154,
-    "Chinatown - Pump Station Exterior: Catwalk Chest": 155,
-    "Chinatown - Pump Station Control Room: Chest": 156,
+    "Chinatown - End of the Street: Chest": 141,
+    "Chinatown - Sewers Labyrinth A-04: Super Tool Sparkle": 142,
+    "Chinatown - Sewers Labyrinth B-01: Medicine 4 Chest": 143,
+    "Chinatown - Sewers Labyrinth B-03: Cure-D Sparkle": 144,
+    "Chinatown - Sewers Labyrinth B-06: Ammo Chest": 145,
+    "Chinatown - Sewers Labyrinth C-02: Cr Protector Chest": 146,
+    "Chinatown - Sewers Labyrinth C-06: Range Sparkle": 147,
+    "Chinatown - Sewers Labyrinth D-03: M203-3 Chest": 148,
+    "Chinatown - Sewers Labyrinth D-08: M870 Chest": 149,
+    "Chinatown - Sewers Labyrinth D-11: Off or Def Chest": 150,
+    "Chinatown - Sewers Labyrinth E-04: Medicine 3 Chest": 151,
+    "Chinatown - Sewers Labyrinth E-10: Tool Sparkle": 152,
+    "Chinatown - Sewers Labyrinth F-09: Offense Chest": 153,
+    "Chinatown - Sewers Exit Catwalk: Club 3 Chest": 154,
+    "Chinatown - Pump Station Exterior: Alligator Chest": 155,
+    "Chinatown - Pump Station Exterior: Catwalk Chest": 156,
+    "Chinatown - Pump Station Control Room: Chest": 157,
 
-    "Subway - Platform (Save): Bench Chest": 157,
-    "Subway - Platform (Save): Phone Chest": 158,
-    "Subway - Exit Stairway: Chest": 159,
-    "Subway - Left Mole Tunnel: Chest": 160,
-    "Subway - Centipede: Boss Drop": 161,
-    "Subway - Parked Passenger Car: Right Chest": 162,
-    "Subway - Parked Passenger Car: Left Chest": 163,
-    "Subway - Parked Passenger Car: Lower Chest": 164,
-    "Subway - Bridge: Cop's Gate Key": 165,
+    "Subway - Platform (Save): Bench Chest": 158,
+    "Subway - Platform (Save): Phone Chest": 159,
+    "Subway - Exit Stairway: Chest": 160,
+    "Subway - Left Mole Tunnel: Chest": 161,
+    "Subway - Centipede: Boss Drop": 162,
+    "Subway - Parked Passenger Car: Right Chest": 163,
+    "Subway - Parked Passenger Car: Left Chest": 164,
+    "Subway - Parked Passenger Car: Lower Chest": 165,
+    "Subway - Bridge: Cop's Gate Key": 166,
 
-    "Warehouse - Outside: Left Chest (Hidden)": 166,
-    "Warehouse - Outside: Right Chest": 167,
-    "Warehouse - Entrance: Forklift Chest": 168,
-    "Warehouse - Tom and Jerry: Chest": 169,
-    "Warehouse - Tom and Jerry: Key Sparkle": 170,
-    "Warehouse - Save Room: Ladder Chest": 171,
-    "Warehouse - Save Room: Upper Ground Chest": 172,
-    "Warehouse - Save Room: Lower Ground Chest": 173,
-    "Warehouse - Before Descent: Lower Left Chest": 174,
-    "Warehouse - Before Descent: Upper Left Chest": 175,
-    "Warehouse - Before Descent: Upper Right Chest": 176,
-    "Warehouse - Giant Enemy Crab: Boss Drop": 177,
-    "Warehouse - Giant Enemy Crab: Steamed Tool": 178,
+    "Warehouse - Outside: Left Chest (Hidden)": 167,
+    "Warehouse - Outside: Right Chest": 168,
+    "Warehouse - Entrance: Forklift Chest": 169,
+    "Warehouse - Tom and Jerry: Chest": 170,
+    "Warehouse - Tom and Jerry: Key Sparkle": 171,
+    "Warehouse - Save Room: Ladder Chest": 172,
+    "Warehouse - Save Room: Upper Ground Chest": 173,
+    "Warehouse - Save Room: Lower Ground Chest": 174,
+    "Warehouse - Before Descent: Lower Left Chest": 175,
+    "Warehouse - Before Descent: Upper Left Chest": 176,
+    "Warehouse - Before Descent: Upper Right Chest": 177,
+    "Warehouse - Giant Enemy Crab: Boss Drop": 178,
+    "Warehouse - Giant Enemy Crab: Steamed Tool": 179,
 
-    "Museum - 1F Klamp Pursuit East Exhibit: Chest": 179,
-    "Museum - 1F Klamp Pursuit West Exhibit: Chest": 180,
-    "Museum - 1F Klamp Pursuit Troodon Hall: Right Chest": 181,
-    "Museum - 1F Klamp Pursuit Troodon Hall: Left Chest": 182,
-    "Museum - 1F Rainforest Exhibit: Quiz": 183
-    "Museum - 1F Rainforest Employee Hallway: Quiz": 184
-    "Museum - 1F Rainforest Employee Hallway: Chest": 185,
-    "Museum - 1F Rainforest Storage Room: Lower Right Chest": 186,
-    "Museum - 1F Rainforest Storage Room: Lower Center Chest": 187,
-    "Museum - 1F Rainforest Storage Room: Upper Chest": 188,
-    "Museum - 1F Rainforest Storage Room: Hidden Closet Right Chest": 189,
-    "Museum - 1F Rainforest Storage Room: Hidden Closet Left Chest": 190,
-    "Museum - 1F Stingy Scorpion Hall: Quiz": 191,
-    "Museum - 1F Tribal Staircase: Chest": 192,
-    "Museum - 1F Stone Head Room: Ladder Access Chest": 193,
-    "Museum - 1F Fire Escape: Stat Chest": 194,
-    "Museum - 2F Gemstone Staircase: Quiz": 195,
-    "Museum - 2F Gemstone Staircase: Right Chest": 196,
-    "Museum - 2F Gemstone Staircase: Left Chest": 197,
-    "Museum - 3F Fire Escape: Rocket Chest": 198,
-    "Museum - 3F Hall of Evolution: Quiz": 199,
-    "Museum - 2F Festive Lobby: Revive Chest": 200,
-    "Museum - 3F Pterodactyl Ambush Hall: Chest": 201,
-    "Museum - 3F Stegosaurus Room: Chest": 202,
-    "Museum - 2F Museum Shop Tents: Upper Chest": 203,
-    "Museum - 2F Museum Shop Tents: Lower Chest": 204,
-    "Museum - 2F Security Office: Chest": 205,
-    "Museum - 4F Security Storage: Lower Right Chest": 206,
-    "Museum - 4F Security Storage: Lower Left Chest": 207,
-    "Museum - 4F Security Storage: Upper Left Chest": 208,
-    "Museum - 4F Security Storage: Center Chest": 209,
-    "Museum - 2F Klamp's Office: Maeda's Gun": 210,
-    "Museum - 2F Klamp's Office: Klamp's Key": 211,
-    "Museum - 4F Forgotten Landing: Full Recover Chest": 212,
-    "Museum - 3F Triceratops: Boss Drop": 213,
-    "Museum - 1F T-Rex: Left Chest": 214,
-    "Museum - 1F T-Rex: Right Chest": 215,
-    "Museum - 1F T-Rex: Boss Drop": 216,
-    "Museum - 2F Glass Exhibit Near Chocobo: Quiz": 217,
-    "Museum - 2F Glass Exhibit Near Chocobo: Left Chest Behind Glass": 218,
-    "Museum - 2F Glass Exhibit Near Chocobo: Right Chest Behind Glass": 219,
-    "Museum - 3F Final Approach: Quiz": 220,
-    "Museum - 3F Final Approach: Right Chest Behind Glass": 221,
-    "Museum - 3F Final Approach: Left Chest Behind Glass": 222,
+    "Museum - 1F Klamp Pursuit East Exhibit: Chest": 180,
+    "Museum - 1F Klamp Pursuit West Exhibit: Chest": 181,
+    "Museum - 1F Klamp Pursuit Troodon Hall: Right Chest": 182,
+    "Museum - 1F Klamp Pursuit Troodon Hall: Left Chest": 183,
+    "Museum - 1F Rainforest Exhibit: Quiz": 184,
+    "Museum - 1F Rainforest Employee Hallway: Quiz": 185,
+    "Museum - 1F Rainforest Employee Hallway: Chest": 186,
+    "Museum - 1F Rainforest Storage Room: Lower Right Chest": 187,
+    "Museum - 1F Rainforest Storage Room: Lower Center Chest": 188,
+    "Museum - 1F Rainforest Storage Room: Upper Chest": 189,
+    "Museum - 1F Rainforest Storage Room: Hidden Closet Right Chest": 190,
+    "Museum - 1F Rainforest Storage Room: Hidden Closet Left Chest": 191,
+    "Museum - 1F Stingy Scorpion Hall: Quiz": 192,
+    "Museum - 1F Tribal Staircase: Chest": 193,
+    "Museum - 1F Stone Head Room: Ladder Access Chest": 194,
+    "Museum - 1F Fire Escape: Stat Chest": 195,
+    "Museum - 2F Gemstone Staircase: Quiz": 196,
+    "Museum - 2F Gemstone Staircase: Right Chest": 197,
+    "Museum - 2F Gemstone Staircase: Left Chest": 198,
+    "Museum - 3F Fire Escape: Rocket Chest": 199,
+    "Museum - 3F Hall of Evolution: Quiz": 200,
+    "Museum - 2F Festive Lobby: Revive Chest": 201,
+    "Museum - 3F Pterodactyl Ambush Hall: Chest": 202,
+    "Museum - 3F Stegosaurus Room: Chest": 203,
+    "Museum - 2F Museum Shop Tents: Upper Chest": 204,
+    "Museum - 2F Museum Shop Tents: Lower Chest": 205,
+    "Museum - 2F Security Office: Chest": 206,
+    "Museum - 4F Security Storage: Lower Right Chest": 207,
+    "Museum - 4F Security Storage: Lower Left Chest": 208,
+    "Museum - 4F Security Storage: Upper Left Chest": 209,
+    "Museum - 4F Security Storage: Center Chest": 210,
+    "Museum - 2F Klamp's Office: Maeda's Gun": 211,
+    "Museum - 2F Klamp's Office: Klamp's Key": 212,
+    "Museum - 4F Forgotten Landing: Full Recover Chest": 213,
+    "Museum - 3F Triceratops: Boss Drop": 214,
+    "Museum - 1F T-Rex: Left Chest": 215,
+    "Museum - 1F T-Rex: Right Chest": 216,
+    "Museum - 1F T-Rex: Boss Drop": 217,
+    "Museum - 2F Glass Exhibit Near Chocobo: Quiz": 218,
+    "Museum - 2F Glass Exhibit Near Chocobo: Left Chest Behind Glass": 219,
+    "Museum - 2F Glass Exhibit Near Chocobo: Right Chest Behind Glass": 220,
+    "Museum - 3F Final Approach: Quiz": 221,
+    "Museum - 3F Final Approach: Right Chest Behind Glass": 222,
+    "Museum - 3F Final Approach: Left Chest Behind Glass": 223,
 
-    "Cruiser - Deck: Daniel's Sacrifice": PELoctData("Cruiser", 6245223),
+    "Cruiser - Deck: Daniel's Sacrifice": 224,
 
     "Chrysler BLDG. - Treasurebox Set 1-01: Offense": 301,
     "Chrysler BLDG. - Treasurebox Set 1-01: Cr Evade": 302,
@@ -415,7 +416,7 @@ LOCATION_NAME_TO_ID = {
     "Chrysler BLDG. - Treasurebox Set 7-08: Club 5": 471,
     "Chrysler BLDG. - Treasurebox Set 7-08: Cr Armor 2": 472,
     "Chrysler BLDG. - 70F Queen Bee: Boss Drop": 473,
-    "Chrysler BLDG. - 77F Spire: Maya": 474,
+    "Chrysler BLDG. - 77F Spire: Maya": 474
 }
 
 
@@ -502,3 +503,740 @@ def create_regular_locations(world: PE1World) -> None:
     cb_spire = world.get_region("Chrysler BLDG.: Spire")
 
 
+
+
+    ch_norq_locations = get_location_names_with_ids(
+        [
+        "Carnegie Hall - F1 Backstage: Chest"
+        ]
+    )
+    ch_norq.add_locations(ch_norq_locations, PE1Location)
+
+    ch_cmbt_locations = get_location_names_with_ids(
+        [
+        "Carnegie Hall - B1 Save Room: Chest",
+        "Carnegie Hall - B1 Save Room: Theater Corpse",
+        "Carnegie Hall - B1 Clown Locker Room: Locker",
+        "Carnegie Hall - B1 Burned Pair Locker Room: Locker"
+        ]
+    )
+    ch_cmbt.add_locations(ch_cmbt_locations, PE1Location)
+
+    ch_cmbt_tk_locations = get_location_names_with_ids(
+        [
+        "Carnegie Hall - B1 Diary Room: Diary Key",
+        "Carnegie Hall - B1 Diary Room: Closet",
+        "Carnegie Hall - B1 Parrot Room: Closet",
+        "Carnegie Hall - B1 Prop Room: Front Chest",
+        "Carnegie Hall - B1 Prop Room: Hidden Chest",
+        "Carnegie Hall - B1 Prop Room: Rat Cabinet",
+        "Carnegie Hall - B1 Backstage Storage: Chest"
+        ]
+    )
+    ch_cmbt_tk.add_locations(ch_cmbt_tk_locations, PE1Location)
+
+    ch_cmbt_rk_locations = get_location_names_with_ids(
+        [
+        "Carnegie Hall - Sewers Stairway: Chest",
+        "Carnegie Hall - Sewers Ghost Girl: Back Left Chest",
+        "Carnegie Hall - Sewers Ghost Girl: Back Right Chest",
+        "Carnegie Hall - Sewers Ghost Girl: Front Left Chest",
+        "Carnegie Hall - Sewers Hidden Chest Room: Left Chest",
+        "Carnegie Hall - Sewers Hidden Chest Room: Center Chest",
+        "Carnegie Hall - Sewers Hidden Chest Room: Right Chest",
+        "Carnegie Hall - Sewers Hidden Chest Room: Valve Chest"
+        ]
+    )
+    ch_cmbt_rk.add_locations(ch_cmbt_rk_locations, PE1Location)
+
+    ch_boss_rk_locations = get_location_names_with_ids(
+        [
+        "Carnegie Hall - Sewers Alligator: Boss Drop"
+        ]
+    )
+    ch_boss_rk.add_locations(ch_boss_rk_locations, PE1Location)
+
+    pd_norq_locations = get_location_names_with_ids(
+        [
+        "N.Y.P.D. #17 - D2 1F Baker's Office: Baker Permit 1",
+        "N.Y.P.D. #17 - D2 1F Locker Room: Right Locker",
+        "N.Y.P.D. #17 - D2 1F Locker Room: Center Locker",
+        "N.Y.P.D. #17 - D2 1F Conference Room: Baker Permit 2",
+        "N.Y.P.D. #17 - D2 B1 Weapons Department: M16A1"
+        ]
+    )
+    pd_norq.add_locations(pd_norq_locations, PE1Location)
+
+    pd_lk_locations = get_location_names_with_ids(
+        [
+        "N.Y.P.D. #17 - D2 1F Locker Room: Locked Locker"
+        ]
+    )
+    pd_lk.add_locations(pd_lk_locations, PE1Location)
+
+    pd_sk_locations = get_location_names_with_ids(
+        [
+        "N.Y.P.D. #17 - D2 B1 Weapons Storage: Left Chest",
+        "N.Y.P.D. #17 - D2 B1 Weapons Storage: Center Chest",
+        "N.Y.P.D. #17 - D2 B1 Weapons Storage: Right Chest"
+        ]
+    )
+    pd_sk.add_locations(pd_sk_locations, PE1Location)
+
+    pd_sj_locations = get_location_names_with_ids(
+        [
+        "N.Y.P.D. #17 - D3 1F Entrance: Maeda's Hamaya",
+        "N.Y.P.D. #17 - D3 1F Main Hall: Cop's Ammo",
+        "N.Y.P.D. #17 - D3 1F Locker Room: Right Locker",
+        "N.Y.P.D. #17 - D3 1F Locker Room: Cop's Ammo",
+        "N.Y.P.D. #17 - D3 B1 Weapons Department: Torres's Gun",
+        "N.Y.P.D. #17 - D3 B1 Kennel: Cathy's Ammo"
+        ]
+    )
+    pd_sj.add_locations(pd_sj_locations, PE1Location)
+
+    pd_cmbt_sj_locations = get_location_names_with_ids(
+        [
+        "N.Y.P.D. #17 - D3 1F Main Hall: Nix's Ammo",
+        "N.Y.P.D. #17 - D3 1F Save Room: Warner's Ammo",
+        "N.Y.P.D. #17 - D3 1F Conference Room: Spider Chest",
+        "N.Y.P.D. #17 - D3 2F Barred Staircase: Cop's Ammo",
+        "N.Y.P.D. #17 - D3 2F Holding Cells: Left Chest",
+        "N.Y.P.D. #17 - D3 2F Holding Cells: Right Chest",
+        "N.Y.P.D. #17 - D3 2F Interrogation Room: Chest",
+        "N.Y.P.D. #17 - D3 2F Interrogation Room: Table Sparkle",
+        "N.Y.P.D. #17 - D3 2F Save Office: Desk Chest",
+        "N.Y.P.D. #17 - D3 2F Save Office: Floor Chest"
+        ]
+    )
+    pd_cmbt_sj.add_locations(pd_cmbt_sj_locations, PE1Location)
+
+    pd_boss_sj_locations = get_location_names_with_ids(
+        [
+        "N.Y.P.D. #17 - D3 3F Ambush Hall: Cop's Locker Key",
+        "N.Y.P.D. #17 - D4 3F Medical Office: Daniel's Ammo",
+        "N.Y.P.D. #17 - D3 3F Big Bad Wolf: Boss Drop",
+        "N.Y.P.D. #17 - D3 3F Big Bad Wolf: Chest",
+        "N.Y.P.D. #17 - D3 3F Big Bad Wolf: Cop's Ammo",
+        "N.Y.P.D. #17 - D3 3F Big Bad Wolf's Backroom: Chest",
+        "N.Y.P.D. #17 - D3 3F Kerberos: Boss Drop"
+        ]
+    )
+    pd_boss_sj.add_locations(pd_boss_sj_locations, PE1Location)
+
+    pd_boss_sj_junk_locations = get_location_names_with_ids(
+        [
+        "N.Y.P.D. #17 - D4 B1 Weapons Department: Leave It to Wayne"
+        ]
+    )
+    pd_boss_sj_junk.add_locations(pd_boss_sj_junk_locations, PE1Location)
+
+    pd_boss_sj_12rt_locations = get_location_names_with_ids(
+        [
+        "N.Y.P.D. #17 - D4 B1 Weapons Department: Tool Kit"
+        ]
+    )
+    pd_boss_sj_12rt.add_locations(pd_boss_sj_12rt_locations, PE1Location)
+
+    pd_boss_sj_14rt_locations = get_location_names_with_ids(
+        [
+        "N.Y.P.D. #17 - D4 B1 Weapons Department: Super Tool Kit"
+        ]
+    )
+    pd_boss_sj_14rt.add_locations(pd_boss_sj_14rt_locations, PE1Location)
+
+
+    cp_norq_locations = get_location_names_with_ids(
+        [
+        "Central Park - Entrance: Car Chest",
+        "Central Park - Entrance: Snake Chest"
+        ]
+    )
+    cp_norq.add_locations(cp_norq_locations, PE1Location)
+
+    cp_cmbt_locations = get_location_names_with_ids(
+        [
+        "Central Park - Front Gate: Left Chest",
+        "Central Park - Front Gate: Right Chest",
+        "Central Park - Courtyard: Left Gun Chest",
+        "Central Park - Courtyard: Right Tool Chest",
+        "Central Park - Office: Key Drawer",
+        "Central Park - Office: Cabinet",
+        "Central Park - Back Courtyard: Ammo Chest",
+        "Central Park - Figure 8: Right Chest",
+        "Central Park - Figure 8: Left Chest"
+        ]
+    )
+    cp_cmbt.add_locations(cp_cmbt_locations, PE1Location)
+
+    cp_cmbt_zk_locations = get_location_names_with_ids(
+        [
+        "Central Park - Office: Locked Cupboard",
+        "Central Park - Snake Exhibit: Upper Right Chest",
+        "Central Park - Snake Exhibit: Lower Left Chest",
+        "Central Park - Snake Exhibit: Lower Right Chest",
+        "Central Park - Gazebo: Left Chest",
+        "Central Park - Gazebo: Right Chest",
+        "Central Park - Behind Gazebo (Save): Chest",
+        "Central Park - Forest Maze West: Mythical Tool Chest",
+        "Central Park - Forest Maze Bridge: Chest",
+        "Central Park - Forest Maze Dock: Chest",
+        "Central Park - Forest Maze East: Backup Tool Chest",
+        "Central Park - Under Bush Bridge: Left Stat Chest",
+        "Central Park - Under Bush Bridge: Right YOLO Tool Chest"
+        ]
+    )
+    cp_cmbt_zk.add_locations(cp_cmbt_zk_locations, PE1Location)
+
+    cp_boss_zk_locations = get_location_names_with_ids(
+        [
+        "Central Park - Carriage Eve: Boss Drop"
+        ]
+    )
+    cp_boss_zk.add_locations(cp_boss_zk_locations, PE1Location)
+
+
+    sh_norq_locations = get_location_names_with_ids(
+        [
+        "Soho - Apartment Interior: Chest",
+        "Soho - Apartment Exterior: Trash Card",
+        "Soho - Pharmacy: Aisle 3 Medicine Chest",
+        "Soho - Pharmacy: Aisle 5 Revive Chest",
+        "Soho - Pharmacy: Backroom Left Chest",
+        "Soho - Pharmacy: Backroom Right Chest",
+        "Soho - Pharmacy: Aisle 1 Left Shelf",
+        "Soho - Pharmacy: Aisle 3 Far Back Shelf",
+        "Soho - Pharmacy: Behind Phone Counter",
+        "Soho - Pharmacy: Aisle 4 Right Shelf"
+        ]
+    )
+    sh_norq.add_locations(sh_norq_locations, PE1Location)
+
+    sh_wm_locations = get_location_names_with_ids(
+        [
+        "Soho - Sam's Gun Shop: Upper Left Chest",
+        "Soho - Sam's Gun Shop: Upper Right Chest",
+        "Soho - Sam's Gun Shop: Behind Counter Chest",
+        "Soho - Sam's Gun Shop: Lower Right Chest",
+        "Soho - Sam's Gun Shop: Green Box",
+        "Soho - Sam's Gun Shop: Red Box",
+        "Soho - Sam's Gun Shop: Shotgun Rack",
+        "Soho - Sam's Gun Shop: Rifle Rack"
+        ]
+    )
+    sh_wm.add_locations(sh_wm_locations, PE1Location)
+
+
+    hs_norq_locations = get_location_names_with_ids(
+        [
+        "Hospital - 1F Outside: Maeda's Mayoke",
+        "Hospital - 1F Lobby: Corner Ammo Chest",
+        "Hospital - 1F Lobby: Closet Chest",
+        "Hospital - B1 Storage: Upper Chest",
+        "Hospital - B1 Storage: Lower Chest",
+        "Hospital - B1 Storage: Shelf Fuse Sparkle",
+        "Hospital - B1 Save Office: Chest",
+        "Hospital - B1 Save Office: Key Drawer",
+        "Hospital - B1 Morgue: Chest"
+        ]
+    )
+    hs_norq.add_locations(hs_norq_locations, PE1Location)
+
+    hs_gc_locations = get_location_names_with_ids(
+        [
+        "Hospital - 1F Green Hallway: Chest"
+        ]
+    )
+    hs_gc.add_locations(hs_gc_locations, PE1Location)
+
+    hs_bc_locations = get_location_names_with_ids(
+        [
+        "Hospital - B1 Blue Hallway: 50/50 Chest",
+        "Hospital - B1 Collapsed Back Stairway: Sparkle",
+        "Hospital - B1 Sterilization Room: Left Chest"
+        ]
+    )
+    hs_bc.add_locations(hs_bc_locations, PE1Location)
+
+    hs_cmbt_locations = get_location_names_with_ids(
+        [
+        "Hospital - 1F Emergency Room: Chest",
+        "Hospital - 1F Flashback Room: Chest",
+        "Hospital - 1F Flashback Room: Nurse"
+        ]
+    )
+    hs_cmbt.add_locations(hs_cmbt_locations, PE1Location)
+
+    hs_cmbt_gc_locations = get_location_names_with_ids(
+        [
+        "Hospital - 1F Nitrogen Storage: Chest",
+        "Hospital - 1F Nitrogen Storage: King Bacterium Drop"
+        ]
+    )
+    hs_cmbt_gc.add_locations(hs_cmbt_gc_locations, PE1Location)
+
+    hs_cmbt_ak_locations = get_location_names_with_ids(
+        [
+        "Hospital - B1 Autopsy: Lower Chest",
+        "Hospital - B1 Autopsy: Upper Chest",
+        "Hospital - B1 Crematory: Corner Chest",
+        "Hospital - B1 Crematory: Fuse Sparkle",
+        "Hospital - B1 Crematory: Cardkey Corpse"
+        ]
+    )
+    hs_cmbt_ak.add_locations(hs_cmbt_ak_locations, PE1Location)
+
+    hs_cmbt_bc_locations = get_location_names_with_ids(
+        [
+        "Hospital - B1 Sterilization Room: Right Chest",
+        "Hospital - B1 Sterilization Room: Fuse Sparkle"
+        ]
+    )
+    hs_cmbt_bc.add_locations(hs_cmbt_bc_locations, PE1Location)
+
+    hs_cmbt_bc_3f_locations = get_location_names_with_ids(
+        [
+        "Hospital - 13F Research Lab: Chest",
+        "Hospital - 13F Research Lab: Counter",
+        "Hospital - 13F Research Lab: Shelf",
+        "Hospital - 13F Kennel: Chest",
+        "Hospital - 13F Roof Elevator Access: Lower Chest",
+        "Hospital - 13F Roof Elevator Access: Upper Chest",
+        "Hospital - 13F Roof Elevator Access: Upper Sparkle",
+        "Hospital - 13F Roof Elevator Access: Lower Sparkle"
+        ]
+    )
+    hs_cmbt_bc_3f.add_locations(hs_cmbt_bc_3f_locations, PE1Location)
+
+    hs_boss_bc_3f_ek_locations = get_location_names_with_ids(
+        [
+        "Hospital - Roof Spiderwoman: Boss Drop"
+        ]
+    )
+    hs_boss_bc_3f_ek.add_locations(hs_boss_bc_3f_ek_locations, PE1Location)
+
+
+    ct_norq_or_cmbt_gk_locations = get_location_names_with_ids(
+        [
+        "Chinatown - Near Entrance: Left Chest",
+        "Chinatown - Near Entrance: Right Chest"
+        ]
+    )
+    ct_norq_or_cmbt_gk.add_locations(ct_norq_or_cmbt_gk_locations, PE1Location)
+
+    ct_cmbt_or_cmbt_gk_locations = get_location_names_with_ids(
+        [
+        "Chinatown - Antique Shop Exterior (Save): Lower Chest",
+        "Chinatown - Antique Shop Exterior (Save): Upper Chest",
+        "Chinatown - Antique Shop Interior: Chest",
+        "Chinatown - Antique Shop Interior: Shelf",
+        "Chinatown - End of the Street: Maeda's Narita",
+        "Chinatown - End of the Street: Chest",
+        "Chinatown - Sewers Labyrinth A-04: Super Tool Sparkle",
+        "Chinatown - Sewers Labyrinth B-01: Medicine 4 Chest",
+        "Chinatown - Sewers Labyrinth B-03: Cure-D Sparkle",
+        "Chinatown - Sewers Labyrinth B-06: Ammo Chest",
+        "Chinatown - Sewers Labyrinth C-02: Cr Protector Chest",
+        "Chinatown - Sewers Labyrinth C-06: Range Sparkle",
+        "Chinatown - Sewers Labyrinth D-03: M203-3 Chest",
+        "Chinatown - Sewers Labyrinth D-08: M870 Chest",
+        "Chinatown - Sewers Labyrinth D-11: Off or Def Chest",
+        "Chinatown - Sewers Labyrinth E-04: Medicine 3 Chest",
+        "Chinatown - Sewers Labyrinth E-10: Tool Sparkle",
+        "Chinatown - Sewers Labyrinth F-09: Offense Chest",
+        "Chinatown - Sewers Exit Catwalk: Club 3 Chest"
+        ]
+    )
+    ct_cmbt_or_cmbt_gk.add_locations(ct_cmbt_or_cmbt_gk_locations, PE1Location)
+
+    ct_boss_or_boss_gk_locations = get_location_names_with_ids(
+        [
+        "Chinatown - Pump Station Exterior: Alligator Chest"
+        ]
+    )
+    ct_boss_or_boss_gk.add_locations(ct_boss_or_boss_gk_locations, PE1Location)
+
+    ct_cmbt_or_gk_locations = get_location_names_with_ids(
+        [
+        "Chinatown - Pump Station Exterior: Catwalk Chest",
+        "Chinatown - Pump Station Control Room: Chest"
+        ]
+    )
+    ct_cmbt_or_gk.add_locations(ct_cmbt_or_gk_locations, PE1Location)
+
+
+    sw_cmbt_pk_or_gk_locations = get_location_names_with_ids(
+        [
+        "Subway - Platform (Save): Bench Chest",
+        "Subway - Platform (Save): Phone Chest",
+        "Subway - Exit Stairway: Chest"
+        ]
+    )
+    sw_cmbt_pk_or_gk.add_locations(sw_cmbt_pk_or_gk_locations, PE1Location)
+
+    sw_cmbt_pk_or_cmbt_gk_locations = get_location_names_with_ids(
+        [
+        "Subway - Left Mole Tunnel: Chest"
+        ]
+    )
+    sw_cmbt_pk_or_cmbt_gk.add_locations(sw_cmbt_pk_or_cmbt_gk_locations, PE1Location)
+
+    sw_boss_pk_or_boss_gk_locations = get_location_names_with_ids(
+        [
+        "Subway - Centipede: Boss Drop",
+        "Subway - Parked Passenger Car: Right Chest",
+        "Subway - Parked Passenger Car: Left Chest",
+        "Subway - Parked Passenger Car: Lower Chest",
+        "Subway - Bridge: Cop's Gate Key"
+        ]
+    )
+    sw_boss_pk_or_boss_gk.add_locations(sw_boss_pk_or_boss_gk_locations, PE1Location)
+
+
+    wh_norq_locations = get_location_names_with_ids(
+        [
+        "Warehouse - Outside: Left Chest (Hidden)",
+        "Warehouse - Outside: Right Chest",
+        "Warehouse - Entrance: Forklift Chest"
+        ]
+    )
+    wh_norq.add_locations(wh_norq_locations, PE1Location)
+
+    wh_cmbt_locations = get_location_names_with_ids(
+        [
+        "Warehouse - Tom and Jerry: Chest",
+        "Warehouse - Tom and Jerry: Key Sparkle",
+        "Warehouse - Save Room: Ladder Chest",
+        "Warehouse - Save Room: Upper Ground Chest",
+        "Warehouse - Save Room: Lower Ground Chest"
+        ]
+    )
+    wh_cmbt.add_locations(wh_cmbt_locations, PE1Location)
+
+    wh_cmbt_wk_locations = get_location_names_with_ids(
+        [
+        "Warehouse - Before Descent: Lower Left Chest",
+        "Warehouse - Before Descent: Upper Left Chest",
+        "Warehouse - Before Descent: Upper Right Chest"
+        ]
+    )
+    wh_cmbt_wk.add_locations(wh_cmbt_wk_locations, PE1Location)
+
+    wh_boss_wk_locations = get_location_names_with_ids(
+        [
+        "Warehouse - Giant Enemy Crab: Boss Drop",
+        "Warehouse - Giant Enemy Crab: Steamed Tool"
+        ]
+    )
+    wh_boss_wk.add_locations(wh_boss_wk_locations, PE1Location)
+
+
+    mu_norq_locations = get_location_names_with_ids(
+        [
+        "Museum - 1F Klamp Pursuit East Exhibit: Chest",
+        "Museum - 1F Klamp Pursuit West Exhibit: Chest",
+        "Museum - 1F Rainforest Exhibit: Quiz",
+        "Museum - 1F Rainforest Employee Hallway: Quiz",
+        "Museum - 1F Rainforest Employee Hallway: Chest",
+        "Museum - 1F Stingy Scorpion Hall: Quiz",
+        "Museum - 1F T-Rex: Left Chest",
+        "Museum - 1F T-Rex: Right Chest"
+        ]
+    )
+    mu_norq.add_locations(mu_norq_locations, PE1Location)
+
+    mu_cmbt_locations = get_location_names_with_ids(
+        [
+        "Museum - 1F Klamp Pursuit Troodon Hall: Right Chest",
+        "Museum - 1F Klamp Pursuit Troodon Hall: Left Chest",
+        "Museum - 1F Rainforest Storage Room: Lower Right Chest",
+        "Museum - 1F Rainforest Storage Room: Lower Center Chest",
+        "Museum - 1F Rainforest Storage Room: Upper Chest",
+        "Museum - 1F Rainforest Storage Room: Hidden Closet Right Chest",
+        "Museum - 1F Rainforest Storage Room: Hidden Closet Left Chest",
+        "Museum - 1F Tribal Staircase: Chest",
+        "Museum - 1F Stone Head Room: Ladder Access Chest",
+        "Museum - 1F Fire Escape: Stat Chest",
+        "Museum - 2F Gemstone Staircase: Quiz",
+        "Museum - 2F Gemstone Staircase: Right Chest",
+        "Museum - 2F Gemstone Staircase: Left Chest",
+        "Museum - 3F Fire Escape: Rocket Chest",
+        "Museum - 3F Hall of Evolution: Quiz",
+        "Museum - 2F Festive Lobby: Revive Chest",
+        "Museum - 3F Pterodactyl Ambush Hall: Chest",
+        "Museum - 3F Stegosaurus Room: Chest",
+        "Museum - 2F Museum Shop Tents: Upper Chest",
+        "Museum - 2F Museum Shop Tents: Lower Chest",
+        "Museum - 2F Security Office: Chest",
+        "Museum - 4F Security Storage: Lower Right Chest",
+        "Museum - 4F Security Storage: Lower Left Chest",
+        "Museum - 4F Security Storage: Upper Left Chest",
+        "Museum - 4F Security Storage: Center Chest",
+        "Museum - 2F Klamp's Office: Maeda's Gun",
+        "Museum - 2F Klamp's Office: Klamp's Key",
+        "Museum - 4F Forgotten Landing: Full Recover Chest"
+        ]
+    )
+    mu_cmbt.add_locations(mu_cmbt_locations, PE1Location)
+
+    mu_cmbt_kk_locations = get_location_names_with_ids(
+        [
+        "Museum - 2F Glass Exhibit Near Chocobo: Quiz"
+        ]
+    )
+    mu_cmbt_kk.add_locations(mu_cmbt_kk_locations, PE1Location)
+
+    mu_boss_kk_locations = get_location_names_with_ids(
+        [
+        "Museum - 3F Triceratops: Boss Drop",
+        "Museum - 1F T-Rex: Boss Drop",
+        "Museum - 2F Glass Exhibit Near Chocobo: Left Chest Behind Glass",
+        "Museum - 2F Glass Exhibit Near Chocobo: Right Chest Behind Glass",
+        "Museum - 3F Final Approach: Quiz",
+        "Museum - 3F Final Approach: Right Chest Behind Glass",
+        "Museum - 3F Final Approach: Left Chest Behind Glass"
+        ]
+    )
+    mu_boss_kk.add_locations(mu_boss_kk_locations, PE1Location)
+
+
+    cruiser_locations = get_location_names_with_ids(
+        [
+        "Cruiser - Deck: Daniel's Sacrifice"
+        ]
+    )
+    cruiser.add_locations(cruiser_locations, PE1Location)
+
+
+    cb_k1_locations = get_location_names_with_ids(
+        [
+        "Chrysler BLDG. - Treasurebox Set 1-01: Offense",
+        "Chrysler BLDG. - Treasurebox Set 1-01: Cr Evade",
+        "Chrysler BLDG. - Treasurebox Set 1-01: Tool",
+        "Chrysler BLDG. - Treasurebox Set 1-01: USP-2",
+        "Chrysler BLDG. - Treasurebox Set 1-02: Tool A",
+        "Chrysler BLDG. - Treasurebox Set 1-02: M1911A4",
+        "Chrysler BLDG. - Treasurebox Set 1-02: Tool B",
+        "Chrysler BLDG. - Treasurebox Set 1-02: Sp Vest 2",
+        "Chrysler BLDG. - Treasurebox Set 1-03: M16A2",
+        "Chrysler BLDG. - Treasurebox Set 1-03: Tool",
+        "Chrysler BLDG. - Treasurebox Set 1-03: Cr Evade",
+        "Chrysler BLDG. - Treasurebox Set 1-04: PE",
+        "Chrysler BLDG. - Treasurebox Set 1-04: Kv Jacket",
+        "Chrysler BLDG. - Treasurebox Set 1-04: M79-4",
+        "Chrysler BLDG. - Treasurebox Set 1-05: P38 T Card",
+        "Chrysler BLDG. - Treasurebox Set 1-05: P228",
+        "Chrysler BLDG. - Treasurebox Set 1-05: PE",
+        "Chrysler BLDG. - Treasurebox Set 1-05: Cr Evade",
+        "Chrysler BLDG. - Treasurebox Set 1-06: Sv Jacket",
+        "Chrysler BLDG. - Treasurebox Set 1-06: Cr Evade",
+        "Chrysler BLDG. - Treasurebox Set 1-07: PE",
+        "Chrysler BLDG. - Treasurebox Set 1-07: P226",
+        "Chrysler BLDG. - Treasurebox Set 1-07: Defense",
+        "Chrysler BLDG. - Treasurebox Set 1-08: Range",
+        "Chrysler BLDG. - Treasurebox Set 1-08: Bullet Cap",
+        "Chrysler BLDG. - Treasurebox Set 1-08: Rocket",
+        "Chrysler BLDG. - Treasurebox Set 1-08: Tool",
+        "Chrysler BLDG. - Treasurebox Set 1-09: Bullet Cap",
+        "Chrysler BLDG. - Treasurebox Set 1-09: Offense A",
+        "Chrysler BLDG. - Treasurebox Set 1-09: Offense B",
+        "Chrysler BLDG. - 10F Spiderwoman EX: Boss Drop"
+        ]
+    )
+    cb_k1.add_locations(cb_k1_locations, PE1Location)
+
+    cb_k2_locations = get_location_names_with_ids(
+        [
+        "Chrysler BLDG. - Treasurebox Set 2-01: Cr Jacket",
+        "Chrysler BLDG. - Treasurebox Set 2-01: Defense",
+        "Chrysler BLDG. - Treasurebox Set 2-02: Tool",
+        "Chrysler BLDG. - Treasurebox Set 2-03: Tool A",
+        "Chrysler BLDG. - Treasurebox Set 2-03: Tool B",
+        "Chrysler BLDG. - Treasurebox Set 2-03: M203-5",
+        "Chrysler BLDG. - Treasurebox Set 2-04: Tool",
+        "Chrysler BLDG. - Treasurebox Set 2-04: M96",
+        "Chrysler BLDG. - Treasurebox Set 2-04: Bullet Cap",
+        "Chrysler BLDG. - Treasurebox Set 2-05: Kasul T Card",
+        "Chrysler BLDG. - Treasurebox Set 2-05: Offense",
+        "Chrysler BLDG. - Treasurebox Set 2-05: Rocket",
+        "Chrysler BLDG. - Treasurebox Set 2-06: Super Tool",
+        "Chrysler BLDG. - Treasurebox Set 2-06: Club 4",
+        "Chrysler BLDG. - Treasurebox Set 2-06: Defense",
+        "Chrysler BLDG. - Treasurebox Set 2-07: AM44",
+        "Chrysler BLDG. - Treasurebox Set 2-07: P229",
+        "Chrysler BLDG. - Treasurebox Set 2-08: PE",
+        "Chrysler BLDG. - Treasurebox Set 2-08: Sp Suit 1",
+        "Chrysler BLDG. - Treasurebox Set 2-09: Full UZ",
+        "Chrysler BLDG. - Treasurebox Set 2-09: Range",
+        "Chrysler BLDG. - Treasurebox Set 2-09: Bhawk T Card",
+        "Chrysler BLDG. - Treasurebox Set 2-10: Kv Suit 1",
+        "Chrysler BLDG. - Treasurebox Set 2-10: Tool",
+        "Chrysler BLDG. - 20F Alligators EX: Boss Drops"
+        ]
+    )
+    cb_k2.add_locations(cb_k2_locations, PE1Location)
+
+    cb_k3_locations = get_location_names_with_ids(
+        [
+        "Chrysler BLDG. - Treasurebox Set 3-01: Tool",
+        "Chrysler BLDG. - Treasurebox Set 3-02: Tool A",
+        "Chrysler BLDG. - Treasurebox Set 3-02: PPKS T Card",
+        "Chrysler BLDG. - Treasurebox Set 3-02: Tool B",
+        "Chrysler BLDG. - Treasurebox Set 3-03: Bullet Cap",
+        "Chrysler BLDG. - Treasurebox Set 3-03: Tool",
+        "Chrysler BLDG. - Treasurebox Set 3-03: Super Tool",
+        "Chrysler BLDG. - Treasurebox Set 3-04: Super Tool",
+        "Chrysler BLDG. - Treasurebox Set 3-04: Cr Evade",
+        "Chrysler BLDG. - Treasurebox Set 3-04: Mark 23",
+        "Chrysler BLDG. - Treasurebox Set 3-05: Offense",
+        "Chrysler BLDG. - Treasurebox Set 3-05: Tool",
+        "Chrysler BLDG. - Treasurebox Set 3-05: M870-2",
+        "Chrysler BLDG. - Treasurebox Set 3-06: Type64",
+        "Chrysler BLDG. - Treasurebox Set 3-06: Defense",
+        "Chrysler BLDG. - Treasurebox Set 3-07: Cm Jacket",
+        "Chrysler BLDG. - Treasurebox Set 3-08: B Jacket 2",
+        "Chrysler BLDG. - Treasurebox Set 3-08: M1 T Card",
+        "Chrysler BLDG. - Treasurebox Set 3-08: Offense",
+        "Chrysler BLDG. - Treasurebox Set 3-09: Range",
+        "Chrysler BLDG. - Treasurebox Set 3-09: Cr Evade",
+        "Chrysler BLDG. - Treasurebox Set 3-10: Tool",
+        "Chrysler BLDG. - Treasurebox Set 3-10: Sv Suit 1",
+        "Chrysler BLDG. - Treasurebox Set 3-10: M79-5",
+        "Chrysler BLDG. - 30F Centipede EX: Boss Drop"
+        ]
+    )
+    cb_k3.add_locations(cb_k3_locations, PE1Location)
+
+    cb_k4_locations = get_location_names_with_ids(
+        [
+        "Chrysler BLDG. - Treasurebox Set 4-01: PSG-1",
+        "Chrysler BLDG. - Treasurebox Set 4-01: Tool",
+        "Chrysler BLDG. - Treasurebox Set 4-01: Full Cure",
+        "Chrysler BLDG. - Treasurebox Set 4-01: Bullet Cap",
+        "Chrysler BLDG. - Treasurebox Set 4-02: Cm Suit 1",
+        "Chrysler BLDG. - Treasurebox Set 4-02: Tool",
+        "Chrysler BLDG. - Treasurebox Set 4-02: Full Recover",
+        "Chrysler BLDG. - Treasurebox Set 4-03: Tool",
+        "Chrysler BLDG. - Treasurebox Set 4-03: Rocket",
+        "Chrysler BLDG. - Treasurebox Set 4-03: Defense",
+        "Chrysler BLDG. - Treasurebox Set 4-03: Sv Suit 2",
+        "Chrysler BLDG. - Treasurebox Set 4-04: MP5A5",
+        "Chrysler BLDG. - Treasurebox Set 4-04: MK5 T Card",
+        "Chrysler BLDG. - Treasurebox Set 4-04: Sp Armor 1",
+        "Chrysler BLDG. - Treasurebox Set 4-04: BAR T Card",
+        "Chrysler BLDG. - Treasurebox Set 4-05: Tool",
+        "Chrysler BLDG. - Treasurebox Set 4-06: MP44 T Card",
+        "Chrysler BLDG. - Treasurebox Set 4-07: MG42 T Card",
+        "Chrysler BLDG. - Treasurebox Set 4-07: Cr Evade",
+        "Chrysler BLDG. - Treasurebox Set 4-07: M1911A5",
+        "Chrysler BLDG. - Treasurebox Set 4-07: Defense",
+        "Chrysler BLDG. - Treasurebox Set 4-08: Maverick",
+        "Chrysler BLDG. - Treasurebox Set 4-08: Range",
+        "Chrysler BLDG. - Treasurebox Set 4-09: Kv Armor 1",
+        "Chrysler BLDG. - Treasurebox Set 4-10: Tool",
+        "Chrysler BLDG. - 40F Triceratops EX: Boss Drop"
+        ]
+    )
+    cb_k4.add_locations(cb_k4_locations, PE1Location)
+
+    cb_k5_locations = get_location_names_with_ids(
+        [
+        "Chrysler BLDG. - Treasurebox Set 5-01: SAR",
+        "Chrysler BLDG. - Treasurebox Set 5-01: Tool",
+        "Chrysler BLDG. - Treasurebox Set 5-01: M29 T Card",
+        "Chrysler BLDG. - Treasurebox Set 5-02: M73 T Card",
+        "Chrysler BLDG. - Treasurebox Set 5-02: PE",
+        "Chrysler BLDG. - Treasurebox Set 5-02: Super Tool",
+        "Chrysler BLDG. - Treasurebox Set 5-02: AT4-1",
+        "Chrysler BLDG. - Treasurebox Set 5-03: Tool",
+        "Chrysler BLDG. - Treasurebox Set 5-03: Bullet Cap",
+        "Chrysler BLDG. - Treasurebox Set 5-04: Cr Suit 1",
+        "Chrysler BLDG. - Treasurebox Set 5-05: USP-3",
+        "Chrysler BLDG. - Treasurebox Set 5-06: Offense",
+        "Chrysler BLDG. - Treasurebox Set 5-06: Rocket",
+        "Chrysler BLDG. - Treasurebox Set 5-06: Cm Armor 1",
+        "Chrysler BLDG. - Treasurebox Set 5-06: Tool",
+        "Chrysler BLDG. - Treasurebox Set 5-06: Range",
+        "Chrysler BLDG. - Treasurebox Set 5-07: Tool",
+        "Chrysler BLDG. - Treasurebox Set 5-08: B Suit 1",
+        "Chrysler BLDG. - Treasurebox Set 5-09: G20",
+        "Chrysler BLDG. - Treasurebox Set 5-09: Tool",
+        "Chrysler BLDG. - Treasurebox Set 5-09: Offense",
+        "Chrysler BLDG. - Treasurebox Set 5-09: Sv Armor 1",
+        "Chrysler BLDG. - 50F Cockroach: Boss Drop"
+        ]
+    )
+    cb_k5.add_locations(cb_k5_locations, PE1Location)
+
+    cb_k6_locations = get_location_names_with_ids(
+        [
+        "Chrysler BLDG. - Treasurebox Set 6-01: Type38 T Card",
+        "Chrysler BLDG. - Treasurebox Set 6-01: Cr Evade",
+        "Chrysler BLDG. - Treasurebox Set 6-01: Sp Armor 2",
+        "Chrysler BLDG. - Treasurebox Set 6-02: Rocket",
+        "Chrysler BLDG. - Treasurebox Set 6-02: MP5SD6",
+        "Chrysler BLDG. - Treasurebox Set 6-03: B Suit 2",
+        "Chrysler BLDG. - Treasurebox Set 6-04: M712",
+        "Chrysler BLDG. - Treasurebox Set 6-05: S12",
+        "Chrysler BLDG. - Treasurebox Set 6-05: PE",
+        "Chrysler BLDG. - Treasurebox Set 6-05: Full Recover",
+        "Chrysler BLDG. - Treasurebox Set 6-05: Cr Armor 1",
+        "Chrysler BLDG. - Treasurebox Set 6-06: Full Cure",
+        "Chrysler BLDG. - Treasurebox Set 6-07: FA-MAS",
+        "Chrysler BLDG. - Treasurebox Set 6-08: Range",
+        "Chrysler BLDG. - Treasurebox Set 6-09: Tool A",
+        "Chrysler BLDG. - Treasurebox Set 6-09: Tool B",
+        "Chrysler BLDG. - Treasurebox Set 6-09: Tool C",
+        "Chrysler BLDG. - 60F Giant Enemy Crab EX: Boss Drop"
+        ]
+    )
+    cb_k6.add_locations(cb_k6_locations, PE1Location)
+
+    cb_k7_locations = get_location_names_with_ids(
+        [
+        "Chrysler BLDG. - Treasurebox Set 7-01: PE",
+        "Chrysler BLDG. - Treasurebox Set 7-01: M500-2",
+        "Chrysler BLDG. - Treasurebox Set 7-01: Full Recover",
+        "Chrysler BLDG. - Treasurebox Set 7-01: M500",
+        "Chrysler BLDG. - Treasurebox Set 7-02: Defense",
+        "Chrysler BLDG. - Treasurebox Set 7-03: XM177E2",
+        "Chrysler BLDG. - Treasurebox Set 7-03: Tool",
+        "Chrysler BLDG. - Treasurebox Set 7-03: Range",
+        "Chrysler BLDG. - Treasurebox Set 7-03: Full Cure",
+        "Chrysler BLDG. - Treasurebox Set 7-04: Super Tool",
+        "Chrysler BLDG. - Treasurebox Set 7-04: Cm Armor 2",
+        "Chrysler BLDG. - Treasurebox Set 7-04: Bullet Cap",
+        "Chrysler BLDG. - Treasurebox Set 7-05: B Armor",
+        "Chrysler BLDG. - Treasurebox Set 7-05: M96R",
+        "Chrysler BLDG. - Treasurebox Set 7-05: Super Tool",
+        "Chrysler BLDG. - Treasurebox Set 7-05: Tool",
+        "Chrysler BLDG. - Treasurebox Set 7-06: Type3 T Card",
+        "Chrysler BLDG. - Treasurebox Set 7-07: M203-6",
+        "Chrysler BLDG. - Treasurebox Set 7-07: Offense",
+        "Chrysler BLDG. - Treasurebox Set 7-07: Sv Armor 2",
+        "Chrysler BLDG. - Treasurebox Set 7-08: Eagle T Card",
+        "Chrysler BLDG. - Treasurebox Set 7-08: PE",
+        "Chrysler BLDG. - Treasurebox Set 7-08: Club 5",
+        "Chrysler BLDG. - Treasurebox Set 7-08: Cr Armor 2",
+        "Chrysler BLDG. - 70F Queen Bee: Boss Drop"
+        ]
+    )
+    cb_k7.add_locations(cb_k7_locations, PE1Location)
+
+    cb_spire_locations = get_location_names_with_ids(
+        [
+        "Chrysler BLDG. - 77F Spire: Maya"
+        ]
+    )
+    cb_spire.add_locations(cb_spire_locations, PE1Location)
+
+
+
+
+def create_events(world: PE1World) -> None:
+
+    cruiser = world.get_region("Cruiser: Boss")
+
+    cruiser.add_event(
+        "End Goal: Hell's Kitchen", "Victory", location_type=PE1Location, item_type=items.PE1Item
+    )
