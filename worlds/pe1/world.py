@@ -48,7 +48,7 @@ class PE1World(World):
             "schmoovement", "event_skip",
             "randomizer_mode", "end_goal", "starting_unlocked_areas",
             "include_chrysler_bldg", "unreasonable_checks", "required_junk",
-            "combat_difficulty", "item_pool_difficulty", "include_took_kits",
+            "combat_difficulty", "item_pool_difficulty", "include_tool_kits",
             "include_traps", "include_boosts", "force_pe_staleness",
             "scavenger_mode", "starting_inventory_slots", "armor_attachments",
             "pesanity", "levelstatsanity",
