@@ -154,6 +154,7 @@ def set_all_entrance_rules(world: PE1World) -> None:
     set_rule(cb_k6_to_cb_k7, lambda state: state.has("Chrysler Key 7", world.player))
     set_rule(cb_k7_to_cb_spire, lambda state: state.has_all(("Narita", "Mayoke", "Hamaya", "MP5A5"), world.player))
 
+
 def set_completion_condition(world: PE1World) -> None:
 
     world.multiworld.completion_condition[world.player] = lambda state: state.has("Victory", world.player)

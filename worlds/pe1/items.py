@@ -687,7 +687,6 @@ def create_all_items(world: PE1World) -> None:
         world.create_item("Confuse"),
         world.create_item("Gene Heal"),
         world.create_item("Area: Carnegie Hall"),
-        world.create_item("Area: N.Y.P.D. #17"),
         world.create_item("Area: Central Park"),
         world.create_item("Area: Soho"),
         world.create_item("Area: Hospital"),
@@ -706,4 +705,5 @@ def create_all_items(world: PE1World) -> None:
 
     world.multiworld.itempool += itempool
 
-    #Return later to determine starting items related to region entrance items and player option.
+
+    world.push_precollected(world.create_item("Area: N.Y.P.D. #17"))
