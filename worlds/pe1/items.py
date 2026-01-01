@@ -707,7 +707,7 @@ def create_all_items(world: PE1World) -> None:
     world.multiworld.itempool += itempool
 
 
-    if world.options.starting_unlocked_areas[7]:
+    if world.options.starting_unlocked_areas:
 
         starting_precinct_visit = world.create_item("Area: N.Y.P.D. #17")
         world.push_precollected(starting_precinct_visit)
