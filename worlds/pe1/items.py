@@ -694,6 +694,7 @@ def create_all_items(world: PE1World) -> None:
         world.create_item("Area: Subway"),
         world.create_item("Area: Warehouse"),
         world.create_item("Area: Museum"),
+        world.create_item("Area: Chrysler BLDG."),
     ]
     #Add in item pool additions related to player options. This is bare minimum.
 
