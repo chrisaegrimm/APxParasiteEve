@@ -292,7 +292,7 @@ DEFAULT_ITEM_CLASSIFICATIONS = {
     "Ammo +6": ItemClassification.filler,
     "Ammo +15": ItemClassification.filler,
     "Ammo +30": ItemClassification.useful,
-    "DNA Bullets": ItemClassification.useful,
+    "DNA Bullets": ItemClassification.progression,
     "Rocket": ItemClassification.useful,
     "Medicine 1": ItemClassification.filler,
     "Medicine 2": ItemClassification.useful,
