@@ -1,7 +1,9 @@
 from collections.abc import Mapping
 from typing import Any
+
 from worlds.AutoWorld import World
 from . import items, locations, options, regions, rules, web_world
+from Utils import visualize_regions
 
 
 
@@ -28,6 +30,10 @@ class PE1World(World):
     def create_regions(self) -> None:
         regions.create_and_connect_regions(self)
         locations.create_all_locations(self)
+
+        # Uncomment the below to see a connection of the regions (and their locations) for any scenarios you're testing.
+        visualize_regions(self.multiworld.get_region("Manhattan (World Map)", self.player), "region_uml")
+
 
     def set_rules(self) -> None:
         rules.set_all_rules(self)
