@@ -270,21 +270,22 @@ ITEM_NAME_TO_ID = {
     "Full Recover": 254,
     "Liberate": 255,
 
-    "Area: Carnegie Hall": 256,
-    "Area: N.Y.P.D. #17": 257,
-    "Area: Central Park": 258,
-    "Area: Soho": 259,
-    "Area: Hospital": 260,
-    "Area: Chinatown": 261,
-    "Area: Subway": 262,
-    "Area: Warehouse": 263,
-    "Area: Museum": 264,
-    "Area: Chrysler BLDG.": 265,
+    "Carnegie Hall Parking Pass": 256,
+    "N.Y.P.D. #17 Parking Pass": 257,
+    "Central Park Parking Pass": 258,
+    "Soho Parking Pass": 259,
+    "Hospital Parking Pass": 260,
+    "Chinatown Parking Pass": 261,
+    "Subway Parking Pass": 262,
+    "Warehouse Parking Pass": 263,
+    "Museum Parking Pass": 264,
+    "Chrysler BLDG. Parking Pass": 265,
+    "Burger King Parking Pass": 266,
 
-    "Confusion Trap": 266,
-    "Darkness Trap": 267,
-    "Silence Trap": 268,
-    "Impact Trap": 269,
+    "Confusion Trap": 267,
+    "Darkness Trap": 268,
+    "Silence Trap": 269,
+    "Impact Trap": 270,
 }
 
 
@@ -548,16 +549,17 @@ DEFAULT_ITEM_CLASSIFICATIONS = {
     "Full Recover": ItemClassification.progression,
     "Liberate": ItemClassification.progression,
 
-    "Area: Carnegie Hall": ItemClassification.progression,
-    "Area: N.Y.P.D. #17": ItemClassification.progression,
-    "Area: Central Park": ItemClassification.progression,
-    "Area: Soho": ItemClassification.progression,
-    "Area: Hospital": ItemClassification.progression,
-    "Area: Chinatown": ItemClassification.progression,
-    "Area: Subway": ItemClassification.progression,
-    "Area: Warehouse": ItemClassification.progression,
-    "Area: Museum": ItemClassification.progression,
-    "Area: Chrysler BLDG.": ItemClassification.progression,
+    "Carnegie Hall Parking Pass": ItemClassification.progression,
+    "N.Y.P.D. #17 Parking Pass": ItemClassification.progression,
+    "Central Park Parking Pass": ItemClassification.progression,
+    "Soho Parking Pass": ItemClassification.progression,
+    "Hospital Parking Pass": ItemClassification.progression,
+    "Chinatown Parking Pass": ItemClassification.progression,
+    "Subway Parking Pass": ItemClassification.progression,
+    "Warehouse Parking Pass": ItemClassification.progression,
+    "Museum Parking Pass": ItemClassification.progression,
+    "Chrysler BLDG. Parking Pass": ItemClassification.progression,
+    "Burger King Parking Pass": ItemClassification.filler,
 
     "Confusion Trap": ItemClassification.trap,
     "Darkness Trap": ItemClassification.trap,
@@ -694,15 +696,16 @@ def create_all_items(world: PE1World) -> None:
         world.create_item("Slow"),
         world.create_item("Confuse"),
         world.create_item("Gene Heal"),
-        world.create_item("Area: Carnegie Hall"),
-        world.create_item("Area: Central Park"),
-        world.create_item("Area: Soho"),
-        world.create_item("Area: Hospital"),
-        world.create_item("Area: Chinatown"),
-        world.create_item("Area: Subway"),
-        world.create_item("Area: Warehouse"),
-        world.create_item("Area: Museum"),
-        world.create_item("Area: Chrysler BLDG."),
+        world.create_item("Carnegie Hall Parking Pass"),
+        world.create_item("Central Park Parking Pass"),
+        world.create_item("Soho Parking Pass"),
+        world.create_item("Hospital Parking Pass"),
+        world.create_item("Chinatown Parking Pass"),
+        world.create_item("Subway Parking Pass"),
+        world.create_item("Warehouse Parking Pass"),
+        world.create_item("Museum Parking Pass"),
+        world.create_item("Chrysler BLDG. Parking Pass"),
+        world.create_item("Burger King Parking Pass"),
     ]
     #Add in item pool additions related to player options. This is bare minimum.
 
@@ -717,5 +720,5 @@ def create_all_items(world: PE1World) -> None:
 
     if world.options.unreasonable_checks:
 
-        starting_precinct_visit = world.create_item("Area: N.Y.P.D. #17")
+        starting_precinct_visit = world.create_item("N.Y.P.D. #17 Parking Pass")
         world.push_precollected(starting_precinct_visit)
