@@ -574,9 +574,11 @@ class PE1Item(Item):
 
 
 
-def get_random_filler_item_name(world: PE1World) -> str:
-
-    return "Junk"
+def get_filler_item_name(world: PE1World) -> str:
+    filler_list = ["Ammo +6", "Ammo +6", "Ammo +6", "Medicine 1", "Cure-C", "Junk", "Junk", "Junk", "Junk", "Junk", "Junk",
+                   "Trading Card", "Offense +1", "Range +1", "Bullet Cap +1", "Defense +1", "Cr Evade +1", "PE +1",
+                   "Confusion Trap", "Confusion Trap", "Darkness Trap", "Darkness Trap", "Silence Trap", "Impact Trap"]
+    return world.random.choice(filler_list)
 
 
 
